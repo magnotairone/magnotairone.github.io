@@ -16,7 +16,14 @@
       <pubDate>Sun, 13 Jan 2019 11:32:14 -0200</pubDate>
       
       <guid>https://magnotairone.github.io/project/geojags/</guid>
-      <description></description>
+      <description>&lt;p&gt;Bayesian hierarchical modeling for spatial data is challenging for professionals from other areas than statistics.
+From a technical perspective, setting the model and the prior distributions are the simplest part of the process.
+What makes it difficult is the computation of the posterior full conditionals and the implementation of the Gibbs Sampler algorithm.
+The \texttt{BUGS} (Bayesian inference Using Gibbs Sampling) family of statistical softwares reduces the effort of modeling, since the user must indicate only the prior distributions and the likelihood function.
+However, in general these softwares do not implement several spatial models, although users of \texttt{WinBUGS} and \texttt{OpenBUGS} can enjoy from the spatial add-on called \texttt{GeoBUGS}.
+\texttt{JAGS} (Just Another Gibbs Sampler), the open-source \texttt{C++} developed version of the \texttt{BUGS} family, does not contain any function or distribution for spatial modeling.
+This project aims to fill this gap through the implementation of an extension to the \texttt{JAGS} software, allowing users from different fields to perform a spatial data modeling and analysis.&lt;/p&gt;
+</description>
     </item>
     
     <item>

@@ -15,7 +15,7 @@
   
     
   
-  <meta name="description" content="A module for JAGS containing several covariance functions for point-referenced data analysis and a function that creates the precision matrix for the proper CAR model for areal data analysis.">
+  <meta name="description" content="A module for JAGS containing several covariance functions for point-referenced data analysis and a function that creates the precision matrix for the proper CAR model for areal data analysis. This was a part of my Masters thesis.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://magnotairone.github.io/project/geojags/">
@@ -120,7 +120,7 @@
   <meta property="og:site_name" content="Magno Tairone">
   <meta property="og:url" content="https://magnotairone.github.io/project/geojags/">
   <meta property="og:title" content="Geojags | Magno Tairone">
-  <meta property="og:description" content="A module for JAGS containing several covariance functions for point-referenced data analysis and a function that creates the precision matrix for the proper CAR model for areal data analysis."><meta property="og:image" content="https://magnotairone.github.io/img/portrait.jpg">
+  <meta property="og:description" content="A module for JAGS containing several covariance functions for point-referenced data analysis and a function that creates the precision matrix for the proper CAR model for areal data analysis. This was a part of my Masters thesis."><meta property="og:image" content="https://magnotairone.github.io/img/portrait.jpg">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2019-01-13T11:32:14-02:00">
@@ -455,7 +455,14 @@
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      
+      <p>Bayesian hierarchical modeling for spatial data is challenging for professionals from other areas than statistics.
+From a technical perspective, setting the model and the prior distributions are the simplest part of the process.
+What makes it difficult is the computation of the posterior full conditionals and the implementation of the Gibbs Sampler algorithm.
+The \texttt{BUGS} (Bayesian inference Using Gibbs Sampling) family of statistical softwares reduces the effort of modeling, since the user must indicate only the prior distributions and the likelihood function.
+However, in general these softwares do not implement several spatial models, although users of \texttt{WinBUGS} and \texttt{OpenBUGS} can enjoy from the spatial add-on called \texttt{GeoBUGS}.
+\texttt{JAGS} (Just Another Gibbs Sampler), the open-source \texttt{C++} developed version of the \texttt{BUGS} family, does not contain any function or distribution for spatial modeling.
+This project aims to fill this gap through the implementation of an extension to the \texttt{JAGS} software, allowing users from different fields to perform a spatial data modeling and analysis.</p>
+
     </div>
 
     
@@ -469,7 +476,7 @@
   
   <a class="badge badge-light" href="/tags/spatial-statistics/">spatial statistics</a>
   
-  <a class="badge badge-light" href="/tags/mcmc/">mcmc</a>
+  <a class="badge badge-light" href="/tags/gibbs-sampling/">Gibbs sampling</a>
   
 </div>
 
@@ -519,8 +526,8 @@
         
       
       <li>
-        <a itemprop="sameAs" href="https://instagram.com/magnotairone" target="_blank" rel="noopener">
-          <i class="fab fa-instagram"></i>
+        <a itemprop="sameAs" href="/www.linkedin.com/in/magnotairone" >
+          <i class="fab fa-linkedin"></i>
         </a>
       </li>
       
@@ -538,6 +545,23 @@
       <li>
         <a itemprop="sameAs" href="https://github.com/magnotairone" target="_blank" rel="noopener">
           <i class="fab fa-github"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://instagram.com/magnotairone" target="_blank" rel="noopener">
+          <i class="fab fa-instagram"></i>
         </a>
       </li>
       

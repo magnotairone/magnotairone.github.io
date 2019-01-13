@@ -18,7 +18,7 @@
       <pubDate>Sun, 13 Jan 2019 11:32:14 -0200</pubDate>
       
       <guid>https://magnotairone.github.io/project/geojags/</guid>
-      <description></description>
+      <description>Bayesian hierarchical modeling for spatial data is challenging for professionals from other areas than statistics. From a technical perspective, setting the model and the prior distributions are the simplest part of the process. What makes it difficult is the computation of the posterior full conditionals and the implementation of the Gibbs Sampler algorithm. The \texttt{BUGS} (Bayesian inference Using Gibbs Sampling) family of statistical softwares reduces the effort of modeling, since the user must indicate only the prior distributions and the likelihood function.</description>
     </item>
     
   </channel>
