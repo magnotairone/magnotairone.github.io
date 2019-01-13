@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>https://magnotairone.github.io/project/geojags/</loc>
+      <lastmod>2019-01-13T11:32:14-02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://magnotairone.github.io/project/stats4good/</loc>
       <lastmod>2019-01-13T01:52:28-02:00</lastmod>
     </url>
@@ -36,6 +44,15 @@
     
     <url>
     
+      <loc>https://magnotairone.github.io/tags/bayesian-inference/</loc>
+      <lastmod>2019-01-13T11:32:14-02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://magnotairone.github.io/categories/</loc>
       <priority>0</priority>
     </url>
@@ -54,7 +71,7 @@
     <url>
     
       <loc>https://magnotairone.github.io/project/</loc>
-      <lastmod>2019-01-13T01:52:28-02:00</lastmod>
+      <lastmod>2019-01-13T11:32:14-02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -71,6 +88,7 @@
     <url>
     
       <loc>https://magnotairone.github.io/tags/</loc>
+      <lastmod>2019-01-13T11:32:14-02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -80,6 +98,33 @@
     
       <loc>https://magnotairone.github.io/tags/data-analysis/</loc>
       <lastmod>2019-01-13T01:52:28-02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://magnotairone.github.io/tags/masters-thesis/</loc>
+      <lastmod>2019-01-13T11:32:14-02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://magnotairone.github.io/tags/mcmc/</loc>
+      <lastmod>2019-01-13T11:32:14-02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://magnotairone.github.io/tags/spatial-statistics/</loc>
+      <lastmod>2019-01-13T11:32:14-02:00</lastmod>
       <priority>0</priority>
     </url>
     
