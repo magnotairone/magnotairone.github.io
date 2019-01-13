@@ -11,6 +11,23 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Visualizing the inequalities in Brazil through ENEM exam results</title>
+      <link>https://magnotairone.github.io/project/enem/</link>
+      <pubDate>Sun, 13 Jan 2019 12:19:45 -0200</pubDate>
+      
+      <guid>https://magnotairone.github.io/project/enem/</guid>
+      <description>&lt;p&gt;Brazil is known for its iniquality in several aspects, such as in income, education, race, ethnicity, gender, age, among others. With that in mind, we want to investigate whether this social inequality is reflected in the results of the ENEM exam.&lt;/p&gt;
+
+&lt;p&gt;Exame Nacional do Ensino Médio (ENEM) is a non-mandatory, standardized Brazilian national exam, which evaluates high school students in Brazil.
+The ENEM is the most important exam of its kind in Brazil, with more than 8.6 million registered candidates in 2016.
+The exam is administrated by National Institute for Educational Studies and Research &amp;ldquo;Anísio Teixeira&amp;rdquo; (INEP), which provides each student results (anonimous, obviously) along with a social economic survey.
+In this work we analyse the performance of them and try to find some patters related to social aspects of the contestants.&lt;/p&gt;
+
+&lt;p&gt;This work is still under development and currently submitted to the &lt;a href=&#34;http://www.emr2019.com.br/&#34; target=&#34;_blank&#34;&gt;XVI Regression Models School&lt;/a&gt; which will happen between March 24th and 27th in Pirenopolis, Brazil.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Geojags</title>
       <link>https://magnotairone.github.io/project/geojags/</link>
       <pubDate>Sun, 13 Jan 2019 11:32:14 -0200</pubDate>
