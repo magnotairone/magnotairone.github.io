@@ -20,9 +20,12 @@
 From a technical perspective, setting the model and the prior distributions are the simplest part of the process.
 What makes it difficult is the computation of the posterior full conditionals and the implementation of the Gibbs Sampler algorithm.
 The &lt;tt&gt;BUGS&lt;/tt&gt; (Bayesian inference Using Gibbs Sampling) family of statistical softwares reduces the effort of modeling, since the user must indicate only the prior distributions and the likelihood function.
-However, in general these softwares do not implement several spatial models, although users of &lt;tt&gt;WinBUGS&lt;/tt&gt; and &lt;tt&gt;OpenBUGS&lt;/tt&gt; can enjoy from the spatial add-on called &lt;tt&gt;GeoBUGS}&lt;/tt&gt;.
+However, in general these softwares do not implement several spatial models, although users of &lt;tt&gt;WinBUGS&lt;/tt&gt; and &lt;tt&gt;OpenBUGS&lt;/tt&gt; can enjoy from the spatial add-on called &lt;tt&gt;GeoBUGS&lt;/tt&gt;.
 &lt;tt&gt;JAGS&lt;/tt&gt; (Just Another Gibbs Sampler), the open-source &lt;tt&gt;C++&lt;/tt&gt; developed version of the &lt;tt&gt;BUGS&lt;/tt&gt; family, does not contain any function or distribution for spatial modeling.
 This project aims to fill this gap through the implementation of an extension to the &lt;tt&gt;JAGS&lt;/tt&gt; software, allowing users from different fields to perform a spatial data modeling and analysis.&lt;/p&gt;
+
+&lt;p&gt;You can download the already available source code for Mac and Linux &lt;a href=&#34;https://geojags.sourceforge.io/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. Instructions for installing can be found &lt;a href=&#34;https://sourceforge.net/projects/geojags/files/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; along with an example of usage.
+Soon I will publish here an example on how to use &lt;tt&gt;GeoJAGS&lt;/tt&gt; considering a real data set.&lt;/p&gt;
 </description>
     </item>
     
