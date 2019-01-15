@@ -4,6 +4,9 @@
     
     <url>
     
+      <xhtml:link rel="alternate" href="https://magnotairone.github.io/project/enem/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://magnotairone.github.io/pt/project/enem/" hreflang="pt"/>
+    
       <loc>https://magnotairone.github.io/project/enem/</loc>
       <lastmod>2019-01-13T12:19:45-02:00</lastmod>
     </url>
@@ -93,6 +96,9 @@
     
     <url>
     
+      <xhtml:link rel="alternate" href="https://magnotairone.github.io/project/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://magnotairone.github.io/pt/project/" hreflang="pt"/>
+    
       <loc>https://magnotairone.github.io/project/</loc>
       <lastmod>2019-01-13T12:19:45-02:00</lastmod>
       <priority>0</priority>
@@ -124,6 +130,9 @@
   
     
     <url>
+    
+      <xhtml:link rel="alternate" href="https://magnotairone.github.io/tags/data-analysis/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://magnotairone.github.io/pt/tags/data-analysis/" hreflang="pt"/>
     
       <loc>https://magnotairone.github.io/tags/data-analysis/</loc>
       <lastmod>2019-01-13T12:19:45-02:00</lastmod>
