@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>data-analysis on Magno Tairone</title>
+    <title>data analysis on Magno Tairone</title>
     <link>https://magnotairone.github.io/tags/data-analysis/</link>
-    <description>Recent content in data-analysis on Magno Tairone</description>
+    <description>Recent content in data analysis on Magno Tairone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 13 Jan 2019 01:52:28 -0200</lastBuildDate>
+    <lastBuildDate>Sun, 13 Jan 2019 12:19:45 -0200</lastBuildDate>
     
 	<atom:link href="https://magnotairone.github.io/tags/data-analysis/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Veraz</title>
-      <link>https://magnotairone.github.io/project/stats4good/</link>
-      <pubDate>Sun, 13 Jan 2019 01:52:28 -0200</pubDate>
+      <title>Visualizing the inequalities in Brazil through the results of ENEM</title>
+      <link>https://magnotairone.github.io/project/enem/</link>
+      <pubDate>Sun, 13 Jan 2019 12:19:45 -0200</pubDate>
       
-      <guid>https://magnotairone.github.io/project/stats4good/</guid>
-      <description>Veraz is a project of the Stats4good group, which is as team of graduate students that analyze data from the Brazilian federal government expenses. This is challenging since we deal with a great amout of data. We maintain a blog with our analyses.</description>
+      <guid>https://magnotairone.github.io/project/enem/</guid>
+      <description>Brazil is known for its iniquality in several aspects, such as in income, education, race, ethnicity, gender, age, among others. With that in mind, we want to investigate whether this social inequality is reflected in the results of the ENEM exam.
+Exame Nacional do Ensino Médio (ENEM) is a non-mandatory, standardized Brazilian national exam, which evaluates high school students in Brazil. The ENEM is the most important exam of its kind in Brazil, with more than 8.</description>
     </item>
     
   </channel>
