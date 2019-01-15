@@ -18,7 +18,34 @@
       <pubDate>Fri, 11 Jan 2019 00:00:00 -0200</pubDate>
       
       <guid>https://magnotairone.github.io/pt/home/about/</guid>
-      <description>Biography Magno Tairone é doutorando em Estatística no Departamento de Estatística da Universidade de São Paulo. Suas áreas de interesse em pesquisa compreendem ciência dos dados, análise de dados em altas dimensões, inferência Bayesiana e estatística espacial. Atualmente é membro do grupo Stats4Good na Universidade Federal de Minas Gerais, um grupo de alunos entusiastas que analisam os dados sobre gastos do governo brasileiro no âmbito federal. Eu crie esta página no github faz pouco tempo, então ainda se encontra em construção.</description>
+      <description>Biografia Magno Tairone é doutorando em Estatística no Departamento de Estatística da Universidade de São Paulo. Suas áreas de interesse em pesquisa compreendem ciência dos dados, análise de dados em altas dimensões, inferência Bayesiana e estatística espacial. Atualmente é membro do grupo Stats4Good na Universidade Federal de Minas Gerais, um grupo de alunos entusiastas que analisam os dados sobre gastos do governo brasileiro no âmbito federal. Eu crie esta página no github faz pouco tempo, então ainda se encontra em construção.</description>
+    </item>
+    
+    <item>
+      <title>Experiência profissional</title>
+      <link>https://magnotairone.github.io/pt/home/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://magnotairone.github.io/pt/home/experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projetos</title>
+      <link>https://magnotairone.github.io/pt/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0300</pubDate>
+      
+      <guid>https://magnotairone.github.io/pt/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contato</title>
+      <link>https://magnotairone.github.io/pt/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0300</pubDate>
+      
+      <guid>https://magnotairone.github.io/pt/home/contact/</guid>
+      <description></description>
     </item>
     
   </channel>
