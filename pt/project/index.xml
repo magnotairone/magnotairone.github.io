@@ -31,5 +31,14 @@ No âmbito educacional, a principal forma de ingresso no ensino superior atualme
       <description>A modelagem hierarquica Bayesiana para dados espaciais pode ser bastante desafiadora para profissionais de áreas para além da estatística. Do ponto de vista técnico, a parte mais simples do processo é definir o modelo e as distribuições a priori. A dificuldade está no cálculo das distribuições condicionais completas a posteriori e na implementação do algoritmo amostrador de Gibbs. A família de softwares estatísticos BUGS (acrônimo para inferência Bayesiana usando o amostrador de Gibbs, em tradução literal) reduz o esforço de modelagem, uma vez que o usuário deve indicar apenas as distribuições a priori e a verossimilhança dos dados.</description>
     </item>
     
+    <item>
+      <title>Veraz</title>
+      <link>https://magnotairone.github.io/pt/project/stats4good/</link>
+      <pubDate>Sun, 13 Jan 2019 01:52:28 -0200</pubDate>
+      
+      <guid>https://magnotairone.github.io/pt/project/stats4good/</guid>
+      <description>Veraz é um projeto do grupo Stats4Good, que é um time de estudantes da pós-graduação em estatística que analisa dados de gastos do governo federal do Brasil. Este projeto é desafiador, pois envolve a manipulação de uma quantidade muito grande de dados. Nós mantemos um blog onde postamos nossas análises.</description>
+    </item>
+    
   </channel>
 </rss>

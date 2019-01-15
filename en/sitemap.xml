@@ -26,6 +26,9 @@
     
     <url>
     
+      <xhtml:link rel="alternate" href="https://magnotairone.github.io/project/stats4good/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://magnotairone.github.io/pt/project/stats4good/" hreflang="pt"/>
+    
       <loc>https://magnotairone.github.io/project/stats4good/</loc>
       <lastmod>2019-01-13T01:52:28-02:00</lastmod>
     </url>
@@ -170,6 +173,9 @@
     
     <url>
     
+      <xhtml:link rel="alternate" href="https://magnotairone.github.io/tags/stats4good/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://magnotairone.github.io/pt/tags/stats4good/" hreflang="pt"/>
+    
       <loc>https://magnotairone.github.io/tags/stats4good/</loc>
       <lastmod>2019-01-13T01:52:28-02:00</lastmod>
       <priority>0</priority>
@@ -178,6 +184,9 @@
   
     
     <url>
+    
+      <xhtml:link rel="alternate" href="https://magnotairone.github.io/tags/veraz/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://magnotairone.github.io/pt/tags/veraz/" hreflang="pt"/>
     
       <loc>https://magnotairone.github.io/tags/veraz/</loc>
       <lastmod>2019-01-13T01:52:28-02:00</lastmod>
