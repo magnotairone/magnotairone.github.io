@@ -15,10 +15,11 @@
     
     <url>
     
-      <xhtml:link rel="alternate" href="https://magnotairone.github.io/pt/publication_types/" hreflang="pt"/>
-      <xhtml:link rel="alternate" href="https://magnotairone.github.io/publication_types/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://magnotairone.github.io/pt/" hreflang="pt"/>
+      <xhtml:link rel="alternate" href="https://magnotairone.github.io/" hreflang="en"/>
     
-      <loc>https://magnotairone.github.io/pt/publication_types/</loc>
+      <loc>https://magnotairone.github.io/pt/</loc>
+      <lastmod>2019-01-11T00:00:00-02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -26,10 +27,10 @@
     
     <url>
     
-      <xhtml:link rel="alternate" href="https://magnotairone.github.io/pt/" hreflang="pt"/>
-      <xhtml:link rel="alternate" href="https://magnotairone.github.io/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://magnotairone.github.io/pt/publication_types/" hreflang="pt"/>
+      <xhtml:link rel="alternate" href="https://magnotairone.github.io/publication_types/" hreflang="en"/>
     
-      <loc>https://magnotairone.github.io/pt/</loc>
+      <loc>https://magnotairone.github.io/pt/publication_types/</loc>
       <priority>0</priority>
     </url>
     

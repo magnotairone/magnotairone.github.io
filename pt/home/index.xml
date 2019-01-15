@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Magno Tairone</title>
+    <link>https://magnotairone.github.io/pt/home/</link>
+    <description>Recent content in Homes on Magno Tairone</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Fri, 11 Jan 2019 00:00:00 -0200</lastBuildDate>
+    
+	<atom:link href="https://magnotairone.github.io/pt/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://magnotairone.github.io/pt/home/about/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 -0200</pubDate>
+      
+      <guid>https://magnotairone.github.io/pt/home/about/</guid>
+      <description>Biography Magno Tairone é doutorando em Estatística no Departamento de Estatística da Universidade de São Paulo. Suas áreas de interesse em pesquisa compreendem ciência dos dados, análise de dados em altas dimensões, inferência Bayesiana e estatística espacial. Atualmente é membro do grupo Stats4Good na Universidade Federal de Minas Gerais, um grupo de alunos entusiastas que analisam os dados sobre gastos do governo brasileiro no âmbito federal. Eu crie esta página no github faz pouco tempo, então ainda se encontra em construção.</description>
+    </item>
+    
+  </channel>
+</rss>
