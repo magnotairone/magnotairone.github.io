@@ -43,5 +43,24 @@ O objetivo é verificar a existência de algum padrão espacial na performance d
 </description>
     </item>
     
+    <item>
+      <title>Geojags</title>
+      <link>https://magnotairone.github.io/pt/project/geojags/</link>
+      <pubDate>Sun, 13 Jan 2019 11:32:14 -0200</pubDate>
+      
+      <guid>https://magnotairone.github.io/pt/project/geojags/</guid>
+      <description>&lt;p&gt;A modelagem hierarquica Bayesiana para dados espaciais pode ser bastante desafiadora para profissionais de áreas para além da estatística.
+Do ponto de vista técnico, a parte mais simples do processo é definir o modelo e as distribuições a priori.
+A dificuldade está no cálculo das distribuições condicionais completas a posteriori e na implementação do algoritmo amostrador de Gibbs.
+A família de softwares estatísticos BUGS (acrônimo para inferência Bayesiana usando o amostrador de Gibbs, em tradução literal) reduz o esforço de modelagem, uma vez que o usuário deve indicar apenas as distribuições a priori e a verossimilhança dos dados.
+Entretanto, em geral tais softwares não permitem análises mais complexas de dados espaciais, embora usuários do WinBUGS e do OpenBUGS} podem usar o módulo espacial GeoBUGS.
+JAGS (apenas outro amostrador de Gibbs, em tradução literal), é uma alternativa à família BUGS, desenvolvida em C++ com código aberto, não contém nenhuma função ou distribuição disponível que simplifique a modelagem de dados espaciais.
+O objetivo fundamental deste trabalho é suprir essa falta, implementando um módulo para o software JAGS que permita aos usuários de diferentes áreas realizar modelagem e análise de dados espacias de maneira simples.&lt;/p&gt;
+
+&lt;p&gt;Você pode fazer o download do módulo já existente para usuários Mac e Linux &lt;a href=&#34;https://geojags.sourceforge.io/&#34; target=&#34;_blank&#34;&gt;aqui&lt;/a&gt;. Instruções para instalação e um exemplo de uso podem ser encontrados &lt;a href=&#34;https://sourceforge.net/projects/geojags/files/&#34; target=&#34;_blank&#34;&gt;aqui&lt;/a&gt;.
+Em breve, publicarei aqui um exemplo com dados reais usando o &lt;tt&gt;GeoJAGS&lt;/tt&gt; .&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

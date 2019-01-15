@@ -15,12 +15,12 @@
   
     
   
-  <meta name="description" content="Este é um dos projetos que estou atualmente trabalhando. O objetico é analisar e verificar se as desigualdades sociais , que são conhecidas por bastante evidentes no Brasil, se refletem na performance dos candidatos que prestam o Exame Nacional do Ensino Médio (ENEM).">
+  <meta name="description" content="Um módulo para o software JAGS, que contém diversas funções de covariância para análise de dados de referênia pontual e uma função que cria a matriz de precisão para o modelo CAR próprio, para a anális de dados de área. O desenvolvimento deste módulo fez parte da minha dissertação de mestrado.">
 
   
-  <link rel="alternate" hreflang="en" href="https://magnotairone.github.io/project/enem/">
+  <link rel="alternate" hreflang="en" href="https://magnotairone.github.io/project/geojags/">
   
-  <link rel="alternate" hreflang="pt" href="https://magnotairone.github.io/pt/project/enem/">
+  <link rel="alternate" hreflang="pt" href="https://magnotairone.github.io/pt/project/geojags/">
 
   
 
@@ -108,32 +108,33 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://magnotairone.github.io/pt/project/enem/">
+  <link rel="canonical" href="https://magnotairone.github.io/pt/project/geojags/">
 
   
   
   
   
     
+    
   
-  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Magno Tairone">
-  <meta property="og:url" content="https://magnotairone.github.io/pt/project/enem/">
-  <meta property="og:title" content="Visualizando as desigualdades existentes no Brasil atrvés dos resultados do ENEM | Magno Tairone">
-  <meta property="og:description" content="Este é um dos projetos que estou atualmente trabalhando. O objetico é analisar e verificar se as desigualdades sociais , que são conhecidas por bastante evidentes no Brasil, se refletem na performance dos candidatos que prestam o Exame Nacional do Ensino Médio (ENEM)."><meta property="og:image" content="https://magnotairone.github.io/pt/project/enem/featured.jpg">
+  <meta property="og:url" content="https://magnotairone.github.io/pt/project/geojags/">
+  <meta property="og:title" content="Geojags | Magno Tairone">
+  <meta property="og:description" content="Um módulo para o software JAGS, que contém diversas funções de covariância para análise de dados de referênia pontual e uma função que cria a matriz de precisão para o modelo CAR próprio, para a anális de dados de área. O desenvolvimento deste módulo fez parte da minha dissertação de mestrado."><meta property="og:image" content="https://magnotairone.github.io/img/portrait.jpg">
   <meta property="og:locale" content="pt">
   
-  <meta property="article:published_time" content="2019-01-13T12:19:45-02:00">
+  <meta property="article:published_time" content="2019-01-13T11:32:14-02:00">
   
-  <meta property="article:modified_time" content="2019-01-13T12:19:45-02:00">
-  
-
+  <meta property="article:modified_time" content="2019-01-13T11:32:14-02:00">
   
 
   
 
-  <title>Visualizando as desigualdades existentes no Brasil atrvés dos resultados do ENEM | Magno Tairone</title>
+  
+
+  <title>Geojags | Magno Tairone</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -284,7 +285,7 @@
           <ul class="dropdown-menu">
             
             <li class="dropdown-item my-0 py-0 mx-0 px-0">
-              <a href="https://magnotairone.github.io/project/enem/">
+              <a href="https://magnotairone.github.io/project/geojags/">
                 <span>English</span>
               </a>
             </li>
@@ -321,22 +322,18 @@
 
 
 
-
-<div class="article-header d-xl-none">
-  <div class="featured-image" style="background-image: url('/pt/project/enem/featured_hub8d26b23fb5a57a3e2be0d2f70e36d05_681134_800x0_resize_q75_box.jpg');"></div>
   
-</div>
 
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Geojags</h1>
 
-<div class="container-fluid split-header d-none d-xl-block">
-  <div class="row">
-    <div class="col-6">
-      <div class="split-header-content">
-        <h1 itemprop="name">Visualizando as desigualdades existentes no Brasil atrvés dos resultados do ENEM</h1>
+  
 
-        
-
-        
+  
+    
 
 <div class="article-metadata">
 
@@ -349,118 +346,8 @@
 
   <span class="article-date">
     
-    <meta content="2019-01-13 12:19:45 -0200 -02" itemprop="datePublished">
-    <time datetime="2019-01-13 12:19:45 -0200 -02" itemprop="dateModified">
-      Jan 13, 2019
-    </time>
-  </span>
-  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Magno Tairone de Freitas Severino">
-  </span>
-
-  
-
-  
-  
-
-  
-
-  
-
-</div>
-
-
-        
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-        
-<div class="share-box" aria-hidden="true">
-  <ul class="share">
-    <li>
-      <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Visualizando%20as%20desigualdades%20existentes%20no%20Brasil%20atrv%c3%a9s%20dos%20resultados%20do%20ENEM&amp;url=https%3a%2f%2fmagnotairone.github.io%2fpt%2fproject%2fenem%2f"
-         target="_blank" rel="noopener">
-        <i class="fab fa-twitter"></i>
-      </a>
-    </li>
-    <li>
-      <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fmagnotairone.github.io%2fpt%2fproject%2fenem%2f"
-         target="_blank" rel="noopener">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-    </li>
-    <li>
-      <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmagnotairone.github.io%2fpt%2fproject%2fenem%2f&amp;title=Visualizando%20as%20desigualdades%20existentes%20no%20Brasil%20atrv%c3%a9s%20dos%20resultados%20do%20ENEM"
-         target="_blank" rel="noopener">
-        <i class="fab fa-linkedin-in"></i>
-      </a>
-    </li>
-    <li>
-      <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fmagnotairone.github.io%2fpt%2fproject%2fenem%2f&amp;title=Visualizando%20as%20desigualdades%20existentes%20no%20Brasil%20atrv%c3%a9s%20dos%20resultados%20do%20ENEM"
-         target="_blank" rel="noopener">
-        <i class="fab fa-weibo"></i>
-      </a>
-    </li>
-    <li>
-      <a class="email"
-         href="mailto:?subject=Visualizando%20as%20desigualdades%20existentes%20no%20Brasil%20atrv%c3%a9s%20dos%20resultados%20do%20ENEM&amp;body=https%3a%2f%2fmagnotairone.github.io%2fpt%2fproject%2fenem%2f">
-        <i class="fas fa-envelope"></i>
-      </a>
-    </li>
-  </ul>
-</div>
-
-
-      </div>
-    </div>
-    <div class="col-6">
-      <div class="split-header-image">
-        <img src="/pt/project/enem/featured_hub8d26b23fb5a57a3e2be0d2f70e36d05_681134_680x500_fill_q90_box_smart1.jpg" itemprop="image" alt="">
-        
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="article-container d-xl-none">
-  <h1 itemprop="name">Visualizando as desigualdades existentes no Brasil atrvés dos resultados do ENEM</h1>
-
-  
-
-  
-
-<div class="article-metadata">
-
-  
-  
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Magno Tairone de Freitas Severino">
-  </span>
-  
-
-  <span class="article-date">
-    
-    <meta content="2019-01-13 12:19:45 -0200 -02" itemprop="datePublished">
-    <time datetime="2019-01-13 12:19:45 -0200 -02" itemprop="dateModified">
+    <meta content="2019-01-13 11:32:14 -0200 -02" itemprop="datePublished">
+    <time datetime="2019-01-13 11:32:14 -0200 -02" itemprop="dateModified">
       Jan 13, 2019
     </time>
   </span>
@@ -481,35 +368,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Visualizando%20as%20desigualdades%20existentes%20no%20Brasil%20atrv%c3%a9s%20dos%20resultados%20do%20ENEM&amp;url=https%3a%2f%2fmagnotairone.github.io%2fpt%2fproject%2fenem%2f"
+         href="https://twitter.com/intent/tweet?text=Geojags&amp;url=https%3a%2f%2fmagnotairone.github.io%2fpt%2fproject%2fgeojags%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fmagnotairone.github.io%2fpt%2fproject%2fenem%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fmagnotairone.github.io%2fpt%2fproject%2fgeojags%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-facebook-f"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmagnotairone.github.io%2fpt%2fproject%2fenem%2f&amp;title=Visualizando%20as%20desigualdades%20existentes%20no%20Brasil%20atrv%c3%a9s%20dos%20resultados%20do%20ENEM"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmagnotairone.github.io%2fpt%2fproject%2fgeojags%2f&amp;title=Geojags"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fmagnotairone.github.io%2fpt%2fproject%2fenem%2f&amp;title=Visualizando%20as%20desigualdades%20existentes%20no%20Brasil%20atrv%c3%a9s%20dos%20resultados%20do%20ENEM"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fmagnotairone.github.io%2fpt%2fproject%2fgeojags%2f&amp;title=Geojags"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Visualizando%20as%20desigualdades%20existentes%20no%20Brasil%20atrv%c3%a9s%20dos%20resultados%20do%20ENEM&amp;body=https%3a%2f%2fmagnotairone.github.io%2fpt%2fproject%2fenem%2f">
+         href="mailto:?subject=Geojags&amp;body=https%3a%2f%2fmagnotairone.github.io%2fpt%2fproject%2fgeojags%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -521,7 +408,25 @@
 
 </div>
 
+    
 
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
   
 
 
@@ -536,10 +441,31 @@
 
 
 
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://geojags.sourceforge.io/" target="_blank" rel="noopener">
+  Código
+</a>
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+  
 </div>
 
 
@@ -547,30 +473,16 @@
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      <p>Por desigualdade social entende-se processos na sociedade que têm o efeito de limitar ou prejudicar o status de um determinado grupo, classe ou círculo social.
-Dentre as áreas de desigualdade social incluem-se o acesso aos direitos de voto, a liberdade de expressão, dos direitos de propriedade e de acesso à saúde, moradia, bens e serviços sociais e também à educação (em todos os níveis).</p>
+      <p>A modelagem hierarquica Bayesiana para dados espaciais pode ser bastante desafiadora para profissionais de áreas para além da estatística.
+Do ponto de vista técnico, a parte mais simples do processo é definir o modelo e as distribuições a priori.
+A dificuldade está no cálculo das distribuições condicionais completas a posteriori e na implementação do algoritmo amostrador de Gibbs.
+A família de softwares estatísticos BUGS (acrônimo para inferência Bayesiana usando o amostrador de Gibbs, em tradução literal) reduz o esforço de modelagem, uma vez que o usuário deve indicar apenas as distribuições a priori e a verossimilhança dos dados.
+Entretanto, em geral tais softwares não permitem análises mais complexas de dados espaciais, embora usuários do WinBUGS e do OpenBUGS} podem usar o módulo espacial GeoBUGS.
+JAGS (apenas outro amostrador de Gibbs, em tradução literal), é uma alternativa à família BUGS, desenvolvida em C++ com código aberto, não contém nenhuma função ou distribuição disponível que simplifique a modelagem de dados espaciais.
+O objetivo fundamental deste trabalho é suprir essa falta, implementando um módulo para o software JAGS que permita aos usuários de diferentes áreas realizar modelagem e análise de dados espacias de maneira simples.</p>
 
-<p>No âmbito educacional, a principal forma de ingresso no ensino superior atualmente no Brasil é através do Exame Nacional do Ensino Médio, o ENEM.
-A prova, criada em 1998, passou a ser amplamente utilizada como modalidade de acesso ao ensino superior a partir de 2009.
-O exame é realizado anualmente e tem duração de dois dias, contém uma questão de redação e 180 questões objetivas, divididas em quatro grandes áreas:
-Ciências Humanas e suas Tecnologias,
-Ciências da Natureza e suas Tecnologias,
-Linguagens, Códigos e suas Tecnologias e
-Matemática e suas Tecnologias.</p>
-
-<p>O Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP), autarquia do Ministério da Educação que realiza o ENEM, disponibiliza os microdados anuais de cada inscrito no exame.
-Neste trabalho, consideramos os dados referentes à 2017.
-Esta base contém registros de $6.731.342$ candidatos e, para cada um deles, existem 139 variáveis disponíveis, em que a maior parte delas é qualitativa.
-São informações como gênero, idade, município de residência, raça, nacionalidade, ano de conclusão do ensino médio, tipo da escola do ensino médio, diversos indicadores de pedidos de atendimento especializado, respostas e notas das provas objetivas e nota da redação, além do questionário socieconômico.</p>
-
-<p>Interessados em obter um modelo que descreva a relação entre a nota final do candidato (média aritmética das notas nas provas) e as variáveis explicativas do modelo adotamos a abordagem do modelo de regressão linear múltiplo sob o ponto de vista da estatística clássica.
-O principal objetivo é investigar se a desigualdade social que é bastante presente no cotidiano brasileiro se reflete nas notas dos inscritos no ENEM.</p>
-
-<p>Em seguida, restringiremos os dados somente aos candidatos que residem no estado de Minas Gerais.
-Com a intenção de estudar o desempenho médio dos alunos em cada cidade mineira, vamos utilizar da abordagem Bayesiana hierárquica, para ajustar um modelo que estime efeitos aleatórios espaciais latentes.
-O objetivo é verificar a existência de algum padrão espacial na performance dos residentes de cada município de Minas Gerais.</p>
-
-<p>Este trabalho não foi concluido e ainda está em andamento, submetido à <a href="http://www.emr2019.com.br/" target="_blank">XVI Escola de Modelos de Regressão</a>, que acontecerá nos dias 24 e 27 de março em Pirenopolis, Brasil.</p>
+<p>Você pode fazer o download do módulo já existente para usuários Mac e Linux <a href="https://geojags.sourceforge.io/" target="_blank">aqui</a>. Instruções para instalação e um exemplo de uso podem ser encontrados <a href="https://sourceforge.net/projects/geojags/files/" target="_blank">aqui</a>.
+Em breve, publicarei aqui um exemplo com dados reais usando o <tt>GeoJAGS</tt> .</p>
 
     </div>
 
@@ -579,11 +491,13 @@ O objetivo é verificar a existência de algum padrão espacial na performance d
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/pt/tags/an%C3%A1lise-de-dados/">análise de dados</a>
+  <a class="badge badge-light" href="/pt/tags/disserta%C3%A7%C3%A3o-de-mestrado/">dissertação de mestrado</a>
   
-  <a class="badge badge-light" href="/pt/tags/enem/">ENEM</a>
+  <a class="badge badge-light" href="/pt/tags/infer%C3%AAncia-bayesiana/">inferência Bayesiana</a>
   
-  <a class="badge badge-light" href="/pt/tags/desigualdade-social/">desigualdade social</a>
+  <a class="badge badge-light" href="/pt/tags/estat%C3%ADstica-espacial/">estatística espacial</a>
+  
+  <a class="badge badge-light" href="/pt/tags/amostrador-de-gibbs/">amostrador de Gibbs</a>
   
 </div>
 

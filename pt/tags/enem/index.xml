@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Magno Tairone</title>
-    <link>https://magnotairone.github.io/pt/project/</link>
-    <description>Recent content in Projects on Magno Tairone</description>
+    <title>ENEM on Magno Tairone</title>
+    <link>https://magnotairone.github.io/pt/tags/enem/</link>
+    <description>Recent content in ENEM on Magno Tairone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 13 Jan 2019 12:19:45 -0200</lastBuildDate>
     
-	<atom:link href="https://magnotairone.github.io/pt/project/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://magnotairone.github.io/pt/tags/enem/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,15 +20,6 @@
       <guid>https://magnotairone.github.io/pt/project/enem/</guid>
       <description>Por desigualdade social entende-se processos na sociedade que têm o efeito de limitar ou prejudicar o status de um determinado grupo, classe ou círculo social. Dentre as áreas de desigualdade social incluem-se o acesso aos direitos de voto, a liberdade de expressão, dos direitos de propriedade e de acesso à saúde, moradia, bens e serviços sociais e também à educação (em todos os níveis).
 No âmbito educacional, a principal forma de ingresso no ensino superior atualmente no Brasil é através do Exame Nacional do Ensino Médio, o ENEM.</description>
-    </item>
-    
-    <item>
-      <title>Geojags</title>
-      <link>https://magnotairone.github.io/pt/project/geojags/</link>
-      <pubDate>Sun, 13 Jan 2019 11:32:14 -0200</pubDate>
-      
-      <guid>https://magnotairone.github.io/pt/project/geojags/</guid>
-      <description>A modelagem hierarquica Bayesiana para dados espaciais pode ser bastante desafiadora para profissionais de áreas para além da estatística. Do ponto de vista técnico, a parte mais simples do processo é definir o modelo e as distribuições a priori. A dificuldade está no cálculo das distribuições condicionais completas a posteriori e na implementação do algoritmo amostrador de Gibbs. A família de softwares estatísticos BUGS (acrônimo para inferência Bayesiana usando o amostrador de Gibbs, em tradução literal) reduz o esforço de modelagem, uma vez que o usuário deve indicar apenas as distribuições a priori e a verossimilhança dos dados.</description>
     </item>
     
   </channel>

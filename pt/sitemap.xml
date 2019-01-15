@@ -15,10 +15,30 @@
     
     <url>
     
+      <xhtml:link rel="alternate" href="https://magnotairone.github.io/pt/project/geojags/" hreflang="pt"/>
+      <xhtml:link rel="alternate" href="https://magnotairone.github.io/project/geojags/" hreflang="en"/>
+    
+      <loc>https://magnotairone.github.io/pt/project/geojags/</loc>
+      <lastmod>2019-01-13T11:32:14-02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <xhtml:link rel="alternate" href="https://magnotairone.github.io/pt/categories/" hreflang="pt"/>
       <xhtml:link rel="alternate" href="https://magnotairone.github.io/categories/" hreflang="en"/>
     
       <loc>https://magnotairone.github.io/pt/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://magnotairone.github.io/pt/tags/enem/</loc>
+      <lastmod>2019-01-13T12:19:45-02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -65,6 +85,7 @@
       <xhtml:link rel="alternate" href="https://magnotairone.github.io/tags/" hreflang="en"/>
     
       <loc>https://magnotairone.github.io/pt/tags/</loc>
+      <lastmod>2019-01-13T12:19:45-02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -72,11 +93,53 @@
     
     <url>
     
-      <xhtml:link rel="alternate" href="https://magnotairone.github.io/pt/tags/data-analysis/" hreflang="pt"/>
-      <xhtml:link rel="alternate" href="https://magnotairone.github.io/tags/data-analysis/" hreflang="en"/>
+      <loc>https://magnotairone.github.io/pt/tags/amostrador-de-gibbs/</loc>
+      <lastmod>2019-01-13T11:32:14-02:00</lastmod>
+      <priority>0</priority>
+    </url>
     
-      <loc>https://magnotairone.github.io/pt/tags/data-analysis/</loc>
+  
+    
+    <url>
+    
+      <loc>https://magnotairone.github.io/pt/tags/an%C3%A1lise-de-dados/</loc>
       <lastmod>2019-01-13T12:19:45-02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://magnotairone.github.io/pt/tags/desigualdade-social/</loc>
+      <lastmod>2019-01-13T12:19:45-02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://magnotairone.github.io/pt/tags/disserta%C3%A7%C3%A3o-de-mestrado/</loc>
+      <lastmod>2019-01-13T11:32:14-02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://magnotairone.github.io/pt/tags/estat%C3%ADstica-espacial/</loc>
+      <lastmod>2019-01-13T11:32:14-02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://magnotairone.github.io/pt/tags/infer%C3%AAncia-bayesiana/</loc>
+      <lastmod>2019-01-13T11:32:14-02:00</lastmod>
       <priority>0</priority>
     </url>
     
