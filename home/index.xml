@@ -117,7 +117,7 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0300</pubDate>
       
       <guid>https://magnotairone.github.io/home/projects/</guid>
-      <description></description>
+      <description>Some projects I have been working on.</description>
     </item>
     
     <item>
@@ -136,9 +136,11 @@ To remove this section, either delete content/home/teaching.md or edit the front
       <pubDate>Wed, 20 Apr 2016 00:00:00 -0300</pubDate>
       
       <guid>https://magnotairone.github.io/home/teaching/</guid>
-      <description>teeeeeeeeeste
-This is an example of using the custom widget to create your own homepage section.
-To remove this section, either delete content/home/teaching.md or edit the frontmatter of the file to deactivate the widget by setting active = false.</description>
+      <description>I have worked as a teaching assistant in some undergraduate modules in the past two years, including
+ Introduction to Bootstrap, semester 1, 2017, UFMG;
+ Introduction to Statistics, semester 2, 2018, USP;
+ Combinatorics, Probability and Applications, summer term, 2019, USP (course webpage here).
+  </description>
     </item>
     
     <item>
