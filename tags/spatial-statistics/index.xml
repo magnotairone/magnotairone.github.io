@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>spatial statistics on Magno Tairone</title>
+    <link>https://magnotairone.github.io/tags/spatial-statistics/</link>
+    <description>Recent content in spatial statistics on Magno Tairone</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 13 Jan 2019 11:32:14 -0200</lastBuildDate>
+    
+	<atom:link href="https://magnotairone.github.io/tags/spatial-statistics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Geojags</title>
+      <link>https://magnotairone.github.io/project/geojags/</link>
+      <pubDate>Sun, 13 Jan 2019 11:32:14 -0200</pubDate>
+      
+      <guid>https://magnotairone.github.io/project/geojags/</guid>
+      <description>Bayesian hierarchical modeling for spatial data is challenging for professionals from other areas than statistics. From a technical perspective, setting the model and the prior distributions are the simplest part of the process. What makes it difficult is the computation of the posterior full conditionals and the implementation of the Gibbs Sampler algorithm. The BUGS (Bayesian inference Using Gibbs Sampling) family of statistical softwares reduces the effort of modeling, since the user must indicate only the prior distributions and the likelihood function.</description>
+    </item>
+    
+  </channel>
+</rss>
