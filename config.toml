@@ -52,26 +52,26 @@ enableGitInfo = false
   # AUTHOR SETUP
 
   # Your details.
-  name = "Lena Smith"
-  role = "Professor of Artificial Intelligence"
+  name = "Magno Tairone de Freitas Severino"
+  role = "PhD student on Statistics"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Stanford University", url = "" } ]
+  organizations = [ { name = "Statistics department at University of São Paulo", url = "https://www.ime.usp.br/mae" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
+  email = "magnotairone@gmail.com"
+  address = "B154 IME, University of São Paulo, São Paulo, Brazil"
   office_hours = """
   Monday 10:00 to 13:00<br>
   Wednesday 09:00 to 10:00<br>
   Otherwise email to book an appointment
   """
-  phone = "888 888 88 88"
-  skype = "echo123"
+  phone = "+55 11 998866363"
+  skype = "magnotairone"
   telegram = ""
   keybase = ""  # Your keybase.io username.
 
@@ -99,10 +99,9 @@ enableGitInfo = false
   #   3: OpenStreetMap (Mapbox)
   map = 0
   map_api_key = ""
-  latitude = "37.4275"
-  longitude = "-122.1697"
+  latitude = "-23.559355"
+  longitude = "-46.731967"
   zoom = 15
-
   # SITE SETUP
 
   # Color theme.
