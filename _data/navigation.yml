@@ -1,22 +1,27 @@
 # main links links
 main:
-  - title: "Publications"
+
+  - title: "CV Lattes"
+    url: http://lattes.cnpq.br/9791024128849349 #/cv/
+    target: _blank
+
+  - title: "Publicações"
     url: /publications/
 
-  - title: "Talks"
+  - title: "Palestras selecionadas"
     url: /talks/    
 
-  - title: "Teaching"
+  - title: "Ensino"
     url: /teaching/    
     
-  - title: "Portfolio"
+  - title: "Portfólio"
     url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
-    
-  - title: "CV"
-    url: /cv/
-    
-  - title: "Guide"
-    url: /markdown/
+  #       
+  # - title: "Blog Posts"
+  #   url: /year-archive/
+  #   
+  # - title: "Guide"
+  #   url: /markdown/
+
+# fonte: https://www.youtube.com/watch?v=8lJhXJCUYCc
+# https://sudo-boris.github.io/
