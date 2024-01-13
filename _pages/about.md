@@ -10,7 +10,7 @@ redirect_from:
 
 Sou estudante de doutorado no Departamento de Estatística da Universidade de São Paulo. Minhas áreas de pesquisa incluem modelos de aprendizagem estatística, processos estocásticos, estimação de gráficos. Tenho interesse em ciência de dados, análise de dados em alta dimensão, LLMs, inferência bayesiana e estatísticas espaciais. 
 
-Atualmente trabalho como IT Specialist no banco BTG Pactual, liderando a frente de precificação do time de gestão de portfolio.
+Atualmente trabalho como IT Specialist no banco BTG Pactual na área de gestão de portfolio e também sou docente do Programa Avançado de Data Science e Decisão do Insper.
 
 Explore o meu trabalho e interesses aqui.
 
