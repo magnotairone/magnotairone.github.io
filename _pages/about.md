@@ -8,11 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-Sou estudante de doutorado no Departamento de Estatística da Universidade de São Paulo. Minhas áreas de pesquisa incluem modelos de aprendizagem estatística, processos estocásticos, estimação de gráficos. Tenho interesse em ciência de dados, análise de dados em alta dimensão, LLMs, inferência bayesiana e estatísticas espaciais. 
+Sou doutor em Probabilidade e Estatística pelo IME USP. 
+Minhas áreas de pesquisa incluem modelos de aprendizagem estatística, processos estocásticos, estimação de gráficos. 
+Tenho interesse em ciência de dados, análise de dados em alta dimensão, LLMs, inferência bayesiana e estatísticas espaciais. 
 
-Atualmente trabalho como IT Specialist no banco BTG Pactual na área de gestão de portfolio e também sou docente do Programa Avançado de Data Science e Decisão do Insper.
+Atualmente trabalho como cientista de dados na Pefisa, o braço financeiro da loja Pernambucanas. Já trabalhei como IT Specialist no banco BTG Pactual na área de gestão de portfolio e também sou docente do Programa Avançado de Data Science e Decisão do Insper.
 
 Explore o meu trabalho e interesses aqui.
+
+<p><small>Última atualização: 06/08/2024.</small></p>
 
 <!--
 This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
