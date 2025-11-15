@@ -1,0 +1,28 @@
+---
+title: "Ensino"
+---
+
+# Destaques
+- 7 anos de experiência como monitor.
+- 5 anos como docente em graduação e pós-graduação.
+- Mais de 1000 alunos e 770 horas de aulas ministradas.
+
+# Cursos Ministrados
+
+### Graduação
+
+- Análise Combinatória, Probabilidades e Aplicações, IME-USP (2020, 2021, 2022)
+- Introdução à Aprendizagem Estatística e Ciência de Dados com R, IME-USP (2021, 2022)
+
+### Pós-Graduação Latu Sensu
+
+- Aprendizagem Estatística de Máquinas I, Insper (2021)
+- Aprendizagem Estatística de Máquinas II, Insper (2021, 2022, 2023, 2024, 2025)
+- Transforming Business with Data, Insper (2024, 2025)
+- Introdução a R e Python, Insper (2024, 2025)
+
+### Educação Executiva
+
+- Programação para Não Programadores, Insper (2021)
+- Formação em Dados e Analytics, Insper (2024)
+

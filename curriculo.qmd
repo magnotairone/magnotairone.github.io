@@ -1,0 +1,14 @@
+Curriculo no formato Lattes [aqui](http://lattes.cnpq.br/9791024128849349).
+
+# Formação Acadêmica
+
+-   Ensino Médio Técnico em Informática Industrial, CEFET-MG (2011)
+-   Graduação em Matemática Computacional, UFMG (2016)
+-   Mestrado em Estatística, UFMG (2018)
+-   Doutorado em Probabilidade e Estatística, IME-USP (2024)
+
+# Experiência Profissional
+
+-   Cientista de Dados, Banco BTG Pactual (2022-2024)
+-   Cientista de Dados, PEFISA Soluções Financeiras (2024-2025)
+-   Cientista de Dados, XP Investimentos (2025-presente)

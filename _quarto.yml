@@ -1,0 +1,42 @@
+project:
+  type: website
+
+website:
+  title: "Magno Tairone"
+  favicon: "img/profile-foto.jpeg"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: curriculo.qmd
+        text: Currículo
+      - href: publicacoes.qmd
+        text: Publicações
+      - href: palestras.qmd
+        text: Palestras
+      - href: ensino.qmd
+        text: Ensino
+      - href: projetos.qmd
+        text: Projetos
+    right:
+      - about.qmd
+      - icon: github
+        href: http://magnotairone.github.io/
+      - icon: linkedin
+        href: https://www.linkedin.com/in/magnotairone/
+  sidebar: false
+  
+  page-footer:
+    center: |
+      Contato: magnotairone [at] gmail.com
+    left: |
+      Made with [Quarto](https://quarto.org/)
+    right: |
+    background: "#2780e3"
+
+
+format:
+  html:
+    theme: cosmo
+    dark: darkly
+    css: styles.css

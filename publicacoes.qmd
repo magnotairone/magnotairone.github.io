@@ -1,0 +1,16 @@
+# Artigos Científicos Publicados em Periódicos
+
+- Model selection for Markov random fields on graphs under a mixing condition. *Stochastic Processes and their Applications*, 2025.
+- Independent block identification in multivariate time series. *Journal of Time Series Analysis*, 2021.
+
+
+# Outras publicações
+
+- Dissertação: Extending JAGS for spatial data. UFMG, 2018.
+
+- Tese: Estimation and model selection for graphical models under mixing conditions. USP, 2024.
+
+# Pacotes
+
+- GeoJAGS: https://sourceforge.net/projects/geojags/files/
+- MixingGraph: https://github.com/magnotairone/MixingGraph

@@ -1,0 +1,11 @@
+# Projetos de Pesquisa
+- Modelos gráficos sob condições de mistura.
+- Extensão do JAGS para dados espaciais.
+
+# Projetos de Extensão
+- Curso Pré-Cálculo (UFMG)
+- Análise da tendência de COVID-19 (IME-USP)
+
+# Voluntariado
+- Stats4Good
+- Cursinho Amorim Lima
