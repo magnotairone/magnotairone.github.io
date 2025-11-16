@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2021-07-11">
 
-<title>Estimation and model selection for mixing graphical models – Magno Tairone</title>
+<title>Meu Blog – Magno Tairone</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,25 +23,27 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../img/profile-foto.jpeg" rel="icon" type="image/jpeg">
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-9073fa8e88b90e33658ce35429f71931.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./img/profile-foto.jpeg" rel="icon" type="image/jpeg">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-9073fa8e88b90e33658ce35429f71931.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -57,69 +58,127 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="../../styles.css">
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
     </a>
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Magno Tairone</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Procurar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../curriculo.html"> 
+    <a class="nav-link" href="./curriculo.html"> 
 <span class="menu-text">Currículo</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../publicacoes.html"> 
+    <a class="nav-link" href="./publicacoes.html"> 
 <span class="menu-text">Publicações</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../palestras.html"> 
+    <a class="nav-link" href="./palestras.html"> 
 <span class="menu-text">Palestras</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../ensino.html"> 
+    <a class="nav-link" href="./ensino.html"> 
 <span class="menu-text">Ensino</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../projetos.html"> 
+    <a class="nav-link" href="./projetos.html"> 
 <span class="menu-text">Projetos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../posts.html"> 
+    <a class="nav-link active" href="./posts.html" aria-current="page"> 
 <span class="menu-text">Meu Blog</span></a>
   </li>  
 </ul>
@@ -145,13 +204,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categorias</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Tudo <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Q2klQzMlQUFuY2lhJTIwZGUlMjBEYWRvcw==">Ciência de Dados <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q292aWQtMTk=">Covid-19 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGF0YSUyMENsZWFuaW5n">Data Cleaning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RXN0YXQlQzMlQURzdGljYQ==">Estatística <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RmluYW5jZQ==">Finance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SUElMjBHZW5lcmF0aXZh">IA Generativa <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TExN">LLM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFjaGluZSUyMExlYXJuaW5n">Machine Learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T3RpbWl6YSVDMyVBNyVDMyVBM28=">Otimização <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHJvZ3JhbWElQzMlQTclQzMlQTNvJTIwTGluZWFy">Programação Linear <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHl0aG9u">Python <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(4)</span></div><div class="category" data-category="c3BsaW5lcw==">splines <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Estimation and model selection for mixing graphical models</h1>
+<h1 class="title">Meu Blog</h1>
 </div>
 
 
@@ -159,12 +220,6 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">July 11, 2021</p>
-    </div>
-  </div>
   
     
   </div>
@@ -174,12 +229,180 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This talk presents part of my PhD research project. Pre-recorded talk for the 63rd World Statistics Congress, ISI 2021.</p>
-<p><a href="https://youtu.be/INo9HGgKK1I">Youtube link aqui</a></p>
 
 
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="UiUyQ0ZpbmFuY2UlMkNEYXRhJTIwQ2xlYW5pbmc=" data-listing-date-sort="1763175600000" data-listing-file-modified-sort="1763304188381" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="170">
+<a href="./posts/20240621-assetmanagement/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/20240621-assetmanagement/robo.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Análise de notícias de ativos financeiros com R e LLM
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RmluYW5jZQ=='); return false;">Finance</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMENsZWFuaW5n'); return false;">Data Cleaning</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Pipeline para organizar dados históricos de ativos e notícias financeiras usando tidyverse e lubridate e automatizando ess tafera com um uso de LLM.</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Magno Severino
+</div>
+<div class="listing-date">
+15 de nov. de 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="UiUyQ0NpJUMzJUFBbmNpYSUyMGRlJTIwRGFkb3MlMkNFc3RhdCVDMyVBRHN0aWNh" data-listing-date-sort="1733022000000" data-listing-file-modified-sort="1763302787149" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="78">
+<a href="./posts/20241201-aprendendoR/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/20241201-aprendendoR/hex.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Aprendendo R
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q2klQzMlQUFuY2lhJTIwZGUlMjBEYWRvcw=='); return false;">Ciência de Dados</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RXN0YXQlQzMlQURzdGljYQ=='); return false;">Estatística</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Material online gratuito para aprender R, disponível como livro interativo.</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Magno Severino
+</div>
+<div class="listing-date">
+1 de dez. de 2024
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="SUElMjBHZW5lcmF0aXZhJTJDUiUyQ1B5dGhvbiUyQ0xMTQ==" data-listing-date-sort="1721012400000" data-listing-file-modified-sort="1763303134787" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="73">
+<a href="./posts/20240715-rag/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/20240715-rag/capa.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Da Teoria à Prática: Modelos de IA Generativa com R e Python
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('SUElMjBHZW5lcmF0aXZh'); return false;">IA Generativa</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">Python</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TExN'); return false;">LLM</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Tutorial apresentado no SINAPE 2024 sobre criação de aplicações com LLMs para recuperação de informação em PDFs.</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Magno Severino
+</div>
+<div class="listing-date">
+15 de jul. de 2024
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="UiUyQ090aW1pemElQzMlQTclQzMlQTNvJTJDTWFjaGluZSUyMExlYXJuaW5nJTJDUHJvZ3JhbWElQzMlQTclQzMlQTNvJTIwTGluZWFy" data-listing-date-sort="1702177200000" data-listing-file-modified-sort="1763305270927" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="273">
+<a href="./posts/20231012-otimizacao/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Workshop de Otimização com R: Programação Linear e Descida do Gradiente
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('T3RpbWl6YSVDMyVBNyVDMyVBM28='); return false;">Otimização</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWFjaGluZSUyMExlYXJuaW5n'); return false;">Machine Learning</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHJvZ3JhbWElQzMlQTclQzMlQTNvJTIwTGluZWFy'); return false;">Programação Linear</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Explorando técnicas de otimização com R, desde programação linear para problemas de produção até algoritmos de aprendizado como descida do gradiente para redes neurais…</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Magno Severino
+</div>
+<div class="listing-date">
+10 de dez. de 2023
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="Q292aWQtMTklMkNzcGxpbmVz" data-listing-date-sort="1606791600000" data-listing-file-modified-sort="1763301965628" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="86">
+<a href="./posts/20201201-covid19/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/20201201-covid19/Covid-1.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Tendência de novos casos de covid-19
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q292aWQtMTk='); return false;">Covid-19</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3BsaW5lcw=='); return false;">splines</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Análise dos casos de infectados pelo vírus Sars-CoV2 usando técnicas para detecção de pontos de mudança.</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Magno Severino
+</div>
+<div class="listing-date">
+1 de dez. de 2020
+</div>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">Nenhum item correspondente</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -205,12 +428,12 @@ ul.task-list li input[type="checkbox"] {
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
+      button.setAttribute("title", "Copiada");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
+        button.setAttribute("data-bs-title", "Copiada");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",

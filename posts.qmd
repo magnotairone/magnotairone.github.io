@@ -1,0 +1,9 @@
+---
+title: "Meu Blog"
+listing: 
+  contents: posts 
+  type: grid
+  sort: "date desc" # can also sort on more than one field
+  categories: true # allows you to sort posts by assigned categories
+lang: pt 
+---

@@ -1,0 +1,66 @@
+---
+title: "Workshop de Otimização com R: Programação Linear e Descida do Gradiente"
+description: "Explorando técnicas de otimização com R, desde programação linear para problemas de produção até algoritmos de aprendizado como descida do gradiente para redes neurais simples."
+author:
+  - name: "Magno Severino"
+    url: "https://magnotairone.github.io/"
+    orcid: "0000-0002-3432-7779"
+date: 2023-12-10
+categories: [R, Otimização, Machine Learning, Programação Linear]
+# citation:
+#   url: "https://github.com/magnotairone/aulas/tree/main/workshop%20-%20otimizacao"
+# image: "workshop-otimizacao.png"
+draft: false
+lang: pt
+---
+
+Este workshop apresentou duas abordagens complementares para problemas de otimização com R:
+
+- **Programação Linear**: aplicada à maximização de lucro em uma fábrica de banheiras.
+- **Descida do Gradiente**: usada para estimar parâmetros de uma rede neural simples, comparando com regressão linear.
+
+O objetivo foi mostrar como técnicas clássicas e modernas podem ser implementadas de forma prática e acessível.
+
+
+## Parte 1: Programação Linear com `lpSolveAPI`
+
+A primeira parte do workshop abordou **programação linear**, uma técnica fundamental para problemas de alocação de recursos e maximização de resultados.
+
+Objetivo: Maximizar o lucro da produção de dois tipos de banheiras, considerando restrições de capacidade e recursos.
+
+### Etapas do código (`caso_01.R`):
+- Criação do modelo com `make.lp()`.
+- Definição da função objetivo com `set.objfn()`.
+- Adição das restrições com `add.constraint()`.
+- Resolução do problema com `solve()`.
+- Interpretação dos resultados:
+  - Valor ótimo da função objetivo.
+  - Valores das variáveis de decisão.
+
+**Pacote utilizado:** `lpSolveAPI`
+
+---
+
+## Parte 2: Descida do Gradiente para Redes Neurais
+
+Na segunda parte, exploramos um exemplo de **aprendizado supervisionado** com uma rede neural simples, implementando manualmente o algoritmo de **descida do gradiente**.
+
+Objetivo: Estimar os parâmetros de uma rede neural com uma camada, comparando com regressão linear.
+
+### Etapas do código (`gradient_descent.R`):
+- Geração de dados simulados com `tidyverse`.
+- Ajuste inicial com regressão linear (`lm()`).
+- Definição da arquitetura da rede e função de perda.
+- Implementação do algoritmo de descida do gradiente:
+  - Versão padrão.
+  - Versão estocástica (mini-batches).
+- Comparação dos parâmetros obtidos com os da regressão linear.
+
+
+
+**Repositório completo:**  
+[https://github.com/magnotairone/aulas/tree/main/workshop%20-%20otimizacao](https://github.com/magnotairone/aulas/tree/main/workshop%20-%20otimizacao)
+
+
+<!-- Este workshop mostrou como problemas de otimização podem ser resolvidos com R, desde modelos lineares clássicos até algoritmos modernos usados em aprendizado de máquina. A ideia é fornecer uma base prática para quem deseja aplicar essas técnicas em projetos reais. -->
+

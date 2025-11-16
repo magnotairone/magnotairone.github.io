@@ -1,0 +1,39 @@
+---
+title: "Análise de notícias de ativos financeiros com R e LLM"
+description: "Pipeline para organizar dados históricos de ativos e notícias financeiras usando tidyverse e lubridate e automatizando ess tafera com um uso de LLM."
+author:
+  - name: "Magno Severino"
+    url: "https://magnotairone.github.io/"
+    orcid: "0000-0002-3432-7779"
+    affiliation: ""
+date: 2025-11-15
+categories: [R, Finance, Data Cleaning]
+citation:
+  url: "https://github.com/magnotairone/AssetManagement"
+image: "robo.png"
+draft: false
+lang: pt
+---
+
+Acompanhar ativos financeiros e sua performance é essencial para decisões estratégicas no mercado. Além disso, notícias sobre empresas podem influenciar diretamente o comportamento dos preços. O desafio é relacionar essas informações de forma eficiente e automatizada.  
+O objetivo deste projeto é justamente **automatizar essa análise**, integrando dados históricos de ativos com notícias financeiras para permitir insights rápidos e precisos.
+
+Este projeto apresenta um pipeline para **organização e limpeza de dados financeiros** com R, incluindo:
+
+- Leitura de arquivos CSV contendo histórico de preços de ativos.
+- Padronização de nomes de colunas com `janitor::clean_names()`.
+- Conversão de valores monetários para formato numérico.
+- Extração de metadados como **ticker** e **empresa** a partir do nome do arquivo.
+- Conversão de datas com `lubridate::dmy()`.
+- Exportação dos dados consolidados para `data/daily.csv`.
+
+Além disso, o projeto inclui processamento de **notícias financeiras** para análise de impacto em ativos.
+
+**Código principal**:
+
+- `01-organizar-dados.R`: organiza dados históricos e gera base consolidada.
+- `02-funcoes.R`: funções utilitárias para o pipeline do agente.
+- `03-agente.R`: rotina que automatiza a geração das análises pelo agente em batch.
+
+Acesse o repositório completo:  
+[https://github.com/magnotairone/AssetManagement](https://github.com/magnotairone/AssetManagement/pulls)

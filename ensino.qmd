@@ -1,42 +1,39 @@
-<div style="display:flex; justify-content:center; gap:20px; flex-wrap:wrap; margin-top:20px;">
-<div style="width:200px; padding:20px; border-radius:10px; background-color:#006666; color:white; box-shadow:0 2px 6px rgba(0,0,0,0.1); text-align:center;">
+::: {style="display:flex; justify-content:center; gap:20px; flex-wrap:wrap; margin-top:20px;"}
+::: {style="width:200px; padding:20px; border-radius:10px; background-color:#006666; color:white; box-shadow:0 2px 6px rgba(0,0,0,0.1); text-align:center;"}
 <h3>7 anos</h3>
+
 <p>de experiência como monitor</p>
-</div>
+:::
 
-<div style="width:200px; padding:20px; border-radius:10px; background-color:#007777; color:white; box-shadow:0 2px 6px rgba(0,0,0,0.1); text-align:center;">
+::: {style="width:200px; padding:20px; border-radius:10px; background-color:#007777; color:white; box-shadow:0 2px 6px rgba(0,0,0,0.1); text-align:center;"}
 <h3>5 anos</h3>
+
 <p>como docente em graduação e pós-graduação</p>
-</div>
+:::
 
-<div style="width:200px; padding:20px; border-radius:10px; background-color:#008888; color:white; box-shadow:0 2px 6px rgba(0,0,0,0.1); text-align:center;">
+::: {style="width:200px; padding:20px; border-radius:10px; background-color:#008888; color:white; box-shadow:0 2px 6px rgba(0,0,0,0.1); text-align:center;"}
 <h3>+1000 alunos</h3>
+
 <p>e 770 horas de aulas ministradas</p>
-</div>
-</div>
-
-
-# Destaques
-- 7 anos de experiência como monitor.
-- 5 anos como docente em graduação e pós-graduação.
-- Mais de 1000 alunos e 770 horas de aulas ministradas.
+:::
+:::
 
 # Cursos Ministrados
 
 ### Graduação
 
-- Análise Combinatória, Probabilidades e Aplicações, IME-USP (2020, 2021, 2022)
-- Introdução à Aprendizagem Estatística e Ciência de Dados com R, IME-USP (2021, 2022)
+-   Análise Combinatória, Probabilidades e Aplicações, IME-USP (2020, 2021, 2022)
+-   Introdução à Aprendizagem Estatística e Ciência de Dados com R, IME-USP (2021, 2022)
 
 ### Pós-Graduação Latu Sensu
 
-- Aprendizagem Estatística de Máquinas I, Insper (2021)
-- Aprendizagem Estatística de Máquinas II, Insper (2021, 2022, 2023, 2024, 2025)
-- Transforming Business with Data, Insper (2024, 2025)
-- Introdução a R e Python, Insper (2024, 2025)
+-   Aprendizagem Estatística de Máquinas I, Insper (2021)
+-   Aprendizagem Estatística de Máquinas II, Insper (2021, 2022, 2023, 2024, 2025)
+-   Transforming Business with Data, Insper (2024, 2025)
+-   Introdução a R e Python, Insper (2024, 2025)
+    -   Notas de aula [aqui](https://magnotairone.github.io/intro_r_python/)
 
 ### Educação Executiva
 
-- Programação para Não Programadores, Insper (2021)
-- Formação em Dados e Analytics, Insper (2024)
-
+-   Programação para Não Programadores, Insper (2021)
+-   Formação em Dados e Analytics, Insper (2024)

@@ -20,10 +20,11 @@ website:
         text: Ensino
       - href: projetos.qmd
         text: Projetos
+      - posts.qmd
     right:
       # - about.qmd
       - icon: github
-        href: http://magnotairone.github.io/
+        href: http://github.com/magnotairone/
       - icon: linkedin
         href: https://www.linkedin.com/in/magnotairone/
   sidebar: false

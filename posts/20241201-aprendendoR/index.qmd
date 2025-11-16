@@ -1,0 +1,30 @@
+---
+title: "Aprendendo R"
+description: "Material online gratuito para aprender R, disponível como livro interativo."
+author:
+  - name: "Magno Severino"
+    url: "https://magnotairone.github.io/"
+    orcid: "0000-0002-3432-7779"
+    affiliation: ""
+date: 2024-12-01
+categories: [R, Ciência de Dados, Estatística]
+image: "hex.png"
+draft: false
+lang: pt
+---
+
+# Aprendendo R
+
+Este livro compila tutoriais da linguagem R que usei em diversas aulas que dei ao longo dos últimos anos e foi escrito baseado em Cotton (2013) e Wickham et al. (2023).
+
+## O que você vai encontrar
+
+- Introdução à linguagem R e seus conceitos básicos
+- Manipulação de dados com **dplyr** e **tidyverse**
+- Visualização de dados com **ggplot2**
+- Estatística aplicada e modelagem
+- Exercícios práticos e projetos
+
+[Acesse o livro aqui](https://magnotairone.github.io/AprendendoR/){.btn .btn-primary style="font-size:18px; padding:10px 20px; margin-top:20px;"}
+
+<!-- ![Capa do livro](hex.png){width=400px style="display:block; margin:auto;"} -->

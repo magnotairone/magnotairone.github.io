@@ -1,0 +1,22 @@
+---
+title: "Da Teoria à Prática: Modelos de IA Generativa com R e Python"
+description: "Tutorial apresentado no SINAPE 2024 sobre criação de aplicações com LLMs para recuperação de informação em PDFs."
+author:
+  - name: "Magno Severino"
+    url: "https://magnotairone.github.io/"
+    orcid: "0000-0002-3432-7779"
+    affiliation: ""
+date: 2024-07-15
+categories: [IA Generativa, R, Python, LLM]
+citation:
+  url: "https://magnotairone.github.io/tutorial_sinape_2024/tutorial"
+image: "capa.png"
+draft: false
+lang: pt
+---
+
+O objetivo deste tutorial é desenvolver uma ferramenta de inteligência artificial (IA) generativa capaz de recuperar informações de um ou mais arquivos em formato PDF, utilizando a capacidade dos grandes modelos de linguagem (LLMs) para gerar textos semelhantes à linguagem humana, com base no conteúdo específico de um PDF.
+
+Ou seja, criamos uma aplicação de recuperação de informação em que é possível "conversar" com o conteúdo de um arquivo PDF.
+
+Acesse o material completo [aqui](https://magnotairone.github.io/tutorial_sinape_2024/tutorial).

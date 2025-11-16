@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2021-07-11">
+<meta name="author" content="Magno Severino">
+<meta name="description" content="Explorando técnicas de otimização com R, desde programação linear para problemas de produção até algoritmos de aprendizado como descida do gradiente para redes neurais simples.">
 
-<title>Estimation and model selection for mixing graphical models – Magno Tairone</title>
+<title>Workshop de Otimização com R: Programação Linear e Descida do Gradiente – Magno Tairone</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -57,17 +58,17 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
   }
 }</script>
 
@@ -78,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
 <body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -88,8 +89,8 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">Magno Tairone</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Procurar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -142,42 +143,107 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Workshop de Otimização com R: Programação Linear e Descida do Gradiente</h1>
+                  <div>
+        <div class="description">
+          Explorando técnicas de otimização com R, desde programação linear para problemas de produção até algoritmos de aprendizado como descida do gradiente para redes neurais simples.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">R</div>
+                <div class="quarto-category">Otimização</div>
+                <div class="quarto-category">Machine Learning</div>
+                <div class="quarto-category">Programação Linear</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Autor</div>
+      <div class="quarto-title-meta-contents">
+               <p><a href="https://magnotairone.github.io/">Magno Severino</a> <a href="https://orcid.org/0000-0002-3432-7779" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Data de Publicação</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">10 de dezembro de 2023</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Estimation and model selection for mixing graphical models</h1>
-</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
-
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">July 11, 2021</p>
-    </div>
-  </div>
-  
-    
-  </div>
-  
 
 
-</header>
+<p>Este workshop apresentou duas abordagens complementares para problemas de otimização com R:</p>
+<ul>
+<li><strong>Programação Linear</strong>: aplicada à maximização de lucro em uma fábrica de banheiras.</li>
+<li><strong>Descida do Gradiente</strong>: usada para estimar parâmetros de uma rede neural simples, comparando com regressão linear.</li>
+</ul>
+<p>O objetivo foi mostrar como técnicas clássicas e modernas podem ser implementadas de forma prática e acessível.</p>
+<section id="parte-1-programação-linear-com-lpsolveapi" class="level2">
+<h2 class="anchored" data-anchor-id="parte-1-programação-linear-com-lpsolveapi">Parte 1: Programação Linear com <code>lpSolveAPI</code></h2>
+<p>A primeira parte do workshop abordou <strong>programação linear</strong>, uma técnica fundamental para problemas de alocação de recursos e maximização de resultados.</p>
+<p>Objetivo: Maximizar o lucro da produção de dois tipos de banheiras, considerando restrições de capacidade e recursos.</p>
+<section id="etapas-do-código-caso_01.r" class="level3">
+<h3 class="anchored" data-anchor-id="etapas-do-código-caso_01.r">Etapas do código (<code>caso_01.R</code>):</h3>
+<ul>
+<li>Criação do modelo com <code>make.lp()</code>.</li>
+<li>Definição da função objetivo com <code>set.objfn()</code>.</li>
+<li>Adição das restrições com <code>add.constraint()</code>.</li>
+<li>Resolução do problema com <code>solve()</code>.</li>
+<li>Interpretação dos resultados:
+<ul>
+<li>Valor ótimo da função objetivo.</li>
+<li>Valores das variáveis de decisão.</li>
+</ul></li>
+</ul>
+<p><strong>Pacote utilizado:</strong> <code>lpSolveAPI</code></p>
+<hr>
+</section>
+</section>
+<section id="parte-2-descida-do-gradiente-para-redes-neurais" class="level2">
+<h2 class="anchored" data-anchor-id="parte-2-descida-do-gradiente-para-redes-neurais">Parte 2: Descida do Gradiente para Redes Neurais</h2>
+<p>Na segunda parte, exploramos um exemplo de <strong>aprendizado supervisionado</strong> com uma rede neural simples, implementando manualmente o algoritmo de <strong>descida do gradiente</strong>.</p>
+<p>Objetivo: Estimar os parâmetros de uma rede neural com uma camada, comparando com regressão linear.</p>
+<section id="etapas-do-código-gradient_descent.r" class="level3">
+<h3 class="anchored" data-anchor-id="etapas-do-código-gradient_descent.r">Etapas do código (<code>gradient_descent.R</code>):</h3>
+<ul>
+<li>Geração de dados simulados com <code>tidyverse</code>.</li>
+<li>Ajuste inicial com regressão linear (<code>lm()</code>).</li>
+<li>Definição da arquitetura da rede e função de perda.</li>
+<li>Implementação do algoritmo de descida do gradiente:
+<ul>
+<li>Versão padrão.</li>
+<li>Versão estocástica (mini-batches).</li>
+</ul></li>
+<li>Comparação dos parâmetros obtidos com os da regressão linear.</li>
+</ul>
+<p><strong>Repositório completo:</strong><br>
+<a href="https://github.com/magnotairone/aulas/tree/main/workshop%20-%20otimizacao">https://github.com/magnotairone/aulas/tree/main/workshop%20-%20otimizacao</a></p>
+<!-- Este workshop mostrou como problemas de otimização podem ser resolvidos com R, desde modelos lineares clássicos até algoritmos modernos usados em aprendizado de máquina. A ideia é fornecer uma base prática para quem deseja aplicar essas técnicas em projetos reais. -->
 
 
-<p>This talk presents part of my PhD research project. Pre-recorded talk for the 63rd World Statistics Congress, ISI 2021.</p>
-<p><a href="https://youtu.be/INo9HGgKK1I">Youtube link aqui</a></p>
-
-
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -205,12 +271,12 @@ ul.task-list li input[type="checkbox"] {
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
+      button.setAttribute("title", "Copiada");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
+        button.setAttribute("data-bs-title", "Copiada");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",

@@ -7,6 +7,41 @@
     "text": "Artigos Científicos Publicados em Periódicos\n\nModel selection for Markov random fields on graphs under a mixing condition. Stochastic Processes and their Applications, 2025.\nIndependent block identification in multivariate time series. Journal of Time Series Analysis, 2021.\n\n\n\nOutras publicações\n\nDissertação: Extending JAGS for spatial data. UFMG, 2018.\nTese: Estimation and model selection for graphical models under mixing conditions. USP, 2024.\n\n\n\nPacotes\n\nGeoJAGS: https://sourceforge.net/projects/geojags/files/\nMixingGraph: https://github.com/magnotairone/MixingGraph"
   },
   {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Meu Blog",
+    "section": "",
+    "text": "Análise de notícias de ativos financeiros com R e LLM\n\n\n\nR\n\nFinance\n\nData Cleaning\n\n\n\nPipeline para organizar dados históricos de ativos e notícias financeiras usando tidyverse e lubridate e automatizando ess tafera com um uso de LLM.\n\n\n\nMagno Severino\n\n\n15 de nov. de 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nAprendendo R\n\n\n\nR\n\nCiência de Dados\n\nEstatística\n\n\n\nMaterial online gratuito para aprender R, disponível como livro interativo.\n\n\n\nMagno Severino\n\n\n1 de dez. de 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nDa Teoria à Prática: Modelos de IA Generativa com R e Python\n\n\n\nIA Generativa\n\nR\n\nPython\n\nLLM\n\n\n\nTutorial apresentado no SINAPE 2024 sobre criação de aplicações com LLMs para recuperação de informação em PDFs.\n\n\n\nMagno Severino\n\n\n15 de jul. de 2024\n\n\n\n\n\n\n\n\n\n\n\nWorkshop de Otimização com R: Programação Linear e Descida do Gradiente\n\n\n\nR\n\nOtimização\n\nMachine Learning\n\nProgramação Linear\n\n\n\nExplorando técnicas de otimização com R, desde programação linear para problemas de produção até algoritmos de aprendizado como descida do gradiente para redes neurais…\n\n\n\nMagno Severino\n\n\n10 de dez. de 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nTendência de novos casos de covid-19\n\n\n\nCovid-19\n\nsplines\n\n\n\nAnálise dos casos de infectados pelo vírus Sars-CoV2 usando técnicas para detecção de pontos de mudança.\n\n\n\nMagno Severino\n\n\n1 de dez. de 2020\n\n\n\n\n\n\nNenhum item correspondente"
+  },
+  {
+    "objectID": "posts/20240715-rag/index.html",
+    "href": "posts/20240715-rag/index.html",
+    "title": "Da Teoria à Prática: Modelos de IA Generativa com R e Python",
+    "section": "",
+    "text": "O objetivo deste tutorial é desenvolver uma ferramenta de inteligência artificial (IA) generativa capaz de recuperar informações de um ou mais arquivos em formato PDF, utilizando a capacidade dos grandes modelos de linguagem (LLMs) para gerar textos semelhantes à linguagem humana, com base no conteúdo específico de um PDF.\nOu seja, criamos uma aplicação de recuperação de informação em que é possível “conversar” com o conteúdo de um arquivo PDF.\nAcesse o material completo aqui.\n\n\n\nCitaçãoBibTeX@online{severino2024,\n  author = {Severino, Magno},\n  title = {Da Teoria à Prática: Modelos de IA Generativa com R e Python},\n  date = {2024-07-15},\n  url = {https://magnotairone.github.io/tutorial_sinape_2024/tutorial},\n  langid = {pt}\n}\nPor favor, cite este trabalho como:\nSeverino, Magno. 2024. “Da Teoria à Prática: Modelos de IA\nGenerativa com R e Python.” July 15, 2024. https://magnotairone.github.io/tutorial_sinape_2024/tutorial."
+  },
+  {
+    "objectID": "posts/20231012-otimizacao/index.html",
+    "href": "posts/20231012-otimizacao/index.html",
+    "title": "Workshop de Otimização com R: Programação Linear e Descida do Gradiente",
+    "section": "",
+    "text": "Este workshop apresentou duas abordagens complementares para problemas de otimização com R:\nO objetivo foi mostrar como técnicas clássicas e modernas podem ser implementadas de forma prática e acessível."
+  },
+  {
+    "objectID": "posts/20231012-otimizacao/index.html#parte-1-programação-linear-com-lpsolveapi",
+    "href": "posts/20231012-otimizacao/index.html#parte-1-programação-linear-com-lpsolveapi",
+    "title": "Workshop de Otimização com R: Programação Linear e Descida do Gradiente",
+    "section": "Parte 1: Programação Linear com lpSolveAPI",
+    "text": "Parte 1: Programação Linear com lpSolveAPI\nA primeira parte do workshop abordou programação linear, uma técnica fundamental para problemas de alocação de recursos e maximização de resultados.\nObjetivo: Maximizar o lucro da produção de dois tipos de banheiras, considerando restrições de capacidade e recursos.\n\nEtapas do código (caso_01.R):\n\nCriação do modelo com make.lp().\nDefinição da função objetivo com set.objfn().\nAdição das restrições com add.constraint().\nResolução do problema com solve().\nInterpretação dos resultados:\n\nValor ótimo da função objetivo.\nValores das variáveis de decisão.\n\n\nPacote utilizado: lpSolveAPI"
+  },
+  {
+    "objectID": "posts/20231012-otimizacao/index.html#parte-2-descida-do-gradiente-para-redes-neurais",
+    "href": "posts/20231012-otimizacao/index.html#parte-2-descida-do-gradiente-para-redes-neurais",
+    "title": "Workshop de Otimização com R: Programação Linear e Descida do Gradiente",
+    "section": "Parte 2: Descida do Gradiente para Redes Neurais",
+    "text": "Parte 2: Descida do Gradiente para Redes Neurais\nNa segunda parte, exploramos um exemplo de aprendizado supervisionado com uma rede neural simples, implementando manualmente o algoritmo de descida do gradiente.\nObjetivo: Estimar os parâmetros de uma rede neural com uma camada, comparando com regressão linear.\n\nEtapas do código (gradient_descent.R):\n\nGeração de dados simulados com tidyverse.\nAjuste inicial com regressão linear (lm()).\nDefinição da arquitetura da rede e função de perda.\nImplementação do algoritmo de descida do gradiente:\n\nVersão padrão.\nVersão estocástica (mini-batches).\n\nComparação dos parâmetros obtidos com os da regressão linear.\n\nRepositório completo:\nhttps://github.com/magnotairone/aulas/tree/main/workshop%20-%20otimizacao"
+  },
+  {
     "objectID": "palestras.html",
     "href": "palestras.html",
     "title": "Magno Tairone",
@@ -46,7 +81,7 @@
     "href": "legado/portfolio-4-covid.html",
     "title": "Tendência de novos casos de covid-19",
     "section": "",
-    "text": "Nesta projeto apresentamos uma análise dos casos de infectados pelo vírus Sars-CoV2 (novo coronavírus) reportados diariamente em diferentes países, nos estados e algumas cidades brasileiras. A análise está baseada no ajuste, a partir de técnicas de seleção de modelos e detecção de pontos de mudança, de uma funcão de regressão utilizando splines. Este trabalho ainda está em desenvolvimento, mas uma versão preliminar da metodologia pode ser consultada\nProjeto desenvolvido em conjunto com Alex Rodrigo, Florencia Leonardi.\nDetalhes podem ser encontrados &lt;a href=\"https://www.ime.usp.br/~gpeca/covid-19/covid-19.html\"&gt; aqui &lt;/a&gt;."
+    "text": "Neste projeto apresentamos uma análise dos casos de infectados pelo vírus Sars-CoV2 (novo coronavírus) reportados diariamente em diferentes países, nos estados e algumas cidades brasileiras. A análise está baseada no ajuste, a partir de técnicas de seleção de modelos e detecção de pontos de mudança, de uma funcão de regressão utilizando splines. Este trabalho ainda está em desenvolvimento, mas uma versão preliminar da metodologia pode ser consultada\nProjeto desenvolvido em conjunto com Alex Rodrigo, Florencia Leonardi.\nDetalhes podem ser encontrados &lt;a href=\"https://www.ime.usp.br/~gpeca/covid-19/covid-19.html\"&gt; aqui &lt;/a&gt;."
   },
   {
     "objectID": "legado/2021-11-23-dplyr.html",
@@ -58,9 +93,9 @@
   {
     "objectID": "ensino.html",
     "href": "ensino.html",
-    "title": "Destaques",
+    "title": "Cursos Ministrados",
     "section": "",
-    "text": "7 anos\n\n\nde experiência como monitor\n\n\n\n\n5 anos\n\n\ncomo docente em graduação e pós-graduação\n\n\n\n\n+1000 alunos\n\n\ne 770 horas de aulas ministradas\n\n\n\n\nDestaques\n\n7 anos de experiência como monitor.\n5 anos como docente em graduação e pós-graduação.\nMais de 1000 alunos e 770 horas de aulas ministradas.\n\n\n\nCursos Ministrados\n\nGraduação\n\nAnálise Combinatória, Probabilidades e Aplicações, IME-USP (2020, 2021, 2022)\nIntrodução à Aprendizagem Estatística e Ciência de Dados com R, IME-USP (2021, 2022)\n\n\n\nPós-Graduação Latu Sensu\n\nAprendizagem Estatística de Máquinas I, Insper (2021)\nAprendizagem Estatística de Máquinas II, Insper (2021, 2022, 2023, 2024, 2025)\nTransforming Business with Data, Insper (2024, 2025)\nIntrodução a R e Python, Insper (2024, 2025)\n\n\n\nEducação Executiva\n\nProgramação para Não Programadores, Insper (2021)\nFormação em Dados e Analytics, Insper (2024)"
+    "text": "7 anos\n\n\nde experiência como monitor\n\n\n\n\n5 anos\n\n\ncomo docente em graduação e pós-graduação\n\n\n\n\n+1000 alunos\n\n\ne 770 horas de aulas ministradas\n\n\n\n\nCursos Ministrados\n\nGraduação\n\nAnálise Combinatória, Probabilidades e Aplicações, IME-USP (2020, 2021, 2022)\nIntrodução à Aprendizagem Estatística e Ciência de Dados com R, IME-USP (2021, 2022)\n\n\n\nPós-Graduação Latu Sensu\n\nAprendizagem Estatística de Máquinas I, Insper (2021)\nAprendizagem Estatística de Máquinas II, Insper (2021, 2022, 2023, 2024, 2025)\nTransforming Business with Data, Insper (2024, 2025)\nIntrodução a R e Python, Insper (2024, 2025)\n\nNotas de aula aqui\n\n\n\n\nEducação Executiva\n\nProgramação para Não Programadores, Insper (2021)\nFormação em Dados e Analytics, Insper (2024)"
   },
   {
     "objectID": "curriculo.html",
@@ -152,6 +187,34 @@
     "title": "Da Teoria à Prática: Modelos de IA Generativa com R e Python",
     "section": "",
     "text": "Notas do tutorial apresentado no SINAPE 2024 sobre inteligência artifical generativa e recuperação de informação. Veja o material completo aqui"
+  },
+  {
+    "objectID": "posts/20201201-covid19/index.html",
+    "href": "posts/20201201-covid19/index.html",
+    "title": "Tendência de novos casos de covid-19",
+    "section": "",
+    "text": "Neste projeto apresentamos uma análise dos casos de infectados pelo vírus Sars-CoV2 (novo coronavírus) reportados diariamente em diferentes países, nos estados e algumas cidades brasileiras. A análise está baseada no ajuste, a partir de técnicas de seleção de modelos e detecção de pontos de mudança, de uma funcão de regressão utilizando splines. Este trabalho ainda está em desenvolvimento, mas uma versão preliminar da metodologia pode ser consultada\nProjeto desenvolvido em conjunto com Alex Rodrigo, Florencia Leonardi. Detalhes podem ser encontrados  aqui .\n\n\n\n\nCitaçãoBibTeX@online{severino2020,\n  author = {Severino, Magno},\n  title = {Tendência de novos casos de covid-19},\n  date = {2020-12-01},\n  url = {https://magnotairone.github.io/posts/2020-12-01-covid19 /},\n  langid = {pt}\n}\nPor favor, cite este trabalho como:\nSeverino, Magno. 2020. “Tendência de novos casos de\ncovid-19.” December 1, 2020. https://magnotairone.github.io/posts/2020-12-01-covid19\n/."
+  },
+  {
+    "objectID": "posts/20240621-assetmanagement/index.html",
+    "href": "posts/20240621-assetmanagement/index.html",
+    "title": "Análise de notícias de ativos financeiros com R e LLM",
+    "section": "",
+    "text": "Acompanhar ativos financeiros e sua performance é essencial para decisões estratégicas no mercado. Além disso, notícias sobre empresas podem influenciar diretamente o comportamento dos preços. O desafio é relacionar essas informações de forma eficiente e automatizada.\nO objetivo deste projeto é justamente automatizar essa análise, integrando dados históricos de ativos com notícias financeiras para permitir insights rápidos e precisos.\nEste projeto apresenta um pipeline para organização e limpeza de dados financeiros com R, incluindo:\n\nLeitura de arquivos CSV contendo histórico de preços de ativos.\nPadronização de nomes de colunas com janitor::clean_names().\nConversão de valores monetários para formato numérico.\nExtração de metadados como ticker e empresa a partir do nome do arquivo.\nConversão de datas com lubridate::dmy().\nExportação dos dados consolidados para data/daily.csv.\n\nAlém disso, o projeto inclui processamento de notícias financeiras para análise de impacto em ativos.\nCódigo principal:\n\n01-organizar-dados.R: organiza dados históricos e gera base consolidada.\n02-funcoes.R: funções utilitárias para o pipeline do agente.\n03-agente.R: rotina que automatiza a geração das análises pelo agente em batch.\n\nAcesse o repositório completo:\nhttps://github.com/magnotairone/AssetManagement\n\n\n\nCitaçãoBibTeX@online{severino2025,\n  author = {Severino, Magno},\n  title = {Análise de notícias de ativos financeiros com R e LLM},\n  date = {2025-11-15},\n  url = {https://github.com/magnotairone/AssetManagement},\n  langid = {pt}\n}\nPor favor, cite este trabalho como:\nSeverino, Magno. 2025. “Análise de notícias de ativos financeiros\ncom R e LLM.” November 15, 2025. https://github.com/magnotairone/AssetManagement."
+  },
+  {
+    "objectID": "posts/20241201-aprendendoR/index.html",
+    "href": "posts/20241201-aprendendoR/index.html",
+    "title": "Aprendendo R",
+    "section": "",
+    "text": "Este livro compila tutoriais da linguagem R que usei em diversas aulas que dei ao longo dos últimos anos e foi escrito baseado em Cotton (2013) e Wickham et al. (2023).\n\n\n\nIntrodução à linguagem R e seus conceitos básicos\nManipulação de dados com dplyr e tidyverse\nVisualização de dados com ggplot2\nEstatística aplicada e modelagem\nExercícios práticos e projetos\n\nAcesse o livro aqui"
+  },
+  {
+    "objectID": "posts/20241201-aprendendoR/index.html#o-que-você-vai-encontrar",
+    "href": "posts/20241201-aprendendoR/index.html#o-que-você-vai-encontrar",
+    "title": "Aprendendo R",
+    "section": "",
+    "text": "Introdução à linguagem R e seus conceitos básicos\nManipulação de dados com dplyr e tidyverse\nVisualização de dados com ggplot2\nEstatística aplicada e modelagem\nExercícios práticos e projetos\n\nAcesse o livro aqui"
   },
   {
     "objectID": "projetos.html",
