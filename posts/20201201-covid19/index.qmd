@@ -22,5 +22,5 @@ Neste projeto apresentamos uma análise dos casos de infectados pelo vírus Sars
 Projeto desenvolvido em conjunto com Alex Rodrigo, Florencia Leonardi.
 Detalhes podem ser encontrados <a href="https://www.ime.usp.br/~gpeca/covid-19/covid-19.html"> aqui </a>.
 	
-
+Abaixo está o vídeo de divulgação deste projeto, que ganhou um prêmio da PRPG-USP.
 {{< video https://youtu.be/OJEjy95VOnQ >}}
