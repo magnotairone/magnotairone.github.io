@@ -11,10 +11,8 @@ Palestra ministrada para os alunos de graduação em Estatística IME-USP, abord
 
 
 ###  Da Teoria à Prática: Modelos de IA Generativa com R e Python (2024)
-**Tutorial**
-Local: "SINAPE 2024, Fortaleza, Ceará"
-location: "Fortaleza, Ceará"
-
+**Tipo:** Tutorial  
+**Local:** "SINAPE 2024, Fortaleza, Ceará"
 Notas do tutorial apresentado no SINAPE 2024 sobre inteligência artifical generativa e recuperação de informação.
 [Veja o material completo aqui](https://magnotairone.github.io/tutorial_sinape_2024/tutorial)
 
