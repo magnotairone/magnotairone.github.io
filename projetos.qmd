@@ -5,6 +5,8 @@
 # Projetos de Extensão
 - Curso Pré-Cálculo (UFMG)
 - Análise da tendência de COVID-19 (IME-USP)
+- **Revisor de Tradução de Livro** (2023–2024)  
+  Revisão da tradução para português do livro [R for Data Science (2ª Edição)](https://pt.r4ds.hadley.nz/).
 
 # Voluntariado
 - Stats4Good

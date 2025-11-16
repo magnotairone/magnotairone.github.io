@@ -1,14 +1,76 @@
+# Sobre Mim
+Cientista de dados e líder técnico experiente, especialista em modelagem de risco de crédito, governança de modelos e aprendizado estatístico. Habilidade comprovada em traduzir necessidades complexas de negócios em soluções de machine learning robustas, explicáveis e auditáveis. Doutor em Probabilidade e Estatística. Apaixonado por aprimorar processos de tomada de decisão através da avaliação e revisão de modelos.
+
 Curriculo no formato Lattes [aqui](http://lattes.cnpq.br/9791024128849349).
 
-# Formação Acadêmica
+---
 
--   Ensino Médio Técnico em Informática Industrial, CEFET-MG (2011)
--   Graduação em Matemática Computacional, UFMG (2016)
--   Mestrado em Estatística, UFMG (2018)
--   Doutorado em Probabilidade e Estatística, IME-USP (2024)
+## Experiências
 
-# Experiência Profissional
+### Cientista de dados Sênior - XP Inc (2025 - presente)
+- Desenvolve soluções baseadas em dados para marketing e aquisição de novos clientes.
+- Atua ativamente na tradução de demandas das áreas de negócio em soluções de machine learning.
+- Leciona em programas de capacitação interna sobre letramento de dados.
 
--   Cientista de Dados, Banco BTG Pactual (2022-2024)
--   Cientista de Dados, PEFISA Soluções Financeiras (2024-2025)
--   Cientista de Dados, XP Investimentos (2025-presente)
+
+### Professor de Pós-Graduação — Insper (2021–Atual)
+- Leciona machine learning aplicado e modelagem estatística em programas de pós-graduação e executivos.
+- Cursos: Aprendizado Estatístico, Modelagem de Dados, Redes Neurais, Modelos Não Supervisionados, Transformando Negócios com Dados.
+- Reconhecido por apresentar conteúdo técnico com clareza para públicos diversos.
+
+### Analista de Modelagem Estatística Sênior— Pefisa (2024–2025)
+- Propôs e liderou a implementação de uma base de modelagem unificada e feature store interna, criando mais de 150 features engenheiradas e reduzindo o tempo de desenvolvimento em uma semana por modelo.
+- Projetou e liderou a implementação de um framework de automação para monitoramento de modelos, reduzindo esforço mensal de 80h para 4h.
+- Melhorou o modelo de admissão de crédito pessoal em 11 pontos percentuais no KS através de redesenho e engenharia de features.
+- Atua como referência técnica para a equipe de modelagem.
+- Entregou soluções para áreas como Risco de Crédito, Política de Crédito, Cobrança, Produtos Financeiros, Marketing e CRM.
+
+
+### Especialista de Precificação — Banco BTG Pactual (2022–2024)
+- Líder da frente de precificação na equipe de gestão de portfólio.
+- Implementou modelos de precificação de derivativos para gestão de portfólio.
+- Automatizou pipelines de dados, economizando 2h diárias por membro da equipe.
+- Liderou desenvolvimento de aplicação baseada em IA generativa para análise de impacto de notícias no portfólio.
+
+---
+
+## Formação Acadêmica
+- **Doutorado em Probabilidade e Estatística** — USP (2018–2024)  
+  Tese: [Seleção de modelos para campos aleatórios de Markov em grafos sob uma condição de mistura](https://www.teses.usp.br/teses/disponiveis/45/45133/tde-25042024-181144/pt-br.php)  
+  Cursos relevantes: Probabilidade Avançada, Processos Estocásticos, Aprendizado Estatístico.
+
+- **Mestrado em Estatística** — UFMG (2016–2018)  
+  Dissertação: [Extendendo o JAGS para dados espaciais](https://repositorio.ufmg.br/bitstream/1843/BUOS-AZGNHV/1/dissertacao_magno_t_f_severino.pdf)  
+  Cursos relevantes: Estatística Espacial, Inferência Estatística, Inferência Bayesiana, Machine Learning.
+
+- **Bacharelado em Matemática Aplicada à Computação** — UFMG (2011–2016)  
+  Cursos relevantes: Álgebra Linear, Análise Real, Probabilidade e Estatística, Algoritmos e Estruturas de Dados.
+
+---
+
+## Trabalhos Voluntários Selecionados
+- **Revisor de Tradução de Livro** (2023–2024)  
+  Revisão da tradução para português do livro [R for Data Science (2ª Edição)](https://pt.r4ds.hadley.nz/).
+
+- **Cientista de Dados — Projeto Covid-19 (GPECA)** (2020)  
+  Coleta, processamento e análise de dados de casos de Covid-19 para divulgação científica.
+
+- **Professor — Escola Municipal Amorim Lima** (2019)  
+  Aulas de matemática para alunos do 9º ano em curso preparatório para ETEC.
+
+---
+
+## Tecnologias
+- **Programação:** R, Python, PySpark, C#, SQL  
+- **Ferramentas & Frameworks:** Airflow, Docker, Kubernetes  
+- **Nuvem:** AWS, Azure  
+
+<!-- --- -->
+
+<!-- ## Idiomas -->
+<!-- - Português (nativo), Inglês (fluente), Espanhol (básico) -->
+
+---
+
+## Interesses
+Análise de Dados, Ciência de Dados, Modelagem, Tomada de Decisão, Inteligência Artificial Generativa, Machine Learning.

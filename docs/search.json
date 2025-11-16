@@ -11,517 +11,153 @@
     "href": "palestras.html",
     "title": "Magno Tairone",
     "section": "",
-    "text": "Aqui estão algumas apresentações selecionadas:\n\nMuito além da técnica: habilidades essenciais para estatísticos (2025)\nTipo: Palestra Local: IME-USP Palestra ministrada para os alunos de graduação em Estatística IME-USP, abordando habilidades interpessoais e comunicação para estudantes da disciplina MAE0413. Slides aqui.\n\n\n\nIntrodução à Otimização (2022)\nTipo: Workshop\nLocal: Insper, São Paulo\nNeste workshop, defini o que é um problema de otimização, como modelar um problema e desenvolver soluções para problemas lineares, relacionando otimização com conceitos de aprendizagem estatística.\n\n\n\nNoções de SQL, organização e visualização de dados usando o tidyverse (2021)\nTipo: Tutorial\nLocal: Universidade Federal de Santa Maria (Virtual)\nMini curso apresentado na VII Semana Acadêmica da Estatística da UFSM.\n\n\n\nDetecção de pontos de mudança na curva de novos casos de covid-19 (2021)\nTipo: Talk\nLocal: Banco Santander, São Paulo\nApresentação para o time de marketing analytics do Santander. Slides aqui.\n\n\n\nManipulação e organização de bases de dados com dplyr (2021)\nTipo: Tutorial\nLocal: Universidade de São Paulo (Virtual)\nMini curso apresentado na 5ª edição do Encontro da Pós-graduação em Estatística do IME-USP (EPEI).\n\n\n\nLimpeza e organização de bases de dados (2021)\nTipo: Workshop\nLocal: Insper, São Paulo\nDiscussão sobre formatos de dados, convenções de armazenamento e práticas essenciais para limpeza e organização de dados.\n\n\n\nEstimation and model selection for mixing graphical models (2021)\nTipo: Talk\nLocal: 63rd ISI World Statistics Congress (Virtual)\nApresentação de parte da pesquisa do doutorado. Talk pré-gravado para o ISI 2021.\n\n\n\nIndependent block identification in multivariate time series (2020)\nTipo: Talk\nLocal: Bernoulli-IMS One World Symposium (Virtual)\nTalk pré-gravado para o Bernoulli-IMS One World Symposium 2020.\n\n\n\nPrêmio Vídeo Pós-Graduação no combate ao COVID-19 (2020)\nTipo: Prêmio\nPremiação pelo vídeo de divulgação do projeto sobre análise de dados da Covid-19, concedido pela Pró-Reitoria de Pós-Graduação da USP."
+    "text": "Aqui estão algumas apresentações selecionadas:\n\nMuito além da técnica: habilidades essenciais para estatísticos (2025)\nTipo: Palestra Local: IME-USP Palestra ministrada para os alunos de graduação em Estatística IME-USP, abordando habilidades interpessoais e comunicação para estudantes da disciplina MAE0413. Slides aqui.\n\n\n\nDa Teoria à Prática: Modelos de IA Generativa com R e Python (2024)\nTutorial Local: “SINAPE 2024, Fortaleza, Ceará” location: “Fortaleza, Ceará”\nNotas do tutorial apresentado no SINAPE 2024 sobre inteligência artifical generativa e recuperação de informação. Veja o material completo aqui\n\n\n\nIntrodução à Otimização (2022)\nTipo: Workshop\nLocal: Insper, São Paulo\nNeste workshop, defini o que é um problema de otimização, como modelar um problema e desenvolver soluções para problemas lineares, relacionando otimização com conceitos de aprendizagem estatística.\n\n\n\nNoções de SQL, organização e visualização de dados usando o tidyverse (2021)\nTipo: Tutorial\nLocal: Universidade Federal de Santa Maria (Virtual)\nMini curso apresentado na VII Semana Acadêmica da Estatística da UFSM.\n\n\n\nDetecção de pontos de mudança na curva de novos casos de covid-19 (2021)\nTipo: Talk\nLocal: Banco Santander, São Paulo\nApresentação para o time de marketing analytics do Santander. Slides aqui.\n\n\n\nManipulação e organização de bases de dados com dplyr (2021)\nTipo: Tutorial\nLocal: Universidade de São Paulo (Virtual)\nMini curso apresentado na 5ª edição do Encontro da Pós-graduação em Estatística do IME-USP (EPEI).\n\n\n\nLimpeza e organização de bases de dados (2021)\nTipo: Workshop\nLocal: Insper, São Paulo\nDiscussão sobre formatos de dados, convenções de armazenamento e práticas essenciais para limpeza e organização de dados.\n\n\n\nEstimation and model selection for mixing graphical models (2021)\nTipo: Talk\nLocal: 63rd ISI World Statistics Congress (Virtual)\nApresentação de parte da pesquisa do doutorado. Talk pré-gravado para o ISI 2021.\n\n\n\nIndependent block identification in multivariate time series (2020)\nTipo: Talk\nLocal: Bernoulli-IMS One World Symposium (Virtual)\nTalk pré-gravado para o Bernoulli-IMS One World Symposium 2020.\n\n\n\nPrêmio Vídeo Pós-Graduação no combate ao COVID-19 (2020)\nTipo: Prêmio\nPremiação pelo vídeo de divulgação do projeto sobre análise de dados da Covid-19, concedido pela Pró-Reitoria de Pós-Graduação da USP."
   },
   {
-    "objectID": "OLD/OLD 2/content/home/teaching.html",
-    "href": "OLD/OLD 2/content/home/teaching.html",
-    "title": "Note: a full width section format can be enabled by commenting out the title and subtitle with a #.",
+    "objectID": "legado/talks/2022-12-03-pads.html",
+    "href": "legado/talks/2022-12-03-pads.html",
+    "title": "Introdução à Otimização",
     "section": "",
-    "text": "+++ # Custom widget. # An example of using the custom widget to create your own homepage section. # To create more sections, duplicate this file and edit the values below as desired. widget = “custom” active = true date = 2016-04-20T00:00:00\n\nNote: a full width section format can be enabled by commenting out the title and subtitle with a #.\ntitle = “Custom Section” subtitle = “”\n\n\nOrder that this section will appear in.\nweight = 60\n+++\nThis is an example of using the custom widget to create your own homepage section.\nTo remove this section, either delete content/home/teaching.md or edit the frontmatter of the file to deactivate the widget by setting active = false."
+    "text": "Neste workshop defino o que é um problema de otimização, como modelar um problema de otimização. Além de mostrar como desenvolver uma solução para um problema de otimização linear. Por fim, relaciono a otimização com os conceitos de aprendizagem estatística."
   },
   {
-    "objectID": "OLD/OLD 2/content/home/talks.html",
-    "href": "OLD/OLD 2/content/home/talks.html",
-    "title": "Order that this section will appear in.",
+    "objectID": "legado/talks/2021-11-17-santander.html",
+    "href": "legado/talks/2021-11-17-santander.html",
+    "title": "Detecção de pontos de mudança na curva de novos casos de covid-19",
     "section": "",
-    "text": "+++ # Recent and Upcoming Talks widget. widget = “talks” active = true date = 2016-04-20T00:00:00\ntitle = “Recent & Upcoming Talks” subtitle = “”\n\nOrder that this section will appear in.\nweight = 30\n\n\nNumber of talks to list.\ncount = 10\n\n\nList format.\n\n\n0 = Simple\n\n\n1 = Detailed\n\n\n2 = Stream\nlist_format = 2\n\n\nExclude talks that are shown in the Selected Talks widget?\nexclude_selected = false +++"
+    "text": "Apresentação para o time de marketing analytics do Santander. Slides aqui"
   },
   {
-    "objectID": "OLD/OLD 2/content/home/skills.html",
-    "href": "OLD/OLD 2/content/home/skills.html",
-    "title": "Activate this widget? true/false",
+    "objectID": "legado/talks/2021-10-30-pads.html",
+    "href": "legado/talks/2021-10-30-pads.html",
+    "title": "Limpeza e organização de bases de dados",
     "section": "",
-    "text": "+++ # Feature/Skill widget. widget = “featurette” # Do not modify this line! date = 2017-09-20T00:00:00\n\nActivate this widget? true/false\nactive = true\ntitle = “Skills” subtitle = “”\n\n\nOrder that this section will appear in.\nweight = 7\n\n\nShowcase personal skills or business features.\n\n\n\n\n\nAdd/remove as many [[feature]] blocks below as you like.\n\n\n\n\n\nAvailable icon packs and icons:\n\n\n* fas - Font Awesome standard icons (see https://fontawesome.com/icons)\n\n\n* fab - Font Awesome brand icons (see https://fontawesome.com/icons)\n\n\n* ai - academic icons (see https://jpswalsh.github.io/academicons/)\n[[feature]] icon = “r-project” icon_pack = “fab” name = “R” description = “90%”\n[[feature]] icon = “chart-line” icon_pack = “fas” name = “Statistics” description = “100%”\n[[feature]] icon = “camera-retro” icon_pack = “fas” name = “Photography” description = “10%”\n+++"
+    "text": "Uma mesma base de dados pode ser armazenada/representada em diferentes maneiras.\nAlém disso, os formatos e convenções de armazenamento adotados podem variar muito, podendo dificultar análises.\nO processo de limpeza e organização de dados é praticamente obrigatório em qualquer contexto de análise de dados, e isso não se deve necessariamente a erros ou falhas no processo de armazenamento."
   },
   {
-    "objectID": "OLD/OLD 2/content/home/publications.html",
-    "href": "OLD/OLD 2/content/home/publications.html",
-    "title": "Order that this section will appear in.",
+    "objectID": "legado/talks/2020-08-24-IMS.html",
+    "href": "legado/talks/2020-08-24-IMS.html",
+    "title": "Independent block identification in multivariate time series",
     "section": "",
-    "text": "+++ # Recent Publications widget. # This widget displays recent publications from content/publication/. widget = “publications” active = true date = 2016-04-20T00:00:00\ntitle = “Recent Publications” subtitle = “”\n\nOrder that this section will appear in.\nweight = 20\n\n\nNumber of publications to list.\ncount = 10\n\n\nList format.\n\n\n0 = Simple\n\n\n1 = Detailed\n\n\n2 = APA\n\n\n3 = MLA\n\n\n4 = Stream\nlist_format = 4\n\n\nFilter by publication type.\n\n\n-1: Any\n\n\n0: Uncategorized\n\n\n1: Conference proceedings\n\n\n2: Journal\n\n\n3: Work in progress\n\n\n4: Technical report\n\n\n5: Book\n\n\n6: Book chapter\npublication_type = “-1”\n\n\nExclude publications that are shown in the Selected Publications widget?\nexclude_selected = false +++"
+    "text": "Pre-recorded talk for the Bernoulli-IMS One World Symposium 2020.\nYoutube link aqui"
   },
   {
-    "objectID": "OLD/OLD 2/content/home/posts.html",
-    "href": "OLD/OLD 2/content/home/posts.html",
-    "title": "Number of recent posts to list.",
+    "objectID": "legado/portfolio-4-covid.html",
+    "href": "legado/portfolio-4-covid.html",
+    "title": "Tendência de novos casos de covid-19",
     "section": "",
-    "text": "+++ # Recent Posts widget. # This widget displays recent posts from content/post/. widget = “posts” # Do not modify this line! active = true # Activate this widget? true/false weight = 40 # Order that this section will appear. date = 2016-04-20T00:00:00\ntitle = “Recent Posts” subtitle = “”\n\nNumber of recent posts to list.\ncount = 5\n\n\nList format.\n\n\n0 = Simple\n\n\n1 = Detailed\n\n\n2 = Stream\nlist_format = 2\n\n\nFilter posts by tag or category.\n\n\nE.g. to only show posts tagged with Academic, set filter_tag = \"Academic\"\nfilter_tag = “” filter_category = “” +++"
+    "text": "Nesta projeto apresentamos uma análise dos casos de infectados pelo vírus Sars-CoV2 (novo coronavírus) reportados diariamente em diferentes países, nos estados e algumas cidades brasileiras. A análise está baseada no ajuste, a partir de técnicas de seleção de modelos e detecção de pontos de mudança, de uma funcão de regressão utilizando splines. Este trabalho ainda está em desenvolvimento, mas uma versão preliminar da metodologia pode ser consultada\nProjeto desenvolvido em conjunto com Alex Rodrigo, Florencia Leonardi.\nDetalhes podem ser encontrados &lt;a href=\"https://www.ime.usp.br/~gpeca/covid-19/covid-19.html\"&gt; aqui &lt;/a&gt;."
   },
   {
-    "objectID": "OLD/OLD 2/content/home/hero.html",
-    "href": "OLD/OLD 2/content/home/hero.html",
-    "title": "Order that this section will appear in.",
+    "objectID": "legado/2021-11-23-dplyr.html",
+    "href": "legado/2021-11-23-dplyr.html",
+    "title": "Manipulação e organização de bases de dados com dplyr",
     "section": "",
-    "text": "+++ # Hero widget. widget = “hero” active = false date = 2017-10-15T00:00:00\ntitle = “Academic”\n\nOrder that this section will appear in.\nweight = 3\n\n\nOverlay a color or image (optional).\n\n\nDeactivate an option by commenting out the line, prefixing it with #.\n[header] overlay_color = “#666” # An HTML color value. overlay_img = “headers/bubbles-wide.jpg” # Image path relative to your static/img/ folder. overlay_filter = 0.5 # Darken the image. Value in range 0-1.\n\n\nCall to action button (optional).\n\n\nActivate the button by specifying a URL and button label below.\n\n\nDeactivate by commenting out parameters, prefixing lines with #.\n[cta] url = “./post/getting-started/” label = ‘ Install Now’ +++\nThe highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes :rocket:\n\n Latest release  \n\n\nStar"
+    "text": "Notas do tutorial apresentado na VII Semana Acadêmica da Estatística da Universidade Federal de Santa Maria. Veja as notas de aula aqui"
   },
   {
-    "objectID": "OLD/OLD 2/content/home/contact.html",
-    "href": "OLD/OLD 2/content/home/contact.html",
-    "title": "Order that this section will appear in.",
+    "objectID": "ensino.html",
+    "href": "ensino.html",
+    "title": "Destaques",
     "section": "",
-    "text": "+++ # Contact widget. widget = “contact” active = true date = 2016-04-20T00:00:00\ntitle = “Contact” subtitle = “”\n\nOrder that this section will appear in.\nweight = 70\n\n\nAutomatically link email and phone?\nautolink = true\n\n\nEmail form provider\n\n\n0: Disable email form\n\n\n1: Netlify (requires that the site is hosted by Netlify)\n\n\n2: formspree.io\nemail_form = 2 +++"
+    "text": "7 anos\n\n\nde experiência como monitor\n\n\n\n\n5 anos\n\n\ncomo docente em graduação e pós-graduação\n\n\n\n\n+1000 alunos\n\n\ne 770 horas de aulas ministradas\n\n\n\n\nDestaques\n\n7 anos de experiência como monitor.\n5 anos como docente em graduação e pós-graduação.\nMais de 1000 alunos e 770 horas de aulas ministradas.\n\n\n\nCursos Ministrados\n\nGraduação\n\nAnálise Combinatória, Probabilidades e Aplicações, IME-USP (2020, 2021, 2022)\nIntrodução à Aprendizagem Estatística e Ciência de Dados com R, IME-USP (2021, 2022)\n\n\n\nPós-Graduação Latu Sensu\n\nAprendizagem Estatística de Máquinas I, Insper (2021)\nAprendizagem Estatística de Máquinas II, Insper (2021, 2022, 2023, 2024, 2025)\nTransforming Business with Data, Insper (2024, 2025)\nIntrodução a R e Python, Insper (2024, 2025)\n\n\n\nEducação Executiva\n\nProgramação para Não Programadores, Insper (2021)\nFormação em Dados e Analytics, Insper (2024)"
   },
   {
-    "objectID": "OLD/OLD 2/content/home/about.html",
-    "href": "OLD/OLD 2/content/home/about.html",
-    "title": "Order that this section will appear in.",
+    "objectID": "curriculo.html",
+    "href": "curriculo.html",
+    "title": "Sobre Mim",
     "section": "",
-    "text": "+++ # About/Biography widget. widget = “about” active = true date = 2016-04-20T00:00:00\n\nOrder that this section will appear in.\nweight = 5\n\n\nList your academic interests.\n[interests] interests = [ “Artificial Intelligence”, “Computational Linguistics”, “Information Retrieval” ]\n\n\nList your qualifications (such as academic degrees).\n[[education.courses]] course = “PhD in Artificial Intelligence” institution = “Stanford University” year = 2012\n[[education.courses]] course = “MEng in Artificial Intelligence” institution = “Massachusetts Institute of Technology” year = 2009\n[[education.courses]] course = “BSc in Artificial Intelligence” institution = “Massachusetts Institute of Technology” year = 2008\n+++\n\n\nBiography\nLena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate."
+    "text": "Cientista de dados e líder técnico experiente, especialista em modelagem de risco de crédito, governança de modelos e aprendizado estatístico. Habilidade comprovada em traduzir necessidades complexas de negócios em soluções de machine learning robustas, explicáveis e auditáveis. Doutor em Probabilidade e Estatística. Apaixonado por aprimorar processos de tomada de decisão através da avaliação e revisão de modelos.\nCurriculo no formato Lattes aqui.\n\n\n\n\n\n\nDesenvolve soluções baseadas em dados para marketing e aquisição de novos clientes.\nAtua ativamente na tradução de demandas das áreas de negócio em soluções de machine learning.\nLeciona em programas de capacitação interna sobre letramento de dados.\n\n\n\n\n\nLeciona machine learning aplicado e modelagem estatística em programas de pós-graduação e executivos.\nCursos: Aprendizado Estatístico, Modelagem de Dados, Redes Neurais, Modelos Não Supervisionados, Transformando Negócios com Dados.\nReconhecido por apresentar conteúdo técnico com clareza para públicos diversos.\n\n\n\n\n\nPropôs e liderou a implementação de uma base de modelagem unificada e feature store interna, criando mais de 150 features engenheiradas e reduzindo o tempo de desenvolvimento em uma semana por modelo.\nProjetou e liderou a implementação de um framework de automação para monitoramento de modelos, reduzindo esforço mensal de 80h para 4h.\nMelhorou o modelo de admissão de crédito pessoal em 11 pontos percentuais no KS através de redesenho e engenharia de features.\nAtua como referência técnica para a equipe de modelagem.\nEntregou soluções para áreas como Risco de Crédito, Política de Crédito, Cobrança, Produtos Financeiros, Marketing e CRM.\n\n\n\n\n\nLíder da frente de precificação na equipe de gestão de portfólio.\nImplementou modelos de precificação de derivativos para gestão de portfólio.\nAutomatizou pipelines de dados, economizando 2h diárias por membro da equipe.\nLiderou desenvolvimento de aplicação baseada em IA generativa para análise de impacto de notícias no portfólio.\n\n\n\n\n\n\n\nDoutorado em Probabilidade e Estatística — USP (2018–2024)\nTese: Seleção de modelos para campos aleatórios de Markov em grafos sob uma condição de mistura\nCursos relevantes: Probabilidade Avançada, Processos Estocásticos, Aprendizado Estatístico.\nMestrado em Estatística — UFMG (2016–2018)\nDissertação: Extendendo o JAGS para dados espaciais\nCursos relevantes: Estatística Espacial, Inferência Estatística, Inferência Bayesiana, Machine Learning.\nBacharelado em Matemática Aplicada à Computação — UFMG (2011–2016)\nCursos relevantes: Álgebra Linear, Análise Real, Probabilidade e Estatística, Algoritmos e Estruturas de Dados.\n\n\n\n\n\n\nRevisor de Tradução de Livro (2023–2024)\nRevisão da tradução para português do livro R for Data Science (2ª Edição).\nCientista de Dados — Projeto Covid-19 (GPECA) (2020)\nColeta, processamento e análise de dados de casos de Covid-19 para divulgação científica.\nProfessor — Escola Municipal Amorim Lima (2019)\nAulas de matemática para alunos do 9º ano em curso preparatório para ETEC.\n\n\n\n\n\n\nProgramação: R, Python, PySpark, C#, SQL\n\nFerramentas & Frameworks: Airflow, Docker, Kubernetes\n\nNuvem: AWS, Azure\n\n\n\n\n\n\n\n\nAnálise de Dados, Ciência de Dados, Modelagem, Tomada de Decisão, Inteligência Artificial Generativa, Machine Learning."
   },
   {
-    "objectID": "OLD/CONTRIBUTING.html",
-    "href": "OLD/CONTRIBUTING.html",
-    "title": "Magno Tairone",
+    "objectID": "curriculo.html#experiências",
+    "href": "curriculo.html#experiências",
+    "title": "Sobre Mim",
     "section": "",
-    "text": "Contributions are welcome! Please add issues and make pull requests. There are no stupid questions. All ideas are welcome. This is a volunteer project. Be excellent to each other.\nFork from master and go from there. This repository is intended to remain a generic, ready-to-fork template that demonstrates the features of academicpages.\nIf you make a pull request and change code, please make sure there is a closed issue tagged with ‘code change’ that has some comment linking to either the single commit (if the change was just one commit) or a diff comparing before/after the change (see issue 21 for example). This is so that those who have forked this repo and modified it for their purposes can more easily patch bugs and new features."
+    "text": "Desenvolve soluções baseadas em dados para marketing e aquisição de novos clientes.\nAtua ativamente na tradução de demandas das áreas de negócio em soluções de machine learning.\nLeciona em programas de capacitação interna sobre letramento de dados.\n\n\n\n\n\nLeciona machine learning aplicado e modelagem estatística em programas de pós-graduação e executivos.\nCursos: Aprendizado Estatístico, Modelagem de Dados, Redes Neurais, Modelos Não Supervisionados, Transformando Negócios com Dados.\nReconhecido por apresentar conteúdo técnico com clareza para públicos diversos.\n\n\n\n\n\nPropôs e liderou a implementação de uma base de modelagem unificada e feature store interna, criando mais de 150 features engenheiradas e reduzindo o tempo de desenvolvimento em uma semana por modelo.\nProjetou e liderou a implementação de um framework de automação para monitoramento de modelos, reduzindo esforço mensal de 80h para 4h.\nMelhorou o modelo de admissão de crédito pessoal em 11 pontos percentuais no KS através de redesenho e engenharia de features.\nAtua como referência técnica para a equipe de modelagem.\nEntregou soluções para áreas como Risco de Crédito, Política de Crédito, Cobrança, Produtos Financeiros, Marketing e CRM.\n\n\n\n\n\nLíder da frente de precificação na equipe de gestão de portfólio.\nImplementou modelos de precificação de derivativos para gestão de portfólio.\nAutomatizou pipelines de dados, economizando 2h diárias por membro da equipe.\nLiderou desenvolvimento de aplicação baseada em IA generativa para análise de impacto de notícias no portfólio."
+  },
+  {
+    "objectID": "curriculo.html#formação-acadêmica",
+    "href": "curriculo.html#formação-acadêmica",
+    "title": "Sobre Mim",
+    "section": "",
+    "text": "Doutorado em Probabilidade e Estatística — USP (2018–2024)\nTese: Seleção de modelos para campos aleatórios de Markov em grafos sob uma condição de mistura\nCursos relevantes: Probabilidade Avançada, Processos Estocásticos, Aprendizado Estatístico.\nMestrado em Estatística — UFMG (2016–2018)\nDissertação: Extendendo o JAGS para dados espaciais\nCursos relevantes: Estatística Espacial, Inferência Estatística, Inferência Bayesiana, Machine Learning.\nBacharelado em Matemática Aplicada à Computação — UFMG (2011–2016)\nCursos relevantes: Álgebra Linear, Análise Real, Probabilidade e Estatística, Algoritmos e Estruturas de Dados."
+  },
+  {
+    "objectID": "curriculo.html#trabalhos-voluntários-selecionados",
+    "href": "curriculo.html#trabalhos-voluntários-selecionados",
+    "title": "Sobre Mim",
+    "section": "",
+    "text": "Revisor de Tradução de Livro (2023–2024)\nRevisão da tradução para português do livro R for Data Science (2ª Edição).\nCientista de Dados — Projeto Covid-19 (GPECA) (2020)\nColeta, processamento e análise de dados de casos de Covid-19 para divulgação científica.\nProfessor — Escola Municipal Amorim Lima (2019)\nAulas de matemática para alunos do 9º ano em curso preparatório para ETEC."
+  },
+  {
+    "objectID": "curriculo.html#tecnologias",
+    "href": "curriculo.html#tecnologias",
+    "title": "Sobre Mim",
+    "section": "",
+    "text": "Programação: R, Python, PySpark, C#, SQL\n\nFerramentas & Frameworks: Airflow, Docker, Kubernetes\n\nNuvem: AWS, Azure"
+  },
+  {
+    "objectID": "curriculo.html#interesses",
+    "href": "curriculo.html#interesses",
+    "title": "Sobre Mim",
+    "section": "",
+    "text": "Análise de Dados, Ciência de Dados, Modelagem, Tomada de Decisão, Inteligência Artificial Generativa, Machine Learning."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "\nMagno Tairone de Freitas Severino\n",
     "section": "",
-    "text": "Magno Tairone de Freitas Severino\n\n\nProfessor e Cientista de Dados. Doutor em Probabilidade e Estatística pela USP, com experiência em modelagem estatística, aprendizado de máquina e ciência de dados aplicada. Atuei em projetos acadêmicos e corporativos envolvendo inferência para processos estocásticos, estatística computacional e inteligência artificial generativa.\n\n\nApaixonado por ensino e pesquisa, com foco em conectar teoria estatística a aplicações práticas. Minha missão é formar profissionais preparados para os desafios da ciência de dados e contribuir para a inovação científica e tecnológica."
+    "text": "Magno Tairone de Freitas Severino\n\n\nProfessor e Cientista de Dados. Doutor em Probabilidade e Estatística pela USP, com experiência em modelagem estatística, aprendizado de máquina e ciência de dados aplicada. Atuo em projetos acadêmicos e corporativos envolvendo inferência para processos estocásticos, estatística computacional, aprendizagem estatística e inteligência artificial generativa.\n\n\nApaixonado por ensino e pesquisa, com foco em conectar teoria estatística a aplicações práticas. Minha missão é formar profissionais preparados para os desafios da ciência de dados e contribuir para a inovação científica e tecnológica."
   },
   {
-    "objectID": "curriculo.html",
-    "href": "curriculo.html",
-    "title": "Formação Acadêmica",
+    "objectID": "legado/portfolio-3-enem.html",
+    "href": "legado/portfolio-3-enem.html",
+    "title": "Visualizando as desigualdades existentes no Brasil através dos resultados do ENEM",
     "section": "",
-    "text": "Curriculo no formato Lattes aqui.\n\nFormação Acadêmica\n\nEnsino Médio Técnico em Informática Industrial, CEFET-MG (2011)\nGraduação em Matemática Computacional, UFMG (2016)\nMestrado em Estatística, UFMG (2018)\nDoutorado em Probabilidade e Estatística, IME-USP (2024)\n\n\n\nExperiência Profissional\n\nCientista de Dados, Banco BTG Pactual (2022-2024)\nCientista de Dados, PEFISA Soluções Financeiras (2024-2025)\nCientista de Dados, XP Investimentos (2025-presente)"
+    "text": "Por desigualdade social entende-se processos na sociedade que têm o efeito de limitar ou prejudicar o status de um determinado grupo, classe ou círculo social. Dentre as áreas de desigualdade social incluem-se o acesso aos direitos de voto, a liberdade de expressão, dos direitos de propriedade e de acesso à saúde, moradia, bens e serviços sociais e também à educação (em todos os níveis).\nNo âmbito educacional, a principal forma de ingresso no ensino superior atualmente no Brasil é através do Exame Nacional do Ensino Médio, o ENEM. A prova, criada em 1998, passou a ser amplamente utilizada como modalidade de acesso ao ensino superior a partir de 2009. O exame é realizado anualmente e tem duração de dois dias, contém uma questão de redação e 180 questões objetivas, divididas em quatro grandes áreas: Ciências Humanas e suas Tecnologias, Ciências da Natureza e suas Tecnologias, Linguagens, Códigos e suas Tecnologias e Matemática e suas Tecnologias.\nO Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP), autarquia do Ministério da Educação que realiza o ENEM, disponibiliza os microdados anuais de cada inscrito no exame. Neste trabalho, consideramos os dados referentes à 2017. Esta base contém registros de \\(6.731.342\\) candidatos e, para cada um deles, existem 139 variáveis disponíveis, em que a maior parte delas é qualitativa. São informações como gênero, idade, município de residência, raça, nacionalidade, ano de conclusão do ensino médio, tipo da escola do ensino médio, diversos indicadores de pedidos de atendimento especializado, respostas e notas das provas objetivas e nota da redação, além do questionário socieconômico.\nInteressados em obter um modelo que descreva a relação entre a nota final do candidato (média aritmética das notas nas provas) e as variáveis explicativas do modelo adotamos a abordagem do modelo de regressão linear múltiplo sob o ponto de vista da estatística clássica. O principal objetivo é investigar se a desigualdade social que é bastante presente no cotidiano brasileiro se reflete nas notas dos inscritos no ENEM.\nEm seguida, restringiremos os dados somente aos candidatos que residem no estado de Minas Gerais. Com a intenção de estudar o desempenho médio dos alunos em cada cidade mineira, vamos utilizar da abordagem Bayesiana hierárquica, para ajustar um modelo que estime efeitos aleatórios espaciais latentes. O objetivo é verificar a existência de algum padrão espacial na performance dos residentes de cada município de Minas Gerais.\nlink aqui"
   },
   {
-    "objectID": "ensino.html",
-    "href": "ensino.html",
-    "title": "Ensino",
+    "objectID": "legado/talks/2020-05-13-prpg.html",
+    "href": "legado/talks/2020-05-13-prpg.html",
+    "title": "Prêmio Vídeo Pós-Graduação no combate ao COVID-19",
     "section": "",
-    "text": "Destaques\n\n7 anos de experiência como monitor.\n5 anos como docente em graduação e pós-graduação.\nMais de 1000 alunos e 770 horas de aulas ministradas.\n\n\n\nCursos Ministrados\n\nGraduação\n\nAnálise Combinatória, Probabilidades e Aplicações, IME-USP (2020, 2021, 2022)\nIntrodução à Aprendizagem Estatística e Ciência de Dados com R, IME-USP (2021, 2022)\n\n\n\nPós-Graduação Latu Sensu\n\nAprendizagem Estatística de Máquinas I, Insper (2021)\nAprendizagem Estatística de Máquinas II, Insper (2021, 2022, 2023, 2024, 2025)\nTransforming Business with Data, Insper (2024, 2025)\nIntrodução a R e Python, Insper (2024, 2025)\n\n\n\nEducação Executiva\n\nProgramação para Não Programadores, Insper (2021)\nFormação em Dados e Analytics, Insper (2024)"
+    "text": "Com o vídeo abaixo, de divulgação do projeto sobre análise de ados de covid-19, fui premiado pela Pró-Reitoria de Pós-Graduação da USP no edital PRPG 12/2020, que teve como objetivo divulgar as ações dos Programas de Pós-graduação da USP no combate ao covid-19."
   },
   {
-    "objectID": "OLD/CHANGELOG.html",
-    "href": "OLD/CHANGELOG.html",
-    "title": "Magno Tairone",
+    "objectID": "legado/talks/2021-07-11-ISI.html",
+    "href": "legado/talks/2021-07-11-ISI.html",
+    "title": "Estimation and model selection for mixing graphical models",
     "section": "",
-    "text": "Improve UX of static comment forms. #448"
+    "text": "This talk presents part of my PhD research project. Pre-recorded talk for the 63rd World Statistics Congress, ISI 2021.\nYoutube link aqui"
   },
   {
-    "objectID": "OLD/CHANGELOG.html#section",
-    "href": "OLD/CHANGELOG.html#section",
-    "title": "Magno Tairone",
+    "objectID": "legado/talks/2021-11-17-epei.html",
+    "href": "legado/talks/2021-11-17-epei.html",
+    "title": "Manipulação e organização de bases de dados com dplyr",
     "section": "",
-    "text": "Improve UX of static comment forms. #448"
+    "text": "Mini curso apresentado na 5a edição do Encontro da Pós-graduação em Estatística do IME-USP (EPEI) em 2021.\nNeste minicurso você vai aprender a utilizar o pacote dplyr para manipular dados com facilidade no R. Além disso, vai compreender a funcionalidade dos cinco verbos fundamentais do dplyr que permitem selecionar, filtrar, organizar, alterar e sumarizar os dados. Tudo isso será apresentado de forma prática, considerando dados reais.\nVeja o video aqui"
   },
   {
-    "objectID": "OLD/CHANGELOG.html#section-1",
-    "href": "OLD/CHANGELOG.html#section-1",
-    "title": "Magno Tairone",
-    "section": "3.4.1",
-    "text": "3.4.1\n\nEnhancements\n\nAdd staticman.filename configuration with UNIX timestamp for sorting data files. example ~&gt; comment-1470943149.\n\n\n\nBug Fixes\n\nDon’t add &lt;a&gt; to author name if URL is blank."
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-2",
-    "href": "OLD/CHANGELOG.html#section-2",
-    "title": "Magno Tairone",
-    "section": "3.4.0",
-    "text": "3.4.0\n\nEnhancements\n\nSupport static-based commenting via Staticman for sites hosted with GitHub Pages. #424"
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-3",
-    "href": "OLD/CHANGELOG.html#section-3",
-    "title": "Magno Tairone",
-    "section": "3.3.7",
-    "text": "3.3.7\n\nBug Fixes\n\nRe-enabled Jekyll plugins in _config.yml in case they aren’t autoloaded in Gemfile. #417\n\n\n\nEnhancements\n\nFallback to site.github.url for use in { base_path } when site.url is nil.\nReplace Sass and Autoprefixer npm build scripts with Jekyll’s built-in asset support. #333\n\n\n\nMaintenance\n\nDocument site.repository and its role with github-metadata gem.\nAdd sample archive page with content for testing styles on demo site."
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-4",
-    "href": "OLD/CHANGELOG.html#section-4",
-    "title": "Magno Tairone",
-    "section": "3.3.6",
-    "text": "3.3.6\n\nBug Fixes\n\nFix blank site.teaser bug. #412"
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-5",
-    "href": "OLD/CHANGELOG.html#section-5",
-    "title": "Magno Tairone",
-    "section": "3.3.5",
-    "text": "3.3.5\n\nEnhancements\n\nAdd English default text site.locale strings. #407\nAdd Portuguese localized UI text. #411\nAdd Italian localized UI text. #409\n\n\n\nMaintenance\n\nRemove unused Google AdSense variables in _config.yml. #404\nUpdate Gemfile instructions for using github-pages vs. native jekyll gems.\nDisable gems: in _config.yml and enable plugins with Bundler instead.\nAdd repository to _config.yml to suppress GitHub Pages error Liquid Exception: No repo name found."
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-6",
-    "href": "OLD/CHANGELOG.html#section-6",
-    "title": "Magno Tairone",
-    "section": "3.3.4",
-    "text": "3.3.4\n\nEnhancements\n\nAdd support for configurable feed URL to use a service like FeedBurner instead of linking directly to feed.xml in &lt;head&gt; and the site footer. #378, #379, #406\nAdd Turkish localized UI text. #403\n\n\n\nMaintenance\n\nUpdate gems: activesupport (4.2.7), ffi (1.9.14), github-pages (88), jekyll-redirect-from (0.11.0), jekyll-watch (1.5.0)."
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-7",
-    "href": "OLD/CHANGELOG.html#section-7",
-    "title": "Magno Tairone",
-    "section": "3.3.3",
-    "text": "3.3.3\n\nEnhancements\n\nMake footer stick to the bottom of the page.\n\n\n\nBug Fixes\n\nFix gallery size bug #402\n\n\n\nMaintenance\n\nSet default lang to en."
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-8",
-    "href": "OLD/CHANGELOG.html#section-8",
-    "title": "Magno Tairone",
-    "section": "3.3.2",
-    "text": "3.3.2\n\nBug Fixes\n\nFix JavaScript that triggers “sticky” sidebar to avoid layout issues on screen sizes &lt; 1024px. #396"
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-9",
-    "href": "OLD/CHANGELOG.html#section-9",
-    "title": "Magno Tairone",
-    "section": "3.3.1",
-    "text": "3.3.1\n\nEnhancements\n\nEnable image popup on &lt; 500px wide screens. #385\nIndicate the relationship between component URLs in a paginated series by applying rel=\"prev\" and rel=\"next\" to pages that use site.paginator. #253\nImprove link posts in archive listings. #276\n\n\n\nMaintenance\n\nUpdate gems: github-pages (86), ffi 1.9.13, jekyll-mentions 1.1.3, and rouge 1.11.1\nFix note about custom sidebar content appearing below author profile. #388"
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-10",
-    "href": "OLD/CHANGELOG.html#section-10",
-    "title": "Magno Tairone",
-    "section": "3.2.13",
-    "text": "3.2.13\n\nEnhancements\n\nAdd English default UI text for Canada, Great Britain, and Australia. #377\nSwitch default locale from en-US to en."
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-11",
-    "href": "OLD/CHANGELOG.html#section-11",
-    "title": "Magno Tairone",
-    "section": "3.2.12",
-    "text": "3.2.12\n\nEnhancements\n\nRemove window width “magic number” from sticky sidebar check in main.js for improved flexibility. #375\n\n\n\nBug Fixes\n\nFix author override conditional where a missing authors.yml would show broken sidebar content. Defaults to site.author. #376"
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-12",
-    "href": "OLD/CHANGELOG.html#section-12",
-    "title": "Magno Tairone",
-    "section": "3.2.11",
-    "text": "3.2.11\n\nBug Fixes\n\nFix disappearing author sidebar links #372\n\n\n\nMaintenance\n\nUpdate gems: github-pages (84), jekyll-github-metadata 2.0.2, and kramdown 1.11.1\nUpdate vendor JavaScript: jQuery 1.12.4, Stickyfill.js 1.1.4\nUpdate Font Awesome 4.6.3"
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-13",
-    "href": "OLD/CHANGELOG.html#section-13",
-    "title": "Magno Tairone",
-    "section": "3.2.10",
-    "text": "3.2.10\n\nMaintenance\n\nAdd CONTRIBUTING.md"
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-14",
-    "href": "OLD/CHANGELOG.html#section-14",
-    "title": "Magno Tairone",
-    "section": "3.2.9",
-    "text": "3.2.9\n\nEnhancements\n\nAdd support for header overlay images for Open Graph images. #358\n\n\n\nBug Fixes\n\nFix Person typo Schema.org type #358\n\n\n\nMaintenance\n\nUpdate github-pages gem and dependencies.\nRemove minutes_read to avoid awkward reading time wording #356"
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-15",
-    "href": "OLD/CHANGELOG.html#section-15",
-    "title": "Magno Tairone",
-    "section": "3.2.8",
-    "text": "3.2.8\n\nBug Fixes\n\nRemove cursor: pointer that appears on white-space surrounding author side list items and links. #354\n\n\n\nMaintenance\n\nAdd contributing information to README.md. #357"
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-16",
-    "href": "OLD/CHANGELOG.html#section-16",
-    "title": "Magno Tairone",
-    "section": "3.2.7",
-    "text": "3.2.7\n\nEnhancements\n\nAdd French localized UI text. #346\n\n\n\nBug Fixes\n\nFix branch logic for Yandex and Alexa in seo.html. #348"
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-17",
-    "href": "OLD/CHANGELOG.html#section-17",
-    "title": "Magno Tairone",
-    "section": "3.2.6",
-    "text": "3.2.6\n\nBug Fixes\n\nFix error Liquid Exception: divided by 0 in _includes/archive-single.html, included in _layouts/single.html caused by null words_per_minute in _config.yml. #345"
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-18",
-    "href": "OLD/CHANGELOG.html#section-18",
-    "title": "Magno Tairone",
-    "section": "3.2.5",
-    "text": "3.2.5\n\nBug Fixes\n\nFix link color in hero overlay to be white.\nRemove underlines from archive item titles."
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-19",
-    "href": "OLD/CHANGELOG.html#section-19",
-    "title": "Magno Tairone",
-    "section": "3.2.4",
-    "text": "3.2.4\n\nEnhancements\n\nImprove text alignment of masthead, hero overlay, page footer to be flush left and remove awkward white-space gaps. #342\nAdd Spanish localized UI text. #338\n\n\n\nBug Fixes\n\nFix alignment of icons in author sidebar #341\n\n\n\nMaintenance\n\nAdd background color to page footer to set it apart from main content. #342\nAdd terms and privacy policy to theme’s demo site. #343\nUpdate screenshots found in theme documentation."
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-20",
-    "href": "OLD/CHANGELOG.html#section-20",
-    "title": "Magno Tairone",
-    "section": "3.2.3",
-    "text": "3.2.3\n\nEnhancements\n\nAdd Discourse as a commenting provider. #335"
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-21",
-    "href": "OLD/CHANGELOG.html#section-21",
-    "title": "Magno Tairone",
-    "section": "3.2.2",
-    "text": "3.2.2\n\nEnhancements\n\nAdd support for image captions in Magnific Popup overlays via the gallery helper. #334"
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-22",
-    "href": "OLD/CHANGELOG.html#section-22",
-    "title": "Magno Tairone",
-    "section": "3.2.1",
-    "text": "3.2.1\n\nBug Fixes\n\nRemove need for “double tapping” masthead menu links on iOS devices. #315\n\n\n\nMaintenance\n\nAdd ISSUE_TEMPLATE.md for improve issue submission process."
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-23",
-    "href": "OLD/CHANGELOG.html#section-23",
-    "title": "Magno Tairone",
-    "section": "3.2.0",
-    "text": "3.2.0\n\nBug Fixes\n\nFix missing category/tag links in post footer due to possible conflict with site.tags and site.categories. #329"
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-24",
-    "href": "OLD/CHANGELOG.html#section-24",
-    "title": "Magno Tairone",
-    "section": "3.1.8",
-    "text": "3.1.8\n\nBug Fixes\n\nFix Liquid Exception: undefined method 'gsub' for nil:NilClass in _layouts/single.html error when page.title is null. &lt;h1&gt; element is now conditional if title: is not set for a page or collection item. #312\n\n\n\nMaintenance\n\nRemove duplicate fa-twitter and fa-twitter-square classes from _utilities.scss. #302\nDocument installing additional Jekyll gem dependencies when using gem \"jekyll\" instead of gem \"github-pages\" to avoid any errors on run. #305"
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-25",
-    "href": "OLD/CHANGELOG.html#section-25",
-    "title": "Magno Tairone",
-    "section": "3.1.7",
-    "text": "3.1.7\n\nEnhancements\n\nAdd translation key for “Recent Posts” used in home page index.html. #316\n\n\n\nMaintenance\n\nSmall fix to avoid underlying the whitespace between icons and related text when hovering. #303"
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-26",
-    "href": "OLD/CHANGELOG.html#section-26",
-    "title": "Magno Tairone",
-    "section": "3.1.6",
-    "text": "3.1.6\n\nMaintenance\n\nUpdate gem dependencies. Run bundle to update Gemfile.lock."
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-27",
-    "href": "OLD/CHANGELOG.html#section-27",
-    "title": "Magno Tairone",
-    "section": "3.1.5",
-    "text": "3.1.5\n\nMaintenance\n\nFix www and https links in author profile include #293"
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-28",
-    "href": "OLD/CHANGELOG.html#section-28",
-    "title": "Magno Tairone",
-    "section": "3.1.4",
-    "text": "3.1.4\n\nEnhancements\n\nAdd overlay_filter param to hero headers #298"
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-29",
-    "href": "OLD/CHANGELOG.html#section-29",
-    "title": "Magno Tairone",
-    "section": "3.1.3",
-    "text": "3.1.3\n\nEnhancements\n\nImprove site.locale documentation #284\nRemove ProTip note about protocol-less site.url as it is an anti-pattern #288\n\n\n\nBug Fixes\n\nFix og_image URL in seo.html #277\nFix author_profile toggle when assigned in a _layout #285\nFix typo in build:all npm script #283\nFix URL typo documentation #287\nSEO author bug. If twitter.username is set and author.twitter is nil bad things happen. #289"
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-30",
-    "href": "OLD/CHANGELOG.html#section-30",
-    "title": "Magno Tairone",
-    "section": "3.1.2",
-    "text": "3.1.2\n\nEnhancements\n\nExplain how to use nav_list helper in documentation.\nReduce left/right padding on smaller screens to increase width of main content column.\n\n\n\nBug Fixes\n\nFix alignment issues with related posts #273 and “Follow” button in author profile #274."
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-31",
-    "href": "OLD/CHANGELOG.html#section-31",
-    "title": "Magno Tairone",
-    "section": "3.1.1",
-    "text": "3.1.1\n\nBug Fix\n\nFixed reading time bug when words_per_minute wasn’t set in _config.yml #271"
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-32",
-    "href": "OLD/CHANGELOG.html#section-32",
-    "title": "Magno Tairone",
-    "section": "3.1.0",
-    "text": "3.1.0\n\nEnhancements\n\nUpdated Font Awesome to version 4.6.1\nAdded optional GitHub and Bitbucket links to footer if set on site.author in _config.yml.\n\n\n\nBug Fixes\n\nFixed Bitbucket URL typo in author sidebar."
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-33",
-    "href": "OLD/CHANGELOG.html#section-33",
-    "title": "Magno Tairone",
-    "section": "3.0.3",
-    "text": "3.0.3\n\nEnhancements\n\nRebuilt the entire theme: layouts, includes, stylesheets, scripts, you name it.\nRefreshed the look and feel while staying true to the original design of the theme (author sidebar/main content).\nReplaced grid system with Susy.\nReplaced Grunt tasks with npm scripts.\nRemoved Google Fonts and replaced with system fonts to improve performance (they can be added back if desired)\nGreatly improved theme documentation.\nIncreased the amount of sample posts, sample pages, and sample collections to throughly test the theme and edge-cases.\nMoved all sample content and assets out of master to keep it as clean as possible for forking.\nAdded new layouts for splash pages, archives for jekyll-archives if enabled, and compress.html to improve performance.\nAdded taxonomy links to posts (tags and categories).\nAdded optional “reading time” meta data.\nImproved Liquid used for Twitter Cards and Open Graph data in &lt;head&gt;.\nImproved gallery include helper and added feature_row for use with splash page layout.\nAdded Keybase.io, author web URI, and Bitbucket optional links to sidebar.\nAdd feed.xml link to footer.\nAdded a UI text data file to easily change all text found in the theme.\nAdded LinkedIn to optional social share buttons.\nAdded Facebook, Google+, and custom commenting options in addition to Disqus.\nAdded optional breadcrumb links."
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-34",
-    "href": "OLD/CHANGELOG.html#section-34",
-    "title": "Magno Tairone",
-    "section": "2.2.1",
-    "text": "2.2.1"
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-35",
-    "href": "OLD/CHANGELOG.html#section-35",
-    "title": "Magno Tairone",
-    "section": "2.2.0",
-    "text": "2.2.0\n\nEnhancements\n\nAdd support for Jekyll 3.0\nMinor updates to syntax highlighting CSS and theme documentation"
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-36",
-    "href": "OLD/CHANGELOG.html#section-36",
-    "title": "Magno Tairone",
-    "section": "2.1.3",
-    "text": "2.1.3\n\nEnhancements\n\nCleaner print styles that remove the top navigation, social sharing buttons, and other elements not needed when printed."
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-37",
-    "href": "OLD/CHANGELOG.html#section-37",
-    "title": "Magno Tairone",
-    "section": "2.1.2",
-    "text": "2.1.2\n\nEnhancements\n\nAdd optional CodePen icon/url to author side bar #156\nDocumented Stackoverflow username explanation in _config.yml #157\nSimplified Liquid in post-index.html to better handle year listings #166\n\n\n\nBug Fixes\n\nCleanup Facebook related Open Graph meta tags #149\nCorrected minor typos #158 #175"
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-38",
-    "href": "OLD/CHANGELOG.html#section-38",
-    "title": "Magno Tairone",
-    "section": "2.1.1",
-    "text": "2.1.1\n\nEnhancements\n\nAdd optional XING profile link to author sidebar\nInclude open graph meta tags for feature image (if assigned) #149\nCreate an include for feed footer\n\n\n\nBug Fixes\n\nRemove http protocol from Google search form on sample 404 page\nOnly show related posts if there are one or more available\nFix alignment of email address link in author sidebar"
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-39",
-    "href": "OLD/CHANGELOG.html#section-39",
-    "title": "Magno Tairone",
-    "section": "2.1.0",
-    "text": "2.1.0\n\nEnhancements\n\nAdd optional social sharing buttons (#42)\n\n\n\n\nsocial sharing buttons\n\n\n\nAdd Soundcloud, YouTube (#95), Flickr (#119), and Weibo (#116) icons for use in author sidebar.\nFix typos in posts and documentation and remove references to Less\nInclude note about Octopress gem being optional\nPost author override support extended to the Atom feed (#71)\nOnly include email address in feed if specified in _config.yml or author _data\nWrap all page content in #main to harmonize article and post index styles (#86)\nInclude new sample feature images for posts and pages\nTable of contents improvements: fix collapse toggle, indent nested elements, show on small screens, and create an _include for reusing in posts and pages.\nInclude note about running Jekyll with bundle exec when using Bundler\nFix home page path in top navigation\nRemove Google Authorship (#120)\nRemove duplicate author content that displayed in div.article-author-bottom\nRemoved unused _sass/print.scss styles\nImprove comments in .scss files"
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-40",
-    "href": "OLD/CHANGELOG.html#section-40",
-    "title": "Magno Tairone",
-    "section": "2.0.0",
-    "text": "2.0.0"
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-41",
-    "href": "OLD/CHANGELOG.html#section-41",
-    "title": "Magno Tairone",
-    "section": "1.3.3",
-    "text": "1.3.3\n\nEnhancements\n\nAdded new icons and profile links for Stackoverflow, Dribbble, Pinterest, Foursquare, and Steam to the author bio sidebar.\nCleaned up the Kramdown auto table of contents styling to be more readable\nRemoved page width specific .less stylesheets and created mixins for easier updating\nRemoved Modernizr since it wasn’t being used\nAdded pages to sitemap.xml\nAdded category: to rake new_post task\nMinor typographic changes\n\n\n\nBug Fixes\n\nCorrected various broken links in README and Theme Setup."
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-42",
-    "href": "OLD/CHANGELOG.html#section-42",
-    "title": "Magno Tairone",
-    "section": "1.3.1",
-    "text": "1.3.1\n\nEnhancements\n\nCleaned up table of contents styling\nReworked top navigation to be a better experience on small screens. Nav items now display vertically when the menu button is tapped, revealing links with larger touch targets.\n\n\n\n\nmenu animation"
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-43",
-    "href": "OLD/CHANGELOG.html#section-43",
-    "title": "Magno Tairone",
-    "section": "1.2.0",
-    "text": "1.2.0\n\nBug Fixes\n\nTable weren’t filling the entire width of the content container. They now scale at 100%. Thanks @dhruvbhatia\n\n\n\nEnhancements\n\nDecreased spacing between Markdown footnotes\nRemoved dark background on footer\nRemoved UPPERCASE styling on post titles in the index listing"
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-44",
-    "href": "OLD/CHANGELOG.html#section-44",
-    "title": "Magno Tairone",
-    "section": "1.1.4",
-    "text": "1.1.4\n\nBug Fixes\n\nFix top navigation bug issue (#10) for real this time. Remember to clear your floats kids."
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-45",
-    "href": "OLD/CHANGELOG.html#section-45",
-    "title": "Magno Tairone",
-    "section": "1.1.3",
-    "text": "1.1.3\n\nBug Fixes\n\nFix top navigation links that weren’t click able on small viewports (Issue #10).\nRemove line wrap from top navigation links that may span multiple lines."
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-46",
-    "href": "OLD/CHANGELOG.html#section-46",
-    "title": "Magno Tairone",
-    "section": "1.1.2",
-    "text": "1.1.2\n\nEnhancements\n\nAdded Grunt build script for compiling Less/JavaScript and optimizing image assets.\nAdded support for large image summary Twitter card.\nStylesheet adjustments"
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-47",
-    "href": "OLD/CHANGELOG.html#section-47",
-    "title": "Magno Tairone",
-    "section": "1.1.1",
-    "text": "1.1.1\n\nBug Fixes\n\nRemoved Typeplate styles. Was causing issues with newer versions of Less and is no longer maintained.\n\n\n\nEnhancements\n\nAdded image attribution for post and page feature images.\nAdded 404 page.\nCleaned up various Less variables to better align with naming conventions used in other MM Jekyll themes.\nRemoved Chrome Frame references.\nAdded global CSS3 transitions to text and block elements.\nImproved typography in a few places."
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-48",
-    "href": "OLD/CHANGELOG.html#section-48",
-    "title": "Magno Tairone",
-    "section": "1.0.2",
-    "text": "1.0.2\n\nEnhancements\n\nGoogle Analytics, Google Authorship, webmaster verifies, and Twitter card meta are now optional."
-  },
-  {
-    "objectID": "OLD/CHANGELOG.html#section-49",
-    "href": "OLD/CHANGELOG.html#section-49",
-    "title": "Magno Tairone",
-    "section": "1.0.1",
-    "text": "1.0.1"
-  },
-  {
-    "objectID": "OLD/markdown_generator/readme.html",
-    "href": "OLD/markdown_generator/readme.html",
-    "title": "Jupyter notebook markdown generator",
+    "objectID": "legado/talks/2021-11-23-ufsm.html",
+    "href": "legado/talks/2021-11-23-ufsm.html",
+    "title": "Noções de SQL, organização e visualização de dados usando o tidyverse",
     "section": "",
-    "text": "Jupyter notebook markdown generator\nThese .ipynb files are Jupyter notebook files that convert a TSV containing structured data about talks (talks.tsv) or presentations (presentations.tsv) into individual markdown files that will be properly formatted for the academicpages template. The notebooks contain a lot of documentation about the process. The .py files are pure python that do the same things if they are executed in a terminal, they just don’t have pretty documentation."
+    "text": "Mini curso apresentado na VII Semana Acadêmica da Estatística da Universidade Federal de Santa Maria.\nVeja o video aqui\nlink aqui"
   },
   {
-    "objectID": "OLD/OLD 2/content/home/accomplishments.html",
-    "href": "OLD/OLD 2/content/home/accomplishments.html",
-    "title": "Order that this section will appear in.",
+    "objectID": "legado/talks/2024-08-08-sinape.html",
+    "href": "legado/talks/2024-08-08-sinape.html",
+    "title": "Da Teoria à Prática: Modelos de IA Generativa com R e Python",
     "section": "",
-    "text": "+++ # Accomplishments widget. widget = “accomplishments” # Do not modify this line! active = true # Activate this widget? true/false\ntitle = “Accomplish­ments” subtitle = “”\n\nOrder that this section will appear in.\nweight = 15\n\n\nDate format\n\n\nRefer to https://sourcethemes.com/academic/docs/customization/#date-format\ndate_format = “Jan 2006”\n\n\nAccomplishments.\n\n\nAdd/remove as many [[item]] blocks below as you like.\n\n\ntitle, organization and date_start are the required parameters.\n\n\nLeave other parameters empty if not required.\n\n\nBegin/end multi-line descriptions with 3 quotes \"\"\".\n[[item]] title = “Neural Networks and Deep Learning” organization = “Coursera” certificate_url = “https://www.coursera.org” date_start = “2018-10-01” date_end = “” description = “”\n[[item]] title = “Blockchain Fundamentals” organization = “edX” certificate_url = “https://www.edx.org” date_start = “2018-03-01” date_end = “” description = “”\n[[item]] title = “Intro to Python” organization = “DataCamp” certificate_url = “https://www.datacamp.com” date_start = “2017-07-01” date_end = “2017-12-21” description = “”\n+++"
-  },
-  {
-    "objectID": "OLD/OLD 2/content/home/experience.html",
-    "href": "OLD/OLD 2/content/home/experience.html",
-    "title": "Order that this section will appear in.",
-    "section": "",
-    "text": "+++ # Experience widget. widget = “experience” # Do not modify this line! active = true # Activate this widget? true/false\ntitle = “Experience” subtitle = “”\n\nOrder that this section will appear in.\nweight = 8\n\n\nDate format for experience\n\n\nRefer to https://sourcethemes.com/academic/docs/customization/#date-format\ndate_format = “January 2006”\n\n\nExperiences.\n\n\nAdd/remove as many [[experience]] blocks below as you like.\n\n\nRequired fields are title, company, and date_start.\n\n\nLeave date_end empty if it’s your current employer.\n\n\nBegin/end multi-line descriptions with 3 quotes \"\"\".\n[[experience]] title = “CEO” company = “GenCoin” company_url = “” location = “California” date_start = “2017-01-01” date_end = “” description = ““” Responsibilities include:\n\nAnalysing\nModelling\nDeploying ““”\n\n[[experience]] title = “Professor” company = “University X” company_url = “” location = “California” date_start = “2016-01-01” date_end = “2016-12-31” description = “““Taught electronic engineering and researched semiconductor physics.”“”\n+++"
-  },
-  {
-    "objectID": "OLD/OLD 2/content/home/hero_carousel.html",
-    "href": "OLD/OLD 2/content/home/hero_carousel.html",
-    "title": "Order that this section will appear in.",
-    "section": "",
-    "text": "+++ # Hero Carousel widget. widget = “hero_carousel” active = false date = 2017-10-15T00:00:00\n\nOrder that this section will appear in.\nweight = 1\n\n\nSlide interval.\n\n\nUse false to disable animation or enter a time in ms, e.g. 5000 (5s).\ninterval = false\n\n\nMinimum slide height.\n\n\nSpecify a height to ensure a consistent height for each slide.\nheight = “300px”\n\n\nSlides.\n\n\nDuplicate an [[item]] block to add more slides.\n[[item]] title = “Hello” content = “I am center aligned :smile:” align = “center” # Choose center, left, or right.\n# Overlay a color or image (optional). # Deactivate an option by commenting out the line, prefixing it with #. overlay_color = “#666” # An HTML color value. overlay_img = “headers/bubbles-wide.jpg” # Image path relative to your static/img/ folder. overlay_filter = 0.5 # Darken the image. Value in range 0-1.\n# Call to action button (optional). # Activate the button by specifying a URL and button label below. # Deactivate by commenting out parameters, prefixing lines with #. cta_label = “Get Academic” cta_url = “https://sourcethemes.com/academic/” cta_icon_pack = “fas” cta_icon = “graduation-cap”\n[[item]] title = “Left” content = “I am left aligned :smile:” align = “left”\noverlay_color = “#555” # An HTML color value. overlay_img = “” # Image path relative to your static/img/ folder. overlay_filter = 0.5 # Darken the image. Value in range 0-1.\n[[item]] title = “Right” content = “I am right aligned :smile:” align = “right”\noverlay_color = “#333” # An HTML color value. overlay_img = “” # Image path relative to your static/img/ folder. overlay_filter = 0.5 # Darken the image. Value in range 0-1.\n+++"
-  },
-  {
-    "objectID": "OLD/OLD 2/content/home/projects.html",
-    "href": "OLD/OLD 2/content/home/projects.html",
-    "title": "Order that this section will appear in.",
-    "section": "",
-    "text": "+++ # Projects widget. widget = “projects” active = true date = 2016-04-20T00:00:00\ntitle = “Projects” subtitle = “”\n\nOrder that this section will appear in.\nweight = 50\n\n\nContent.\n\n\nDisplay content from the following folder.\n\n\nFor example, folder = \"project\" displays content from content/project/.\nfolder = “project”\n\n\nView.\n\n\nCustomize how projects are displayed.\n\n\nLegend: 0 = list, 1 = cards, 2 = showcase.\nview = 1\n\n\nWidget layout\n\n\nLegend: 0 = two columns (default), 1 = single column\nwidget_layout = 0\n\n\nFor Showcase view, flip alternate rows?\nflip_alt_rows = false\n\n\nFilter toolbar.\n\n\nDefault filter index (e.g. 0 corresponds to the first [[filter]] instance below).\nfilter_default = 0\n\n\nAdd or remove as many filters ([[filter]] instances) as you like.\n\n\nTo show all items, set tag to “*“.\n\n\nTo filter by a specific tag, set tag to an existing tag name.\n\n\nTo remove toolbar, delete/comment all instances of [[filter]] below.\n\n\n[[filter]]\n\n\nname = “All”\n\n\ntag = “*”\n\n\n\n\n\n[[filter]]\n\n\nname = “Deep Learning”\n\n\ntag = “Deep Learning”\n\n\n\n\n\n[[filter]]\n\n\nname = “Other”\n\n\ntag = “Demo”\n+++"
-  },
-  {
-    "objectID": "OLD/OLD 2/content/home/publications_selected.html",
-    "href": "OLD/OLD 2/content/home/publications_selected.html",
-    "title": "Order that this section will appear in.",
-    "section": "",
-    "text": "+++ # Selected Publications widget. # This widget displays publications from content/publication/ which have # selected = true in their +++ front matter. widget = “publications_selected” active = true date = 2016-04-20T00:00:00\ntitle = “Selected Publications” subtitle = “”\n\nOrder that this section will appear in.\nweight = 10\n\n\nList format.\n\n\n0 = Simple\n\n\n1 = Detailed\n\n\n2 = APA\n\n\n3 = MLA\n\n\n4 = Stream\nlist_format = 1\n\n\nFilter by publication type.\n\n\n-1: Any\n\n\n0: Uncategorized\n\n\n1: Conference proceedings\n\n\n2: Journal\n\n\n3: Work in progress\n\n\n4: Technical report\n\n\n5: Book\n\n\n6: Book chapter\npublication_type = “-1” +++"
-  },
-  {
-    "objectID": "OLD/OLD 2/content/home/tags.html",
-    "href": "OLD/OLD 2/content/home/tags.html",
-    "title": "Order that this section will appear in.",
-    "section": "",
-    "text": "+++ # Tag Cloud widget. widget = “tag_cloud” active = true date = 2017-09-20T00:00:00\ntitle = “Tags” subtitle = “”\n\nOrder that this section will appear in.\nweight = 65\n+++"
-  },
-  {
-    "objectID": "OLD/OLD 2/content/home/talks_selected.html",
-    "href": "OLD/OLD 2/content/home/talks_selected.html",
-    "title": "Order that this section will appear in.",
-    "section": "",
-    "text": "+++ # Selected Talks widget. widget = “talks_selected” active = false date = 2016-04-20T00:00:00\ntitle = “Selected Talks” subtitle = “”\n\nOrder that this section will appear in.\nweight = 29\n\n\nList format.\n\n\n0 = Simple\n\n\n1 = Detailed\n\n\n3 = Stream\nlist_format = 0 +++"
-  },
-  {
-    "objectID": "OLD/OLD 2/LICENSE.html",
-    "href": "OLD/OLD 2/LICENSE.html",
-    "title": "Magno Tairone",
-    "section": "",
-    "text": "MIT License\nCopyright (c) 2016-present George Cushen\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+    "text": "Notas do tutorial apresentado no SINAPE 2024 sobre inteligência artifical generativa e recuperação de informação. Veja o material completo aqui"
   },
   {
     "objectID": "projetos.html",
     "href": "projetos.html",
     "title": "Projetos de Pesquisa",
     "section": "",
-    "text": "Projetos de Pesquisa\n\nModelos gráficos sob condições de mistura.\nExtensão do JAGS para dados espaciais.\n\n\n\nProjetos de Extensão\n\nCurso Pré-Cálculo (UFMG)\nAnálise da tendência de COVID-19 (IME-USP)\n\n\n\nVoluntariado\n\nStats4Good\nCursinho Amorim Lima"
+    "text": "Projetos de Pesquisa\n\nModelos gráficos sob condições de mistura.\nExtensão do JAGS para dados espaciais.\n\n\n\nProjetos de Extensão\n\nCurso Pré-Cálculo (UFMG)\nAnálise da tendência de COVID-19 (IME-USP)\nRevisor de Tradução de Livro (2023–2024)\nRevisão da tradução para português do livro R for Data Science (2ª Edição).\n\n\n\nVoluntariado\n\nStats4Good\nCursinho Amorim Lima"
   }
 ]

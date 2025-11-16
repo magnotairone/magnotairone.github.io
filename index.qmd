@@ -3,7 +3,7 @@
   <h1 style="margin-top: 20px;">Magno Tairone de Freitas Severino</h1>
   <p style="font-size: 18px; max-width: 700px; margin: 20px auto;">
     Professor e Cientista de Dados. Doutor em Probabilidade e Estatística pela USP, com experiência em modelagem estatística, aprendizado de máquina e ciência de dados aplicada.
-    Atuei em projetos acadêmicos e corporativos envolvendo inferência para processos estocásticos, estatística computacional e inteligência artificial generativa.
+    Atuo em projetos acadêmicos e corporativos envolvendo inferência para processos estocásticos, estatística computacional, aprendizagem estatística e inteligência artificial generativa.
   </p>
   <p style="font-size: 16px; max-width: 700px; margin: 10px auto;">
     Apaixonado por ensino e pesquisa, com foco em conectar teoria estatística a aplicações práticas. 

@@ -6,6 +6,7 @@ website:
   title: "Magno Tairone"
   favicon: "img/profile-foto.jpeg"
   navbar:
+    background: "#004D4D"
     left:
       - href: index.qmd
         text: Home
@@ -20,7 +21,7 @@ website:
       - href: projetos.qmd
         text: Projetos
     right:
-      - about.qmd
+      # - about.qmd
       - icon: github
         href: http://magnotairone.github.io/
       - icon: linkedin
@@ -33,11 +34,13 @@ website:
     left: |
       Made with [Quarto](https://quarto.org/)
     right: |
-    background: "#2780e3"
+    background: "#004D4D"
 
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      - cosmo
+      - brand
     dark: darkly
     css: styles.css
