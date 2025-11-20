@@ -4,7 +4,7 @@
     "href": "publicacoes.html",
     "title": "Artigos Científicos Publicados em Periódicos",
     "section": "",
-    "text": "Artigos Científicos Publicados em Periódicos\n\nModel selection for Markov random fields on graphs under a mixing condition. Stochastic Processes and their Applications, 2025.\nIndependent block identification in multivariate time series. Journal of Time Series Analysis, 2021.\n\n\n\nOutras publicações\n\nDissertação: Extending JAGS for spatial data. UFMG, 2018.\nTese: Estimation and model selection for graphical models under mixing conditions. USP, 2024.\n\n\n\nPacotes\n\nGeoJAGS: https://sourceforge.net/projects/geojags/files/\nMixingGraph: https://github.com/magnotairone/MixingGraph"
+    "text": "Artigos Científicos Publicados em Periódicos\n\nStochastic Processes and their Applications (2025) Model selection for Markov random fields on graphs under a mixing condition Severino, M.T.F. & Leonardi, F.\nJournal of Time Series Analysis (2021) Independent block identification in multivariate time series Florencia Leonardi, Matías Lopez-Rosenfeld, Daniela Rodriguez, Magno T. F. Severino, Mariela Sued\n\n\n\nOutras publicações\n\n2024 (Doutorado - USP): Estimation and model selection for graphical models\n2018 (Mestrado - UFMG): Extending JAGS for spatial data\n\n\n\nSoftware\n\nGeoJAGS (C++ / JAGS module)\nMixingGraph (R Package)"
   },
   {
     "objectID": "posts.html",
