@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Magno Severino">
-<meta name="description" content="Material online gratuito para aprender R, disponível como livro interativo.">
+<meta name="description" content="Um exemplo prático de aplicação do framework CRISP-DM.">
 
-<title>Aprendendo R – Magno Tairone</title>
+<title>Modelagem Preditiva de Risco de Crédito com R – Magno Tairone</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -146,14 +146,16 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Aprendendo R</h1>
+      <h1 class="title">Modelagem Preditiva de Risco de Crédito com R</h1>
                   <div>
         <div class="description">
-          Material online gratuito para aprender R, disponível como livro interativo.
+          Um exemplo prático de aplicação do framework CRISP-DM.
         </div>
       </div>
                           <div class="quarto-categories">
+                <div class="quarto-category">CRISP-DM</div>
                 <div class="quarto-category">R</div>
+                <div class="quarto-category">Risco de Crédito</div>
                 <div class="quarto-category">Ciência de Dados</div>
                 <div class="quarto-category">Estatística</div>
               </div>
@@ -180,7 +182,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Data de Publicação</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">1 de dezembro de 2024</p>
+        <p class="date">11 de dezembro de 2025</p>
       </div>
     </div>
     
@@ -199,20 +201,27 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="aprendendo-r" class="level1">
-<h1>Aprendendo R</h1>
-<p>Este livro compila tutoriais da linguagem R que usei em diversas aulas que dei ao longo dos últimos anos e foi escrito baseado em Cotton (2013) e Wickham et al.&nbsp;(2023).</p>
-<section id="o-que-você-vai-encontrar" class="level2">
-<h2 class="anchored" data-anchor-id="o-que-você-vai-encontrar">O que você vai encontrar</h2>
+<section id="modelagem-preditiva-de-risco-de-crédito-com-r" class="level1">
+<h1>Modelagem Preditiva de Risco de Crédito com R</h1>
+<p>Este material foi apresentado como um minicurso <a href="https://wecdaf.vercel.app/">I Workshop de Estatística e Ciência de Dados Aplicadas a Finanças da UFBA</a>.<br>
+O evento foi realizado pelo Centro de Estudos de Riscos (<a href="https://cer.ufba.br/">CER-UFBA</a>).</p>
+<p>Este minicurso com 1h30 de duração apresentou um exemplo prático de aplicação do CRISP‑DM para a resolução de um problema de risco de crédito, usando uma base de dados simulada (inspirada em uma base real) preparada para o exercício. O objetivo foi guiar os participantes pelas fases do ciclo de vida de um projeto de modelagem preditiva — desde o entendimento do negócio até a avaliação e considerações para implantação.</p>
+<section id="objetivo-do-minicurso" class="level2">
+<h2 class="anchored" data-anchor-id="objetivo-do-minicurso">Objetivo do minicurso</h2>
+<p>Oferecer um exemplo prático e reproduzível de aplicação do CRISP‑DM para um problema comportamental de risco de crédito com horizonte de previsão de 6 meses. Passamos por:</p>
 <ul>
-<li>Introdução à linguagem R e seus conceitos básicos</li>
-<li>Manipulação de dados com <strong>dplyr</strong> e <strong>tidyverse</strong></li>
-<li>Visualização de dados com <strong>ggplot2</strong></li>
-<li>Estatística aplicada e modelagem</li>
-<li>Exercícios práticos e projetos</li>
+<li>definição e construção da base de treinamento e do rótulo (variável resposta);</li>
+<li>análise descritiva exploratória e engenharia de atributos;</li>
+<li>modelagem: escolha de estratégia, separação temporal em treino/validação/teste e cuidados para evitar vazamento (target leakage);</li>
+<li>avaliação e interpretação dos resultados; e</li>
+<li>considerações para implantação e monitoramento.</li>
 </ul>
-<p><a href="https://magnotairone.github.io/AprendendoR/" class="btn btn-primary" style="font-size:18px; padding:10px 20px; margin-top:20px; background-color:#2c3e50; border-color:#2c3e50; color:#fff">Acesse o livro aqui</a></p>
-<!-- ![Capa do livro](hex.png){width=400px style="display:block; margin:auto;"} -->
+<p>Repositório com material e código: <a href="https://github.com/magnotairone/credito">https://github.com/magnotairone/credito</a>.</p>
+<p><a href="https://magnotairone.github.io/credito/slide/" class="btn btn-primary" style="font-size:18px; padding:10px 20px; margin-top:20px; background-color:#2c3e50; border-color:#2c3e50; color:#fff">Acesse os slides do minicurso</a></p>
+</section>
+<section id="agradecimentos" class="level2">
+<h2 class="anchored" data-anchor-id="agradecimentos">Agradecimentos</h2>
+<p>Obrigado ao Centro de Estudos de Riscos (CER) e às instituições apoiadoras pelo convite e organização do evento.</p>
 
 
 </section>

@@ -11,14 +11,154 @@
     "href": "posts.html",
     "title": "Meu Blog",
     "section": "",
-    "text": "Análise de notícias de ativos financeiros com R e LLM\n\n\n\nR\n\nFinance\n\nData Cleaning\n\n\n\nPipeline para organizar dados históricos de ativos e notícias financeiras usando tidyverse e lubridate e automatizando ess tafera com um uso de LLM.\n\n\n\nMagno Severino\n\n\n15 de nov. de 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nAprendendo R\n\n\n\nR\n\nCiência de Dados\n\nEstatística\n\n\n\nMaterial online gratuito para aprender R, disponível como livro interativo.\n\n\n\nMagno Severino\n\n\n1 de dez. de 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nDa Teoria à Prática: Modelos de IA Generativa com R e Python\n\n\n\nIA Generativa\n\nR\n\nPython\n\nLLM\n\n\n\nTutorial apresentado no SINAPE 2024 sobre criação de aplicações com LLMs para recuperação de informação em PDFs.\n\n\n\nMagno Severino\n\n\n15 de jul. de 2024\n\n\n\n\n\n\n\n\n\n\n\nWorkshop de Otimização com R: Programação Linear e Descida do Gradiente\n\n\n\nR\n\nOtimização\n\nMachine Learning\n\nProgramação Linear\n\n\n\nExplorando técnicas de otimização com R, desde programação linear para problemas de produção até algoritmos de aprendizado como descida do gradiente para redes neurais…\n\n\n\nMagno Severino\n\n\n10 de dez. de 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nTendência de novos casos de covid-19\n\n\n\nCovid-19\n\nsplines\n\n\n\nAnálise dos casos de infectados pelo vírus Sars-CoV2 usando técnicas para detecção de pontos de mudança.\n\n\n\nMagno Severino\n\n\n1 de dez. de 2020\n\n\n\n\n\n\nNenhum item correspondente"
+    "text": "Modelagem Preditiva de Risco de Crédito com R\n\n\n\nCRISP-DM\n\nR\n\nRisco de Crédito\n\nCiência de Dados\n\nEstatística\n\n\n\nUm exemplo prático de aplicação do framework CRISP-DM.\n\n\n\nMagno Severino\n\n\n11 de dez. de 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnálise de notícias de ativos financeiros com R e LLM\n\n\n\nR\n\nFinance\n\nData Cleaning\n\n\n\nPipeline para organizar dados históricos de ativos e notícias financeiras usando tidyverse e lubridate e automatizando ess tafera com um uso de LLM.\n\n\n\nMagno Severino\n\n\n15 de nov. de 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nAprendendo R\n\n\n\nR\n\nCiência de Dados\n\nEstatística\n\n\n\nMaterial online gratuito para aprender R, disponível como livro interativo.\n\n\n\nMagno Severino\n\n\n1 de dez. de 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nDa Teoria à Prática: Modelos de IA Generativa com R e Python\n\n\n\nIA Generativa\n\nR\n\nPython\n\nLLM\n\n\n\nTutorial apresentado no SINAPE 2024 sobre criação de aplicações com LLMs para recuperação de informação em PDFs.\n\n\n\nMagno Severino\n\n\n15 de jul. de 2024\n\n\n\n\n\n\n\n\n\n\n\nWorkshop de Otimização com R: Programação Linear e Descida do Gradiente\n\n\n\nR\n\nOtimização\n\nMachine Learning\n\nProgramação Linear\n\n\n\nExplorando técnicas de otimização com R, desde programação linear para problemas de produção até algoritmos de aprendizado como descida do gradiente para redes neurais…\n\n\n\nMagno Severino\n\n\n10 de dez. de 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nTendência de novos casos de covid-19\n\n\n\nCovid-19\n\nsplines\n\n\n\nAnálise dos casos de infectados pelo vírus Sars-CoV2 usando técnicas para detecção de pontos de mudança.\n\n\n\nMagno Severino\n\n\n1 de dez. de 2020\n\n\n\n\n\n\nNenhum item correspondente"
   },
   {
-    "objectID": "posts/20240715-rag/index.html",
-    "href": "posts/20240715-rag/index.html",
+    "objectID": "posts/20241201-aprendendoR/index.html",
+    "href": "posts/20241201-aprendendoR/index.html",
+    "title": "Aprendendo R",
+    "section": "",
+    "text": "Este livro compila tutoriais da linguagem R que usei em diversas aulas que dei ao longo dos últimos anos e foi escrito baseado em Cotton (2013) e Wickham et al. (2023).\n\n\n\nIntrodução à linguagem R e seus conceitos básicos\nManipulação de dados com dplyr e tidyverse\nVisualização de dados com ggplot2\nEstatística aplicada e modelagem\nExercícios práticos e projetos\n\nAcesse o livro aqui"
+  },
+  {
+    "objectID": "posts/20241201-aprendendoR/index.html#o-que-você-vai-encontrar",
+    "href": "posts/20241201-aprendendoR/index.html#o-que-você-vai-encontrar",
+    "title": "Aprendendo R",
+    "section": "",
+    "text": "Introdução à linguagem R e seus conceitos básicos\nManipulação de dados com dplyr e tidyverse\nVisualização de dados com ggplot2\nEstatística aplicada e modelagem\nExercícios práticos e projetos\n\nAcesse o livro aqui"
+  },
+  {
+    "objectID": "posts/20240621-assetmanagement/index.html",
+    "href": "posts/20240621-assetmanagement/index.html",
+    "title": "Análise de notícias de ativos financeiros com R e LLM",
+    "section": "",
+    "text": "Acompanhar ativos financeiros e sua performance é essencial para decisões estratégicas no mercado. Além disso, notícias sobre empresas podem influenciar diretamente o comportamento dos preços. O desafio é relacionar essas informações de forma eficiente e automatizada.\nO objetivo deste projeto é justamente automatizar essa análise, integrando dados históricos de ativos com notícias financeiras para permitir insights rápidos e precisos.\nEste projeto apresenta um pipeline para organização e limpeza de dados financeiros com R, incluindo:\n\nLeitura de arquivos CSV contendo histórico de preços de ativos.\nPadronização de nomes de colunas com janitor::clean_names().\nConversão de valores monetários para formato numérico.\nExtração de metadados como ticker e empresa a partir do nome do arquivo.\nConversão de datas com lubridate::dmy().\nExportação dos dados consolidados para data/daily.csv.\n\nAlém disso, o projeto inclui processamento de notícias financeiras para análise de impacto em ativos.\nCódigo principal:\n\n01-organizar-dados.R: organiza dados históricos e gera base consolidada.\n02-funcoes.R: funções utilitárias para o pipeline do agente.\n03-agente.R: rotina que automatiza a geração das análises pelo agente em batch.\n\nAcesse o repositório completo:\nhttps://github.com/magnotairone/AssetManagement\n\n\n\nCitaçãoBibTeX@online{severino2025,\n  author = {Severino, Magno},\n  title = {Análise de notícias de ativos financeiros com R e LLM},\n  date = {2025-11-15},\n  url = {https://github.com/magnotairone/AssetManagement},\n  langid = {pt}\n}\nPor favor, cite este trabalho como:\nSeverino, Magno. 2025. “Análise de notícias de ativos financeiros\ncom R e LLM.” November 15, 2025. https://github.com/magnotairone/AssetManagement."
+  },
+  {
+    "objectID": "posts/20201201-covid19/index.html",
+    "href": "posts/20201201-covid19/index.html",
+    "title": "Tendência de novos casos de covid-19",
+    "section": "",
+    "text": "Neste projeto apresentamos uma análise dos casos de infectados pelo vírus Sars-CoV2 (novo coronavírus) reportados diariamente em diferentes países, nos estados e algumas cidades brasileiras. A análise está baseada no ajuste, a partir de técnicas de seleção de modelos e detecção de pontos de mudança, de uma funcão de regressão utilizando splines. Este trabalho ainda está em desenvolvimento, mas uma versão preliminar da metodologia pode ser consultada\nProjeto desenvolvido em conjunto com Alex Rodrigo, Florencia Leonardi. Detalhes podem ser encontrados  aqui .\nAbaixo está o vídeo de divulgação deste projeto, que ganhou um prêmio da PRPG-USP. \n\n\n\nCitaçãoBibTeX@online{severino2020,\n  author = {Severino, Magno},\n  title = {Tendência de novos casos de covid-19},\n  date = {2020-12-01},\n  url = {https://magnotairone.github.io/posts/2020-12-01-covid19 /},\n  langid = {pt}\n}\nPor favor, cite este trabalho como:\nSeverino, Magno. 2020. “Tendência de novos casos de\ncovid-19.” December 1, 2020. https://magnotairone.github.io/posts/2020-12-01-covid19\n/."
+  },
+  {
+    "objectID": "legado/talks/2024-08-08-sinape.html",
+    "href": "legado/talks/2024-08-08-sinape.html",
     "title": "Da Teoria à Prática: Modelos de IA Generativa com R e Python",
     "section": "",
-    "text": "O objetivo deste tutorial é desenvolver uma ferramenta de inteligência artificial (IA) generativa capaz de recuperar informações de um ou mais arquivos em formato PDF, utilizando a capacidade dos grandes modelos de linguagem (LLMs) para gerar textos semelhantes à linguagem humana, com base no conteúdo específico de um PDF.\nOu seja, criamos uma aplicação de recuperação de informação em que é possível “conversar” com o conteúdo de um arquivo PDF.\nAcesse o material completo aqui.\n\n\n\nCitaçãoBibTeX@online{severino2024,\n  author = {Severino, Magno},\n  title = {Da Teoria à Prática: Modelos de IA Generativa com R e Python},\n  date = {2024-07-15},\n  url = {https://magnotairone.github.io/tutorial_sinape_2024/tutorial},\n  langid = {pt}\n}\nPor favor, cite este trabalho como:\nSeverino, Magno. 2024. “Da Teoria à Prática: Modelos de IA\nGenerativa com R e Python.” July 15, 2024. https://magnotairone.github.io/tutorial_sinape_2024/tutorial."
+    "text": "Notas do tutorial apresentado no SINAPE 2024 sobre inteligência artifical generativa e recuperação de informação. Veja o material completo aqui"
+  },
+  {
+    "objectID": "legado/talks/2021-11-23-ufsm.html",
+    "href": "legado/talks/2021-11-23-ufsm.html",
+    "title": "Noções de SQL, organização e visualização de dados usando o tidyverse",
+    "section": "",
+    "text": "Mini curso apresentado na VII Semana Acadêmica da Estatística da Universidade Federal de Santa Maria.\nVeja o video aqui\nlink aqui"
+  },
+  {
+    "objectID": "legado/talks/2021-11-17-epei.html",
+    "href": "legado/talks/2021-11-17-epei.html",
+    "title": "Manipulação e organização de bases de dados com dplyr",
+    "section": "",
+    "text": "Mini curso apresentado na 5a edição do Encontro da Pós-graduação em Estatística do IME-USP (EPEI) em 2021.\nNeste minicurso você vai aprender a utilizar o pacote dplyr para manipular dados com facilidade no R. Além disso, vai compreender a funcionalidade dos cinco verbos fundamentais do dplyr que permitem selecionar, filtrar, organizar, alterar e sumarizar os dados. Tudo isso será apresentado de forma prática, considerando dados reais.\nVeja o video aqui"
+  },
+  {
+    "objectID": "legado/talks/2021-07-11-ISI.html",
+    "href": "legado/talks/2021-07-11-ISI.html",
+    "title": "Estimation and model selection for mixing graphical models",
+    "section": "",
+    "text": "This talk presents part of my PhD research project. Pre-recorded talk for the 63rd World Statistics Congress, ISI 2021.\nYoutube link aqui"
+  },
+  {
+    "objectID": "legado/talks/2020-05-13-prpg.html",
+    "href": "legado/talks/2020-05-13-prpg.html",
+    "title": "Prêmio Vídeo Pós-Graduação no combate ao COVID-19",
+    "section": "",
+    "text": "Com o vídeo abaixo, de divulgação do projeto sobre análise de ados de covid-19, fui premiado pela Pró-Reitoria de Pós-Graduação da USP no edital PRPG 12/2020, que teve como objetivo divulgar as ações dos Programas de Pós-graduação da USP no combate ao covid-19."
+  },
+  {
+    "objectID": "legado/portfolio-3-enem.html",
+    "href": "legado/portfolio-3-enem.html",
+    "title": "Visualizando as desigualdades existentes no Brasil através dos resultados do ENEM",
+    "section": "",
+    "text": "Por desigualdade social entende-se processos na sociedade que têm o efeito de limitar ou prejudicar o status de um determinado grupo, classe ou círculo social. Dentre as áreas de desigualdade social incluem-se o acesso aos direitos de voto, a liberdade de expressão, dos direitos de propriedade e de acesso à saúde, moradia, bens e serviços sociais e também à educação (em todos os níveis).\nNo âmbito educacional, a principal forma de ingresso no ensino superior atualmente no Brasil é através do Exame Nacional do Ensino Médio, o ENEM. A prova, criada em 1998, passou a ser amplamente utilizada como modalidade de acesso ao ensino superior a partir de 2009. O exame é realizado anualmente e tem duração de dois dias, contém uma questão de redação e 180 questões objetivas, divididas em quatro grandes áreas: Ciências Humanas e suas Tecnologias, Ciências da Natureza e suas Tecnologias, Linguagens, Códigos e suas Tecnologias e Matemática e suas Tecnologias.\nO Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP), autarquia do Ministério da Educação que realiza o ENEM, disponibiliza os microdados anuais de cada inscrito no exame. Neste trabalho, consideramos os dados referentes à 2017. Esta base contém registros de \\(6.731.342\\) candidatos e, para cada um deles, existem 139 variáveis disponíveis, em que a maior parte delas é qualitativa. São informações como gênero, idade, município de residência, raça, nacionalidade, ano de conclusão do ensino médio, tipo da escola do ensino médio, diversos indicadores de pedidos de atendimento especializado, respostas e notas das provas objetivas e nota da redação, além do questionário socieconômico.\nInteressados em obter um modelo que descreva a relação entre a nota final do candidato (média aritmética das notas nas provas) e as variáveis explicativas do modelo adotamos a abordagem do modelo de regressão linear múltiplo sob o ponto de vista da estatística clássica. O principal objetivo é investigar se a desigualdade social que é bastante presente no cotidiano brasileiro se reflete nas notas dos inscritos no ENEM.\nEm seguida, restringiremos os dados somente aos candidatos que residem no estado de Minas Gerais. Com a intenção de estudar o desempenho médio dos alunos em cada cidade mineira, vamos utilizar da abordagem Bayesiana hierárquica, para ajustar um modelo que estime efeitos aleatórios espaciais latentes. O objetivo é verificar a existência de algum padrão espacial na performance dos residentes de cada município de Minas Gerais.\nlink aqui"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\nMagno Tairone de Freitas Severino\n",
+    "section": "",
+    "text": "Magno Tairone de Freitas Severino\n\n\nProfessor e Cientista de Dados. Doutor em Probabilidade e Estatística pela USP, com experiência em modelagem estatística, aprendizado de máquina e ciência de dados aplicada. Atuo em projetos acadêmicos e corporativos envolvendo inferência para processos estocásticos, estatística computacional, aprendizagem estatística e inteligência artificial generativa.\n\n\nApaixonado por ensino e pesquisa, com foco em conectar teoria estatística a aplicações práticas. Minha missão é formar profissionais preparados para os desafios da ciência de dados e contribuir para a inovação científica e tecnológica."
+  },
+  {
+    "objectID": "curriculo.html",
+    "href": "curriculo.html",
+    "title": "Magno Tairone",
+    "section": "",
+    "text": "Sou Doutor em Probabilidade e Estatística pelo IME-USP, mestre em Estatística e bacharel em Matemática Computacional pela UFMG. Atuo como cientista de dados e líder técnico, com experiência em modelagem de risco de crédito, governança de modelos e aprendizado estatístico. Tenho habilidade em traduzir necessidades complexas de negócio em soluções orientadas por dados que sejam robustas, explicáveis e auditáveis. Também sou professor de pós-graduação em Ciência de Dados. Me interesso por aprendizagem estatística, inferência para processos estocásticos e grafos.\nCurriculo no formato Lattes aqui.\n\n\n\n\n\n\nDesenvolve soluções baseadas em dados para marketing e aquisição de novos clientes.\nAtua ativamente na tradução de demandas das áreas de negócio em soluções de machine learning.\nLeciona em programas de capacitação interna sobre letramento de dados.\n\n\n\n\n\nLeciona machine learning aplicado e modelagem estatística em programas de pós-graduação e executivos.\nCursos: Aprendizado Estatístico, Modelagem de Dados, Redes Neurais, Modelos Não Supervisionados, Transformando Negócios com Dados.\nReconhecido por apresentar conteúdo técnico com clareza para públicos diversos.\n\n\n\n\n\nPropôs e liderou a implementação de uma base de modelagem unificada e feature store interna, criando mais de 150 features engenheiradas e reduzindo o tempo de desenvolvimento em uma semana por modelo.\nProjetou e liderou a implementação de um framework de automação para monitoramento de modelos, reduzindo esforço mensal de 80h para 4h.\nMelhorou o modelo de admissão de crédito pessoal em 11 pontos percentuais no KS através de redesenho e engenharia de features.\nAtua como referência técnica para a equipe de modelagem.\nEntregou soluções para áreas como Risco de Crédito, Política de Crédito, Cobrança, Produtos Financeiros, Marketing e CRM.\n\n\n\n\n\nLíder da frente de precificação na equipe de gestão de portfólio.\nImplementou modelos de precificação de derivativos para gestão de portfólio.\nAutomatizou pipelines de dados, economizando 2h diárias por membro da equipe.\nLiderou desenvolvimento de aplicação baseada em IA generativa para análise de impacto de notícias no portfólio.\n\n\n\n\n\n\n\nDoutorado em Probabilidade e Estatística - IME-USP (2018 - 2024)\nTese: Seleção de modelos para campos aleatórios de Markov em grafos sob uma condição de mistura\nCursos relevantes: Probabilidade Avançada, Processos Estocásticos, Aprendizado Estatístico.\nMestrado em Estatística - DEST-UFMG (2016–2018)\nDissertação: Extendendo o JAGS para dados espaciais\nCursos relevantes: Estatística Espacial, Inferência Estatística, Inferência Bayesiana, Machine Learning.\nBacharelado em Matemática Aplicada à Computação — UFMG (2011–2016)\nCursos relevantes: Álgebra Linear, Análise Real, Probabilidade e Estatística, Algoritmos e Estruturas de Dados.\n\n\n\n\n\n\nRevisor de Tradução de Livro (2023–2024)\nRevisão da tradução para português do livro R for Data Science (2ª Edição).\nCientista de Dados — Projeto Covid-19 (GPECA) (2020)\nColeta, processamento e análise de dados de casos de Covid-19 para divulgação científica.\nProfessor — Escola Municipal Amorim Lima (2019)\nAulas de matemática para alunos do 9º ano em curso preparatório para ETEC.\n\n\n\n\n\n\nProgramação: R, Python, PySpark, C#, SQL\n\nFerramentas & Frameworks: Airflow, Docker, Kubernetes\n\nNuvem: AWS, Azure\n\n\n\n\n\n\n\n\nAnálise de Dados, Ciência de Dados, Modelagem, Tomada de Decisão, Inteligência Artificial Generativa, Machine Learning."
+  },
+  {
+    "objectID": "curriculo.html#sobre-mim",
+    "href": "curriculo.html#sobre-mim",
+    "title": "Magno Tairone",
+    "section": "",
+    "text": "Sou Doutor em Probabilidade e Estatística pelo IME-USP, mestre em Estatística e bacharel em Matemática Computacional pela UFMG. Atuo como cientista de dados e líder técnico, com experiência em modelagem de risco de crédito, governança de modelos e aprendizado estatístico. Tenho habilidade em traduzir necessidades complexas de negócio em soluções orientadas por dados que sejam robustas, explicáveis e auditáveis. Também sou professor de pós-graduação em Ciência de Dados. Me interesso por aprendizagem estatística, inferência para processos estocásticos e grafos.\nCurriculo no formato Lattes aqui.\n\n\n\n\n\n\nDesenvolve soluções baseadas em dados para marketing e aquisição de novos clientes.\nAtua ativamente na tradução de demandas das áreas de negócio em soluções de machine learning.\nLeciona em programas de capacitação interna sobre letramento de dados.\n\n\n\n\n\nLeciona machine learning aplicado e modelagem estatística em programas de pós-graduação e executivos.\nCursos: Aprendizado Estatístico, Modelagem de Dados, Redes Neurais, Modelos Não Supervisionados, Transformando Negócios com Dados.\nReconhecido por apresentar conteúdo técnico com clareza para públicos diversos.\n\n\n\n\n\nPropôs e liderou a implementação de uma base de modelagem unificada e feature store interna, criando mais de 150 features engenheiradas e reduzindo o tempo de desenvolvimento em uma semana por modelo.\nProjetou e liderou a implementação de um framework de automação para monitoramento de modelos, reduzindo esforço mensal de 80h para 4h.\nMelhorou o modelo de admissão de crédito pessoal em 11 pontos percentuais no KS através de redesenho e engenharia de features.\nAtua como referência técnica para a equipe de modelagem.\nEntregou soluções para áreas como Risco de Crédito, Política de Crédito, Cobrança, Produtos Financeiros, Marketing e CRM.\n\n\n\n\n\nLíder da frente de precificação na equipe de gestão de portfólio.\nImplementou modelos de precificação de derivativos para gestão de portfólio.\nAutomatizou pipelines de dados, economizando 2h diárias por membro da equipe.\nLiderou desenvolvimento de aplicação baseada em IA generativa para análise de impacto de notícias no portfólio.\n\n\n\n\n\n\n\nDoutorado em Probabilidade e Estatística - IME-USP (2018 - 2024)\nTese: Seleção de modelos para campos aleatórios de Markov em grafos sob uma condição de mistura\nCursos relevantes: Probabilidade Avançada, Processos Estocásticos, Aprendizado Estatístico.\nMestrado em Estatística - DEST-UFMG (2016–2018)\nDissertação: Extendendo o JAGS para dados espaciais\nCursos relevantes: Estatística Espacial, Inferência Estatística, Inferência Bayesiana, Machine Learning.\nBacharelado em Matemática Aplicada à Computação — UFMG (2011–2016)\nCursos relevantes: Álgebra Linear, Análise Real, Probabilidade e Estatística, Algoritmos e Estruturas de Dados.\n\n\n\n\n\n\nRevisor de Tradução de Livro (2023–2024)\nRevisão da tradução para português do livro R for Data Science (2ª Edição).\nCientista de Dados — Projeto Covid-19 (GPECA) (2020)\nColeta, processamento e análise de dados de casos de Covid-19 para divulgação científica.\nProfessor — Escola Municipal Amorim Lima (2019)\nAulas de matemática para alunos do 9º ano em curso preparatório para ETEC.\n\n\n\n\n\n\nProgramação: R, Python, PySpark, C#, SQL\n\nFerramentas & Frameworks: Airflow, Docker, Kubernetes\n\nNuvem: AWS, Azure\n\n\n\n\n\n\n\n\nAnálise de Dados, Ciência de Dados, Modelagem, Tomada de Decisão, Inteligência Artificial Generativa, Machine Learning."
+  },
+  {
+    "objectID": "ensino.html",
+    "href": "ensino.html",
+    "title": "Cursos Ministrados",
+    "section": "",
+    "text": "7 anos\n\n\nde experiência como monitor\n\n\n\n\n5 anos\n\n\ncomo docente em graduação e pós-graduação\n\n\n\n\n+1000 alunos\n\n\ne 770 horas de aulas ministradas\n\n\n\n\nCursos Ministrados\n\nGraduação\n\nAnálise Combinatória, Probabilidades e Aplicações, IME-USP (2020, 2021, 2022)\nIntrodução à Aprendizagem Estatística e Ciência de Dados com R, IME-USP (2021, 2022)\n\n\n\nPós-Graduação Latu Sensu\n\nAprendizagem Estatística de Máquinas I, Insper (2021)\nAprendizagem Estatística de Máquinas II, Insper (2021, 2022, 2023, 2024, 2025)\nTransforming Business with Data, Insper (2024, 2025)\nIntrodução a R e Python, Insper (2024, 2025)\n\nNotas de aula aqui\n\n\n\n\nEducação Executiva\n\nProgramação para Não Programadores, Insper (2021)\nFormação em Dados e Analytics, Insper (2024)"
+  },
+  {
+    "objectID": "legado/2021-11-23-dplyr.html",
+    "href": "legado/2021-11-23-dplyr.html",
+    "title": "Manipulação e organização de bases de dados com dplyr",
+    "section": "",
+    "text": "Notas do tutorial apresentado na VII Semana Acadêmica da Estatística da Universidade Federal de Santa Maria. Veja as notas de aula aqui"
+  },
+  {
+    "objectID": "legado/portfolio-4-covid.html",
+    "href": "legado/portfolio-4-covid.html",
+    "title": "Tendência de novos casos de covid-19",
+    "section": "",
+    "text": "Neste projeto apresentamos uma análise dos casos de infectados pelo vírus Sars-CoV2 (novo coronavírus) reportados diariamente em diferentes países, nos estados e algumas cidades brasileiras. A análise está baseada no ajuste, a partir de técnicas de seleção de modelos e detecção de pontos de mudança, de uma funcão de regressão utilizando splines. Este trabalho ainda está em desenvolvimento, mas uma versão preliminar da metodologia pode ser consultada\nProjeto desenvolvido em conjunto com Alex Rodrigo, Florencia Leonardi.\nDetalhes podem ser encontrados &lt;a href=\"https://www.ime.usp.br/~gpeca/covid-19/covid-19.html\"&gt; aqui &lt;/a&gt;."
+  },
+  {
+    "objectID": "legado/talks/2020-08-24-IMS.html",
+    "href": "legado/talks/2020-08-24-IMS.html",
+    "title": "Independent block identification in multivariate time series",
+    "section": "",
+    "text": "Pre-recorded talk for the Bernoulli-IMS One World Symposium 2020.\nYoutube link aqui"
+  },
+  {
+    "objectID": "legado/talks/2021-10-30-pads.html",
+    "href": "legado/talks/2021-10-30-pads.html",
+    "title": "Limpeza e organização de bases de dados",
+    "section": "",
+    "text": "Uma mesma base de dados pode ser armazenada/representada em diferentes maneiras.\nAlém disso, os formatos e convenções de armazenamento adotados podem variar muito, podendo dificultar análises.\nO processo de limpeza e organização de dados é praticamente obrigatório em qualquer contexto de análise de dados, e isso não se deve necessariamente a erros ou falhas no processo de armazenamento."
+  },
+  {
+    "objectID": "legado/talks/2021-11-17-santander.html",
+    "href": "legado/talks/2021-11-17-santander.html",
+    "title": "Detecção de pontos de mudança na curva de novos casos de covid-19",
+    "section": "",
+    "text": "Apresentação para o time de marketing analytics do Santander. Slides aqui"
+  },
+  {
+    "objectID": "legado/talks/2022-12-03-pads.html",
+    "href": "legado/talks/2022-12-03-pads.html",
+    "title": "Introdução à Otimização",
+    "section": "",
+    "text": "Neste workshop defino o que é um problema de otimização, como modelar um problema de otimização. Além de mostrar como desenvolver uma solução para um problema de otimização linear. Por fim, relaciono a otimização com os conceitos de aprendizagem estatística."
+  },
+  {
+    "objectID": "palestras.html",
+    "href": "palestras.html",
+    "title": "Magno Tairone",
+    "section": "",
+    "text": "Aqui estão algumas apresentações selecionadas:\n\nMuito além da técnica: habilidades essenciais para estatísticos (2025)\nTipo: Palestra Local: IME-USP Palestra ministrada para os alunos de graduação em Estatística IME-USP, abordando habilidades interpessoais e comunicação para estudantes da disciplina MAE0413. Slides aqui.\n\n\n\nDa Teoria à Prática: Modelos de IA Generativa com R e Python (2024)\nTipo: Tutorial\nLocal: “SINAPE 2024, Fortaleza, Ceará” Notas do tutorial apresentado no SINAPE 2024 sobre inteligência artifical generativa e recuperação de informação. Veja o material completo aqui\n\n\n\nIntrodução à Otimização (2022)\nTipo: Workshop\nLocal: Insper, São Paulo\nNeste workshop, defini o que é um problema de otimização, como modelar um problema e desenvolver soluções para problemas lineares, relacionando otimização com conceitos de aprendizagem estatística.\n\n\n\nNoções de SQL, organização e visualização de dados usando o tidyverse (2021)\nTipo: Tutorial\nLocal: Universidade Federal de Santa Maria (Virtual)\nMini curso apresentado na VII Semana Acadêmica da Estatística da UFSM.\n\n\n\nDetecção de pontos de mudança na curva de novos casos de covid-19 (2021)\nTipo: Talk\nLocal: Banco Santander, São Paulo\nApresentação para o time de marketing analytics do Santander. Slides aqui.\n\n\n\nManipulação e organização de bases de dados com dplyr (2021)\nTipo: Tutorial\nLocal: Universidade de São Paulo (Virtual)\nMini curso apresentado na 5ª edição do Encontro da Pós-graduação em Estatística do IME-USP (EPEI).\n\n\n\nLimpeza e organização de bases de dados (2021)\nTipo: Workshop\nLocal: Insper, São Paulo\nDiscussão sobre formatos de dados, convenções de armazenamento e práticas essenciais para limpeza e organização de dados.\n\n\n\nEstimation and model selection for mixing graphical models (2021)\nTipo: Talk\nLocal: 63rd ISI World Statistics Congress (Virtual)\nApresentação de parte da pesquisa do doutorado. Talk pré-gravado para o ISI 2021.\n\n\n\nIndependent block identification in multivariate time series (2020)\nTipo: Talk\nLocal: Bernoulli-IMS One World Symposium (Virtual)\nTalk pré-gravado para o Bernoulli-IMS One World Symposium 2020.\n\n\n\nPrêmio Vídeo Pós-Graduação no combate ao COVID-19 (2020)\nTipo: Prêmio\nPremiação pelo vídeo de divulgação do projeto sobre análise de dados da Covid-19, concedido pela Pró-Reitoria de Pós-Graduação da USP."
   },
   {
     "objectID": "posts/20231012-otimizacao/index.html",
@@ -42,151 +182,32 @@
     "text": "Parte 2: Descida do Gradiente para Redes Neurais\nNa segunda parte, exploramos um exemplo de aprendizado supervisionado com uma rede neural simples, implementando manualmente o algoritmo de descida do gradiente.\nObjetivo: Estimar os parâmetros de uma rede neural com uma camada, comparando com regressão linear.\n\nEtapas do código (gradient_descent.R):\n\nGeração de dados simulados com tidyverse.\nAjuste inicial com regressão linear (lm()).\nDefinição da arquitetura da rede e função de perda.\nImplementação do algoritmo de descida do gradiente:\n\nVersão padrão.\nVersão estocástica (mini-batches).\n\nComparação dos parâmetros obtidos com os da regressão linear.\n\nRepositório completo:\nhttps://github.com/magnotairone/aulas/tree/main/workshop%20-%20otimizacao"
   },
   {
-    "objectID": "palestras.html",
-    "href": "palestras.html",
-    "title": "Magno Tairone",
-    "section": "",
-    "text": "Aqui estão algumas apresentações selecionadas:\n\nMuito além da técnica: habilidades essenciais para estatísticos (2025)\nTipo: Palestra Local: IME-USP Palestra ministrada para os alunos de graduação em Estatística IME-USP, abordando habilidades interpessoais e comunicação para estudantes da disciplina MAE0413. Slides aqui.\n\n\n\nDa Teoria à Prática: Modelos de IA Generativa com R e Python (2024)\nTipo: Tutorial\nLocal: “SINAPE 2024, Fortaleza, Ceará” Notas do tutorial apresentado no SINAPE 2024 sobre inteligência artifical generativa e recuperação de informação. Veja o material completo aqui\n\n\n\nIntrodução à Otimização (2022)\nTipo: Workshop\nLocal: Insper, São Paulo\nNeste workshop, defini o que é um problema de otimização, como modelar um problema e desenvolver soluções para problemas lineares, relacionando otimização com conceitos de aprendizagem estatística.\n\n\n\nNoções de SQL, organização e visualização de dados usando o tidyverse (2021)\nTipo: Tutorial\nLocal: Universidade Federal de Santa Maria (Virtual)\nMini curso apresentado na VII Semana Acadêmica da Estatística da UFSM.\n\n\n\nDetecção de pontos de mudança na curva de novos casos de covid-19 (2021)\nTipo: Talk\nLocal: Banco Santander, São Paulo\nApresentação para o time de marketing analytics do Santander. Slides aqui.\n\n\n\nManipulação e organização de bases de dados com dplyr (2021)\nTipo: Tutorial\nLocal: Universidade de São Paulo (Virtual)\nMini curso apresentado na 5ª edição do Encontro da Pós-graduação em Estatística do IME-USP (EPEI).\n\n\n\nLimpeza e organização de bases de dados (2021)\nTipo: Workshop\nLocal: Insper, São Paulo\nDiscussão sobre formatos de dados, convenções de armazenamento e práticas essenciais para limpeza e organização de dados.\n\n\n\nEstimation and model selection for mixing graphical models (2021)\nTipo: Talk\nLocal: 63rd ISI World Statistics Congress (Virtual)\nApresentação de parte da pesquisa do doutorado. Talk pré-gravado para o ISI 2021.\n\n\n\nIndependent block identification in multivariate time series (2020)\nTipo: Talk\nLocal: Bernoulli-IMS One World Symposium (Virtual)\nTalk pré-gravado para o Bernoulli-IMS One World Symposium 2020.\n\n\n\nPrêmio Vídeo Pós-Graduação no combate ao COVID-19 (2020)\nTipo: Prêmio\nPremiação pelo vídeo de divulgação do projeto sobre análise de dados da Covid-19, concedido pela Pró-Reitoria de Pós-Graduação da USP."
-  },
-  {
-    "objectID": "legado/talks/2022-12-03-pads.html",
-    "href": "legado/talks/2022-12-03-pads.html",
-    "title": "Introdução à Otimização",
-    "section": "",
-    "text": "Neste workshop defino o que é um problema de otimização, como modelar um problema de otimização. Além de mostrar como desenvolver uma solução para um problema de otimização linear. Por fim, relaciono a otimização com os conceitos de aprendizagem estatística."
-  },
-  {
-    "objectID": "legado/talks/2021-11-17-santander.html",
-    "href": "legado/talks/2021-11-17-santander.html",
-    "title": "Detecção de pontos de mudança na curva de novos casos de covid-19",
-    "section": "",
-    "text": "Apresentação para o time de marketing analytics do Santander. Slides aqui"
-  },
-  {
-    "objectID": "legado/talks/2021-10-30-pads.html",
-    "href": "legado/talks/2021-10-30-pads.html",
-    "title": "Limpeza e organização de bases de dados",
-    "section": "",
-    "text": "Uma mesma base de dados pode ser armazenada/representada em diferentes maneiras.\nAlém disso, os formatos e convenções de armazenamento adotados podem variar muito, podendo dificultar análises.\nO processo de limpeza e organização de dados é praticamente obrigatório em qualquer contexto de análise de dados, e isso não se deve necessariamente a erros ou falhas no processo de armazenamento."
-  },
-  {
-    "objectID": "legado/talks/2020-08-24-IMS.html",
-    "href": "legado/talks/2020-08-24-IMS.html",
-    "title": "Independent block identification in multivariate time series",
-    "section": "",
-    "text": "Pre-recorded talk for the Bernoulli-IMS One World Symposium 2020.\nYoutube link aqui"
-  },
-  {
-    "objectID": "legado/portfolio-4-covid.html",
-    "href": "legado/portfolio-4-covid.html",
-    "title": "Tendência de novos casos de covid-19",
-    "section": "",
-    "text": "Neste projeto apresentamos uma análise dos casos de infectados pelo vírus Sars-CoV2 (novo coronavírus) reportados diariamente em diferentes países, nos estados e algumas cidades brasileiras. A análise está baseada no ajuste, a partir de técnicas de seleção de modelos e detecção de pontos de mudança, de uma funcão de regressão utilizando splines. Este trabalho ainda está em desenvolvimento, mas uma versão preliminar da metodologia pode ser consultada\nProjeto desenvolvido em conjunto com Alex Rodrigo, Florencia Leonardi.\nDetalhes podem ser encontrados &lt;a href=\"https://www.ime.usp.br/~gpeca/covid-19/covid-19.html\"&gt; aqui &lt;/a&gt;."
-  },
-  {
-    "objectID": "legado/2021-11-23-dplyr.html",
-    "href": "legado/2021-11-23-dplyr.html",
-    "title": "Manipulação e organização de bases de dados com dplyr",
-    "section": "",
-    "text": "Notas do tutorial apresentado na VII Semana Acadêmica da Estatística da Universidade Federal de Santa Maria. Veja as notas de aula aqui"
-  },
-  {
-    "objectID": "ensino.html",
-    "href": "ensino.html",
-    "title": "Cursos Ministrados",
-    "section": "",
-    "text": "7 anos\n\n\nde experiência como monitor\n\n\n\n\n5 anos\n\n\ncomo docente em graduação e pós-graduação\n\n\n\n\n+1000 alunos\n\n\ne 770 horas de aulas ministradas\n\n\n\n\nCursos Ministrados\n\nGraduação\n\nAnálise Combinatória, Probabilidades e Aplicações, IME-USP (2020, 2021, 2022)\nIntrodução à Aprendizagem Estatística e Ciência de Dados com R, IME-USP (2021, 2022)\n\n\n\nPós-Graduação Latu Sensu\n\nAprendizagem Estatística de Máquinas I, Insper (2021)\nAprendizagem Estatística de Máquinas II, Insper (2021, 2022, 2023, 2024, 2025)\nTransforming Business with Data, Insper (2024, 2025)\nIntrodução a R e Python, Insper (2024, 2025)\n\nNotas de aula aqui\n\n\n\n\nEducação Executiva\n\nProgramação para Não Programadores, Insper (2021)\nFormação em Dados e Analytics, Insper (2024)"
-  },
-  {
-    "objectID": "curriculo.html",
-    "href": "curriculo.html",
-    "title": "Magno Tairone",
-    "section": "",
-    "text": "Sou Doutor em Probabilidade e Estatística pelo IME-USP, mestre em Estatística e bacharel em Matemática Computacional pela UFMG. Atuo como cientista de dados e líder técnico, com experiência em modelagem de risco de crédito, governança de modelos e aprendizado estatístico. Tenho habilidade em traduzir necessidades complexas de negócio em soluções orientadas por dados que sejam robustas, explicáveis e auditáveis. Também sou professor de pós-graduação em Ciência de Dados. Me interesso por aprendizagem estatística, inferência para processos estocásticos e grafos.\nCurriculo no formato Lattes aqui.\n\n\n\n\n\n\nDesenvolve soluções baseadas em dados para marketing e aquisição de novos clientes.\nAtua ativamente na tradução de demandas das áreas de negócio em soluções de machine learning.\nLeciona em programas de capacitação interna sobre letramento de dados.\n\n\n\n\n\nLeciona machine learning aplicado e modelagem estatística em programas de pós-graduação e executivos.\nCursos: Aprendizado Estatístico, Modelagem de Dados, Redes Neurais, Modelos Não Supervisionados, Transformando Negócios com Dados.\nReconhecido por apresentar conteúdo técnico com clareza para públicos diversos.\n\n\n\n\n\nPropôs e liderou a implementação de uma base de modelagem unificada e feature store interna, criando mais de 150 features engenheiradas e reduzindo o tempo de desenvolvimento em uma semana por modelo.\nProjetou e liderou a implementação de um framework de automação para monitoramento de modelos, reduzindo esforço mensal de 80h para 4h.\nMelhorou o modelo de admissão de crédito pessoal em 11 pontos percentuais no KS através de redesenho e engenharia de features.\nAtua como referência técnica para a equipe de modelagem.\nEntregou soluções para áreas como Risco de Crédito, Política de Crédito, Cobrança, Produtos Financeiros, Marketing e CRM.\n\n\n\n\n\nLíder da frente de precificação na equipe de gestão de portfólio.\nImplementou modelos de precificação de derivativos para gestão de portfólio.\nAutomatizou pipelines de dados, economizando 2h diárias por membro da equipe.\nLiderou desenvolvimento de aplicação baseada em IA generativa para análise de impacto de notícias no portfólio.\n\n\n\n\n\n\n\nDoutorado em Probabilidade e Estatística - IME-USP (2018 - 2024)\nTese: Seleção de modelos para campos aleatórios de Markov em grafos sob uma condição de mistura\nCursos relevantes: Probabilidade Avançada, Processos Estocásticos, Aprendizado Estatístico.\nMestrado em Estatística - DEST-UFMG (2016–2018)\nDissertação: Extendendo o JAGS para dados espaciais\nCursos relevantes: Estatística Espacial, Inferência Estatística, Inferência Bayesiana, Machine Learning.\nBacharelado em Matemática Aplicada à Computação — UFMG (2011–2016)\nCursos relevantes: Álgebra Linear, Análise Real, Probabilidade e Estatística, Algoritmos e Estruturas de Dados.\n\n\n\n\n\n\nRevisor de Tradução de Livro (2023–2024)\nRevisão da tradução para português do livro R for Data Science (2ª Edição).\nCientista de Dados — Projeto Covid-19 (GPECA) (2020)\nColeta, processamento e análise de dados de casos de Covid-19 para divulgação científica.\nProfessor — Escola Municipal Amorim Lima (2019)\nAulas de matemática para alunos do 9º ano em curso preparatório para ETEC.\n\n\n\n\n\n\nProgramação: R, Python, PySpark, C#, SQL\n\nFerramentas & Frameworks: Airflow, Docker, Kubernetes\n\nNuvem: AWS, Azure\n\n\n\n\n\n\n\n\nAnálise de Dados, Ciência de Dados, Modelagem, Tomada de Decisão, Inteligência Artificial Generativa, Machine Learning."
-  },
-  {
-    "objectID": "curriculo.html#sobre-mim",
-    "href": "curriculo.html#sobre-mim",
-    "title": "Magno Tairone",
-    "section": "",
-    "text": "Sou Doutor em Probabilidade e Estatística pelo IME-USP, mestre em Estatística e bacharel em Matemática Computacional pela UFMG. Atuo como cientista de dados e líder técnico, com experiência em modelagem de risco de crédito, governança de modelos e aprendizado estatístico. Tenho habilidade em traduzir necessidades complexas de negócio em soluções orientadas por dados que sejam robustas, explicáveis e auditáveis. Também sou professor de pós-graduação em Ciência de Dados. Me interesso por aprendizagem estatística, inferência para processos estocásticos e grafos.\nCurriculo no formato Lattes aqui.\n\n\n\n\n\n\nDesenvolve soluções baseadas em dados para marketing e aquisição de novos clientes.\nAtua ativamente na tradução de demandas das áreas de negócio em soluções de machine learning.\nLeciona em programas de capacitação interna sobre letramento de dados.\n\n\n\n\n\nLeciona machine learning aplicado e modelagem estatística em programas de pós-graduação e executivos.\nCursos: Aprendizado Estatístico, Modelagem de Dados, Redes Neurais, Modelos Não Supervisionados, Transformando Negócios com Dados.\nReconhecido por apresentar conteúdo técnico com clareza para públicos diversos.\n\n\n\n\n\nPropôs e liderou a implementação de uma base de modelagem unificada e feature store interna, criando mais de 150 features engenheiradas e reduzindo o tempo de desenvolvimento em uma semana por modelo.\nProjetou e liderou a implementação de um framework de automação para monitoramento de modelos, reduzindo esforço mensal de 80h para 4h.\nMelhorou o modelo de admissão de crédito pessoal em 11 pontos percentuais no KS através de redesenho e engenharia de features.\nAtua como referência técnica para a equipe de modelagem.\nEntregou soluções para áreas como Risco de Crédito, Política de Crédito, Cobrança, Produtos Financeiros, Marketing e CRM.\n\n\n\n\n\nLíder da frente de precificação na equipe de gestão de portfólio.\nImplementou modelos de precificação de derivativos para gestão de portfólio.\nAutomatizou pipelines de dados, economizando 2h diárias por membro da equipe.\nLiderou desenvolvimento de aplicação baseada em IA generativa para análise de impacto de notícias no portfólio.\n\n\n\n\n\n\n\nDoutorado em Probabilidade e Estatística - IME-USP (2018 - 2024)\nTese: Seleção de modelos para campos aleatórios de Markov em grafos sob uma condição de mistura\nCursos relevantes: Probabilidade Avançada, Processos Estocásticos, Aprendizado Estatístico.\nMestrado em Estatística - DEST-UFMG (2016–2018)\nDissertação: Extendendo o JAGS para dados espaciais\nCursos relevantes: Estatística Espacial, Inferência Estatística, Inferência Bayesiana, Machine Learning.\nBacharelado em Matemática Aplicada à Computação — UFMG (2011–2016)\nCursos relevantes: Álgebra Linear, Análise Real, Probabilidade e Estatística, Algoritmos e Estruturas de Dados.\n\n\n\n\n\n\nRevisor de Tradução de Livro (2023–2024)\nRevisão da tradução para português do livro R for Data Science (2ª Edição).\nCientista de Dados — Projeto Covid-19 (GPECA) (2020)\nColeta, processamento e análise de dados de casos de Covid-19 para divulgação científica.\nProfessor — Escola Municipal Amorim Lima (2019)\nAulas de matemática para alunos do 9º ano em curso preparatório para ETEC.\n\n\n\n\n\n\nProgramação: R, Python, PySpark, C#, SQL\n\nFerramentas & Frameworks: Airflow, Docker, Kubernetes\n\nNuvem: AWS, Azure\n\n\n\n\n\n\n\n\nAnálise de Dados, Ciência de Dados, Modelagem, Tomada de Decisão, Inteligência Artificial Generativa, Machine Learning."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "\nMagno Tairone de Freitas Severino\n",
-    "section": "",
-    "text": "Magno Tairone de Freitas Severino\n\n\nProfessor e Cientista de Dados. Doutor em Probabilidade e Estatística pela USP, com experiência em modelagem estatística, aprendizado de máquina e ciência de dados aplicada. Atuo em projetos acadêmicos e corporativos envolvendo inferência para processos estocásticos, estatística computacional, aprendizagem estatística e inteligência artificial generativa.\n\n\nApaixonado por ensino e pesquisa, com foco em conectar teoria estatística a aplicações práticas. Minha missão é formar profissionais preparados para os desafios da ciência de dados e contribuir para a inovação científica e tecnológica."
-  },
-  {
-    "objectID": "legado/portfolio-3-enem.html",
-    "href": "legado/portfolio-3-enem.html",
-    "title": "Visualizando as desigualdades existentes no Brasil através dos resultados do ENEM",
-    "section": "",
-    "text": "Por desigualdade social entende-se processos na sociedade que têm o efeito de limitar ou prejudicar o status de um determinado grupo, classe ou círculo social. Dentre as áreas de desigualdade social incluem-se o acesso aos direitos de voto, a liberdade de expressão, dos direitos de propriedade e de acesso à saúde, moradia, bens e serviços sociais e também à educação (em todos os níveis).\nNo âmbito educacional, a principal forma de ingresso no ensino superior atualmente no Brasil é através do Exame Nacional do Ensino Médio, o ENEM. A prova, criada em 1998, passou a ser amplamente utilizada como modalidade de acesso ao ensino superior a partir de 2009. O exame é realizado anualmente e tem duração de dois dias, contém uma questão de redação e 180 questões objetivas, divididas em quatro grandes áreas: Ciências Humanas e suas Tecnologias, Ciências da Natureza e suas Tecnologias, Linguagens, Códigos e suas Tecnologias e Matemática e suas Tecnologias.\nO Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP), autarquia do Ministério da Educação que realiza o ENEM, disponibiliza os microdados anuais de cada inscrito no exame. Neste trabalho, consideramos os dados referentes à 2017. Esta base contém registros de \\(6.731.342\\) candidatos e, para cada um deles, existem 139 variáveis disponíveis, em que a maior parte delas é qualitativa. São informações como gênero, idade, município de residência, raça, nacionalidade, ano de conclusão do ensino médio, tipo da escola do ensino médio, diversos indicadores de pedidos de atendimento especializado, respostas e notas das provas objetivas e nota da redação, além do questionário socieconômico.\nInteressados em obter um modelo que descreva a relação entre a nota final do candidato (média aritmética das notas nas provas) e as variáveis explicativas do modelo adotamos a abordagem do modelo de regressão linear múltiplo sob o ponto de vista da estatística clássica. O principal objetivo é investigar se a desigualdade social que é bastante presente no cotidiano brasileiro se reflete nas notas dos inscritos no ENEM.\nEm seguida, restringiremos os dados somente aos candidatos que residem no estado de Minas Gerais. Com a intenção de estudar o desempenho médio dos alunos em cada cidade mineira, vamos utilizar da abordagem Bayesiana hierárquica, para ajustar um modelo que estime efeitos aleatórios espaciais latentes. O objetivo é verificar a existência de algum padrão espacial na performance dos residentes de cada município de Minas Gerais.\nlink aqui"
-  },
-  {
-    "objectID": "legado/talks/2020-05-13-prpg.html",
-    "href": "legado/talks/2020-05-13-prpg.html",
-    "title": "Prêmio Vídeo Pós-Graduação no combate ao COVID-19",
-    "section": "",
-    "text": "Com o vídeo abaixo, de divulgação do projeto sobre análise de ados de covid-19, fui premiado pela Pró-Reitoria de Pós-Graduação da USP no edital PRPG 12/2020, que teve como objetivo divulgar as ações dos Programas de Pós-graduação da USP no combate ao covid-19."
-  },
-  {
-    "objectID": "legado/talks/2021-07-11-ISI.html",
-    "href": "legado/talks/2021-07-11-ISI.html",
-    "title": "Estimation and model selection for mixing graphical models",
-    "section": "",
-    "text": "This talk presents part of my PhD research project. Pre-recorded talk for the 63rd World Statistics Congress, ISI 2021.\nYoutube link aqui"
-  },
-  {
-    "objectID": "legado/talks/2021-11-17-epei.html",
-    "href": "legado/talks/2021-11-17-epei.html",
-    "title": "Manipulação e organização de bases de dados com dplyr",
-    "section": "",
-    "text": "Mini curso apresentado na 5a edição do Encontro da Pós-graduação em Estatística do IME-USP (EPEI) em 2021.\nNeste minicurso você vai aprender a utilizar o pacote dplyr para manipular dados com facilidade no R. Além disso, vai compreender a funcionalidade dos cinco verbos fundamentais do dplyr que permitem selecionar, filtrar, organizar, alterar e sumarizar os dados. Tudo isso será apresentado de forma prática, considerando dados reais.\nVeja o video aqui"
-  },
-  {
-    "objectID": "legado/talks/2021-11-23-ufsm.html",
-    "href": "legado/talks/2021-11-23-ufsm.html",
-    "title": "Noções de SQL, organização e visualização de dados usando o tidyverse",
-    "section": "",
-    "text": "Mini curso apresentado na VII Semana Acadêmica da Estatística da Universidade Federal de Santa Maria.\nVeja o video aqui\nlink aqui"
-  },
-  {
-    "objectID": "legado/talks/2024-08-08-sinape.html",
-    "href": "legado/talks/2024-08-08-sinape.html",
+    "objectID": "posts/20240715-rag/index.html",
+    "href": "posts/20240715-rag/index.html",
     "title": "Da Teoria à Prática: Modelos de IA Generativa com R e Python",
     "section": "",
-    "text": "Notas do tutorial apresentado no SINAPE 2024 sobre inteligência artifical generativa e recuperação de informação. Veja o material completo aqui"
+    "text": "O objetivo deste tutorial é desenvolver uma ferramenta de inteligência artificial (IA) generativa capaz de recuperar informações de um ou mais arquivos em formato PDF, utilizando a capacidade dos grandes modelos de linguagem (LLMs) para gerar textos semelhantes à linguagem humana, com base no conteúdo específico de um PDF.\nOu seja, criamos uma aplicação de recuperação de informação em que é possível “conversar” com o conteúdo de um arquivo PDF.\nAcesse o material completo aqui.\n\n\n\nCitaçãoBibTeX@online{severino2024,\n  author = {Severino, Magno},\n  title = {Da Teoria à Prática: Modelos de IA Generativa com R e Python},\n  date = {2024-07-15},\n  url = {https://magnotairone.github.io/tutorial_sinape_2024/tutorial},\n  langid = {pt}\n}\nPor favor, cite este trabalho como:\nSeverino, Magno. 2024. “Da Teoria à Prática: Modelos de IA\nGenerativa com R e Python.” July 15, 2024. https://magnotairone.github.io/tutorial_sinape_2024/tutorial."
   },
   {
-    "objectID": "posts/20201201-covid19/index.html",
-    "href": "posts/20201201-covid19/index.html",
-    "title": "Tendência de novos casos de covid-19",
+    "objectID": "posts/20251211-credito/index.html",
+    "href": "posts/20251211-credito/index.html",
+    "title": "Modelagem Preditiva de Risco de Crédito com R",
     "section": "",
-    "text": "Neste projeto apresentamos uma análise dos casos de infectados pelo vírus Sars-CoV2 (novo coronavírus) reportados diariamente em diferentes países, nos estados e algumas cidades brasileiras. A análise está baseada no ajuste, a partir de técnicas de seleção de modelos e detecção de pontos de mudança, de uma funcão de regressão utilizando splines. Este trabalho ainda está em desenvolvimento, mas uma versão preliminar da metodologia pode ser consultada\nProjeto desenvolvido em conjunto com Alex Rodrigo, Florencia Leonardi. Detalhes podem ser encontrados  aqui .\nAbaixo está o vídeo de divulgação deste projeto, que ganhou um prêmio da PRPG-USP. \n\n\n\nCitaçãoBibTeX@online{severino2020,\n  author = {Severino, Magno},\n  title = {Tendência de novos casos de covid-19},\n  date = {2020-12-01},\n  url = {https://magnotairone.github.io/posts/2020-12-01-covid19 /},\n  langid = {pt}\n}\nPor favor, cite este trabalho como:\nSeverino, Magno. 2020. “Tendência de novos casos de\ncovid-19.” December 1, 2020. https://magnotairone.github.io/posts/2020-12-01-covid19\n/."
+    "text": "Este material foi apresentado como um minicurso I Workshop de Estatística e Ciência de Dados Aplicadas a Finanças da UFBA.\nO evento foi realizado pelo Centro de Estudos de Riscos (CER-UFBA).\nEste minicurso com 1h30 de duração apresentou um exemplo prático de aplicação do CRISP‑DM para a resolução de um problema de risco de crédito, usando uma base de dados simulada (inspirada em uma base real) preparada para o exercício. O objetivo foi guiar os participantes pelas fases do ciclo de vida de um projeto de modelagem preditiva — desde o entendimento do negócio até a avaliação e considerações para implantação.\n\n\nOferecer um exemplo prático e reproduzível de aplicação do CRISP‑DM para um problema comportamental de risco de crédito com horizonte de previsão de 6 meses. Passamos por:\n\ndefinição e construção da base de treinamento e do rótulo (variável resposta);\nanálise descritiva exploratória e engenharia de atributos;\nmodelagem: escolha de estratégia, separação temporal em treino/validação/teste e cuidados para evitar vazamento (target leakage);\navaliação e interpretação dos resultados; e\nconsiderações para implantação e monitoramento.\n\nRepositório com material e código: https://github.com/magnotairone/credito.\nAcesse os slides do minicurso\n\n\n\nObrigado ao Centro de Estudos de Riscos (CER) e às instituições apoiadoras pelo convite e organização do evento."
   },
   {
-    "objectID": "posts/20240621-assetmanagement/index.html",
-    "href": "posts/20240621-assetmanagement/index.html",
-    "title": "Análise de notícias de ativos financeiros com R e LLM",
+    "objectID": "posts/20251211-credito/index.html#objetivo-do-minicurso",
+    "href": "posts/20251211-credito/index.html#objetivo-do-minicurso",
+    "title": "Modelagem Preditiva de Risco de Crédito com R",
     "section": "",
-    "text": "Acompanhar ativos financeiros e sua performance é essencial para decisões estratégicas no mercado. Além disso, notícias sobre empresas podem influenciar diretamente o comportamento dos preços. O desafio é relacionar essas informações de forma eficiente e automatizada.\nO objetivo deste projeto é justamente automatizar essa análise, integrando dados históricos de ativos com notícias financeiras para permitir insights rápidos e precisos.\nEste projeto apresenta um pipeline para organização e limpeza de dados financeiros com R, incluindo:\n\nLeitura de arquivos CSV contendo histórico de preços de ativos.\nPadronização de nomes de colunas com janitor::clean_names().\nConversão de valores monetários para formato numérico.\nExtração de metadados como ticker e empresa a partir do nome do arquivo.\nConversão de datas com lubridate::dmy().\nExportação dos dados consolidados para data/daily.csv.\n\nAlém disso, o projeto inclui processamento de notícias financeiras para análise de impacto em ativos.\nCódigo principal:\n\n01-organizar-dados.R: organiza dados históricos e gera base consolidada.\n02-funcoes.R: funções utilitárias para o pipeline do agente.\n03-agente.R: rotina que automatiza a geração das análises pelo agente em batch.\n\nAcesse o repositório completo:\nhttps://github.com/magnotairone/AssetManagement\n\n\n\nCitaçãoBibTeX@online{severino2025,\n  author = {Severino, Magno},\n  title = {Análise de notícias de ativos financeiros com R e LLM},\n  date = {2025-11-15},\n  url = {https://github.com/magnotairone/AssetManagement},\n  langid = {pt}\n}\nPor favor, cite este trabalho como:\nSeverino, Magno. 2025. “Análise de notícias de ativos financeiros\ncom R e LLM.” November 15, 2025. https://github.com/magnotairone/AssetManagement."
+    "text": "Oferecer um exemplo prático e reproduzível de aplicação do CRISP‑DM para um problema comportamental de risco de crédito com horizonte de previsão de 6 meses. Passamos por:\n\ndefinição e construção da base de treinamento e do rótulo (variável resposta);\nanálise descritiva exploratória e engenharia de atributos;\nmodelagem: escolha de estratégia, separação temporal em treino/validação/teste e cuidados para evitar vazamento (target leakage);\navaliação e interpretação dos resultados; e\nconsiderações para implantação e monitoramento.\n\nRepositório com material e código: https://github.com/magnotairone/credito.\nAcesse os slides do minicurso"
   },
   {
-    "objectID": "posts/20241201-aprendendoR/index.html",
-    "href": "posts/20241201-aprendendoR/index.html",
-    "title": "Aprendendo R",
+    "objectID": "posts/20251211-credito/index.html#agradecimentos",
+    "href": "posts/20251211-credito/index.html#agradecimentos",
+    "title": "Modelagem Preditiva de Risco de Crédito com R",
     "section": "",
-    "text": "Este livro compila tutoriais da linguagem R que usei em diversas aulas que dei ao longo dos últimos anos e foi escrito baseado em Cotton (2013) e Wickham et al. (2023).\n\n\n\nIntrodução à linguagem R e seus conceitos básicos\nManipulação de dados com dplyr e tidyverse\nVisualização de dados com ggplot2\nEstatística aplicada e modelagem\nExercícios práticos e projetos\n\nAcesse o livro aqui"
-  },
-  {
-    "objectID": "posts/20241201-aprendendoR/index.html#o-que-você-vai-encontrar",
-    "href": "posts/20241201-aprendendoR/index.html#o-que-você-vai-encontrar",
-    "title": "Aprendendo R",
-    "section": "",
-    "text": "Introdução à linguagem R e seus conceitos básicos\nManipulação de dados com dplyr e tidyverse\nVisualização de dados com ggplot2\nEstatística aplicada e modelagem\nExercícios práticos e projetos\n\nAcesse o livro aqui"
+    "text": "Obrigado ao Centro de Estudos de Riscos (CER) e às instituições apoiadoras pelo convite e organização do evento."
   },
   {
     "objectID": "projetos.html",

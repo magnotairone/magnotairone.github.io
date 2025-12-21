@@ -1,0 +1,89 @@
+---
+title: "TÍTULO DO POST (curto e descritivo)"
+description: "Uma frase curta (140-160 chars) que resume o post."
+author:
+  - name: "Magno Severino"
+    url: "https://magnotairone.github.io/"
+    orcid: "0000-0002-3432-7779"
+    affiliation: "Universidade / Afiliacao"
+    affiliation-url: "https://ucsb-meds.github.io/"
+date: 01-12-2020
+categories: [Categoria1, Categoria2]
+tags: [tag1, tag2]
+citation:
+  url: "https://exemplo.com/referencia-do-post" # opcional
+image: "capa.png"
+draft: false
+lang: pt-BR
+---
+
+Lead — duas a três frases que explicam rapidamente o objetivo do post e o público-alvo. Evite parágrafos muito longos.
+
+TL;DR
+- Ponto 1: resumo rápido da conclusão ou utilidade.
+- Ponto 2: como reproduzir / link do código.
+
+::: callout-tip
+Se este post contém código executável, coloque sempre um link direto para o repositório ou para um Gist/Notebook:
+[Repositório do código](https://github.com/seu/repo)
+:::
+
+## Introdução
+
+Contexto e motivação. Explique por que este post é relevante. Referencie trabalhos ou posts anteriores com links.
+
+## Metodologia / Abordagem
+
+Descreva brevemente a abordagem. Para artigos técnicos, inclua:
+- pacotes/libraries usados
+- formato dos dados
+- decisões importantes
+
+Exemplo de bloco de código R:
+```r
+# Exemplo mínimo
+library(tidyverse)
+df <- read_csv("data/exemplo.csv")
+```
+
+## Resultados / Demonstração
+
+Apresente gráficos, tabelas e interpretações. Use legendas e alt-text nas figuras.
+
+Exemplo de imagem (com alt-text):
+![Descrição alternativa da figura](capa.png){fig-align="center" width="600px"}
+
+Se for necessário embed de vídeo (YouTube), prefira iframe para compatibilidade:
+
+<!-- Exemplo de embed seguro -->
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe src="https://www.youtube.com/embed/OJEjy95VOnQ" 
+          style="position:absolute;top:0;left:0;width:100%;height:100%;"
+          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          title="Vídeo de divulgação">
+  </iframe>
+</div>
+
+## Código e reprodutibilidade
+
+- Link principal: https://github.com/seu/repo
+- Commit/tag usado: commit-hash-ou-tag
+- Instruções rápidas:
+  1. Clonar: `git clone https://github.com/seu/repo`
+  2. Abrir `README.md` e rodar `Rscript 01-organizar-dados.R` (exemplo)
+
+## Conclusão
+
+Resumo das principais mensagens e próximos passos.
+
+## Referências / Links úteis
+
+- Nome do repositório — [link](https://github.com/seu/repo)
+- Artigo X — [link](https://doi.org/...)
+- Material complementar
+
+---
+
+Nota: Data de publicação: 01-12-2020. Última atualização: 01-12-2020.  
+Licença: CC-BY (ou outra licença) — especifique aqui se aplicável.

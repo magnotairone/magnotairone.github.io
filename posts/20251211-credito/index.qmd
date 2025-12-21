@@ -1,0 +1,41 @@
+---
+title: "Modelagem Preditiva de Risco de Crédito com R"
+description: "Um exemplo prático de aplicação do framework CRISP-DM."
+author:
+  - name: "Magno Severino"
+    url: "https://magnotairone.github.io/"
+    orcid: "0000-0002-3432-7779"
+    affiliation: ""
+date: 2025-12-11
+categories: [CRISP-DM, R, Risco de Crédito, Ciência de Dados, Estatística]
+image: "credito.png"
+draft: false
+lang: pt
+---
+
+# Modelagem Preditiva de Risco de Crédito com R
+
+Este material foi apresentado como um minicurso [I Workshop de Estatística e Ciência de Dados Aplicadas a Finanças da UFBA](https://wecdaf.vercel.app/).  
+O evento foi realizado pelo Centro de Estudos de Riscos ([CER-UFBA](https://cer.ufba.br/)).
+
+Este minicurso com 1h30 de duração apresentou um exemplo prático de aplicação do CRISP‑DM para a resolução de um problema de risco de crédito, usando uma base de dados simulada (inspirada em uma base real) preparada para o exercício. O objetivo foi guiar os participantes pelas fases do ciclo de vida de um projeto de modelagem preditiva — desde o entendimento do negócio até a avaliação e considerações para implantação.
+
+## Objetivo do minicurso
+
+Oferecer um exemplo prático e reproduzível de aplicação do CRISP‑DM para um problema comportamental de risco de crédito com horizonte de previsão de 6 meses. Passamos por:
+
+- definição e construção da base de treinamento e do rótulo (variável resposta);
+- análise descritiva exploratória e engenharia de atributos;
+- modelagem: escolha de estratégia, separação temporal em treino/validação/teste e cuidados para evitar vazamento (target leakage);
+- avaliação e interpretação dos resultados; e
+- considerações para implantação e monitoramento.
+
+Repositório com material e código: [https://github.com/magnotairone/credito](https://github.com/magnotairone/credito).
+
+
+[Acesse os slides do minicurso](https://magnotairone.github.io/credito/slide/){.btn .btn-primary style="font-size:18px; padding:10px 20px; margin-top:20px; background-color:#2c3e50; border-color:#2c3e50; color:#fff"}
+
+
+## Agradecimentos
+
+Obrigado ao Centro de Estudos de Riscos (CER) e às instituições apoiadoras pelo convite e organização do evento. 
