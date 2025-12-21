@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.8.25">
@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Magno Severino">
-<meta name="description" content="Análise dos casos de infectados pelo vírus Sars-CoV2 usando técnicas para detecção de pontos de mudança.">
+<meta name="description" content="Análise dos casos reportados diariamente do Sars‑CoV‑2 usando detecção de pontos de mudança com splines.">
 
 <title>Tendência de novos casos de covid-19 – Magno Tairone</title>
 <style>
@@ -149,7 +149,7 @@ ul.task-list li input[type="checkbox"] {
       <h1 class="title">Tendência de novos casos de covid-19</h1>
                   <div>
         <div class="description">
-          Análise dos casos de infectados pelo vírus Sars-CoV2 usando técnicas para detecção de pontos de mudança.
+          Análise dos casos reportados diariamente do Sars‑CoV‑2 usando detecção de pontos de mudança com splines.
         </div>
       </div>
                           <div class="quarto-categories">
@@ -181,7 +181,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Data de Publicação</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">1 de dezembro de 2020</p>
+        <p class="date">12 de janeiro de 2020</p>
       </div>
     </div>
     
@@ -200,23 +200,57 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Neste projeto apresentamos uma análise dos casos de infectados pelo vírus Sars-CoV2 (novo coronavírus) reportados diariamente em diferentes países, nos estados e algumas cidades brasileiras. A análise está baseada no ajuste, a partir de técnicas de seleção de modelos e detecção de pontos de mudança, de uma funcão de regressão utilizando splines. Este trabalho ainda está em desenvolvimento, mas uma versão preliminar da metodologia pode ser consultada</p>
-<p>Projeto desenvolvido em conjunto com Alex Rodrigo, Florencia Leonardi. Detalhes podem ser encontrados <a href="https://www.ime.usp.br/~gpeca/covid-19/covid-19.html"> aqui </a>.</p>
-<p>Abaixo está o vídeo de divulgação deste projeto, que ganhou um prêmio da PRPG-USP. </p><div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/OJEjy95VOnQ" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div><p></p>
+<p>Neste projeto apresentamos uma análise dos casos de infectados pelo vírus Sars‑CoV‑2 (novo coronavírus) reportados diariamente em diferentes países, nos estados e em algumas cidades brasileiras. A análise baseia‑se no ajuste, por meio de técnicas de seleção de modelos e detecção de pontos de mudança, de uma função de regressão utilizando splines.</p>
+<p>TL;DR - Ajustamos modelos com splines e detectamos possíveis pontos de mudança na tendência de novos casos. - O projeto teve destaque em divulgação da imprensa especializada (Jornal da USP) e o vídeo de divulgação recebeu premiação da PRPG‑USP.</p>
+<section id="introdução" class="level2">
+<h2 class="anchored" data-anchor-id="introdução">Introdução</h2>
+<p>O objetivo é estudar a tendência temporal de novos casos e identificar mudanças na dinâmica da transmissão que possam representar efeitos de intervenções, sazonalidade ou mudanças de teste/report.</p>
+<p>Projeto desenvolvido em conjunto com Alex Rodrigo e Florencia Leonardi. Detalhes e material do projeto podem ser encontrados no repositório e na página do projeto.</p>
+</section>
+<section id="metodologia-resumo" class="level2">
+<h2 class="anchored" data-anchor-id="metodologia-resumo">Metodologia (resumo)</h2>
+<p>A análise combina: - Modelagem de séries temporais por regressão com splines para capturar tendências suaves; - Métodos de seleção de modelos para escolher a complexidade das splines; - Algoritmos de detecção de pontos de mudança para localizar instantes com variação significativa na tendência.</p>
+</section>
+<section id="resultados-resumo-e-divulgação-na-imprensa" class="level2">
+<h2 class="anchored" data-anchor-id="resultados-resumo-e-divulgação-na-imprensa">Resultados (resumo) e divulgação na imprensa</h2>
+<p>Se você quiser ver os resultados sobre a identificação dos pontos de mudança na curva de tendência da covid‑19, a metodologia utilizada e os resultados completos, leia o preprint disponível no arXiv: <a href="https://arxiv.org/abs/2006.02649">https://arxiv.org/abs/2006.02649</a>.</p>
+<p>O projeto recebeu atenção da imprensa: foi publicada uma matéria no Jornal da USP que descreve o projeto, a metodologia e os resultados em linguagem acessível ao público geral.<br>
+Leia a matéria completa no Jornal da USP: <a href="https://jornal.usp.br/ciencias/desatando-nos-metodo-identifica-e-preve-mudancas-na-curva-de-casos-de-covid-19/">Jornal da USP — Método identifica e prevê mudanças na curva de casos de covid‑19</a></p>
+<p>O vídeo de divulgação do projeto foi premiado pela Pró‑Reitoria de Pós‑Graduação da USP e pode ser acessado abaixo.</p>
+<!-- Embed YouTube (responsivo) -->
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+<p><iframe src="https://www.youtube.com/embed/OJEjy95VOnQ" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" title="Vídeo de divulgação"> </iframe></p>
+</div>
+</section>
+<section id="conclusão" class="level2">
+<h2 class="anchored" data-anchor-id="conclusão">Conclusão</h2>
+<p>Análises baseadas em splines e detecção de pontos de mudança permitem identificar alterações importantes na tendência de novos casos, úteis para interpretação epidemiológica e avaliação de políticas públicas. As estimativas são atualizadas regularmente pelo GPECA e servem como ferramenta complementar para monitoramento.</p>
+</section>
+<section id="referências-links-úteis" class="level2">
+<h2 class="anchored" data-anchor-id="referências-links-úteis">Referências / Links úteis</h2>
+<ul>
+<li>Página do projeto (GPECA/IME): http://www.ime.usp.br/~gpeca/covid-19<br>
+</li>
+<li>Matéria no Jornal da USP — <a href="https://jornal.usp.br/ciencias/desatando-nos-metodo-identifica-e-preve-mudancas-na-curva-de-casos-de-covid-19/">Método identifica e prevê mudanças na curva de casos de covid‑19</a><br>
+</li>
+<li>Preprint / artigo disponível no arXiv — <a href="https://arxiv.org/abs/2006.02649">https://arxiv.org/abs/2006.02649</a> (PDF: <a href="https://arxiv.org/pdf/2006.02649">https://arxiv.org/pdf/2006.02649</a>)</li>
+</ul>
+<hr>
+<p>Nota: Data de publicação: 01-12-2020. Última atualização: 01-12-2020.</p>
 
 
+</section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citação</h2><div><div class="quarto-appendix-secondary-label">BibTeX</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{severino2020,
   author = {Severino, Magno},
   title = {Tendência de novos casos de covid-19},
-  date = {2020-12-01},
-  url = {https://magnotairone.github.io/posts/2020-12-01-covid19 /},
-  langid = {pt}
+  date = {2020-01-12},
+  url = {https://magnotairone.github.io/posts/2020-12-01-covid19},
+  langid = {pt-BR}
 }
 </code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">Por favor, cite este trabalho como:</div><div id="ref-severino2020" class="csl-entry quarto-appendix-citeas" role="listitem">
 Severino, Magno. 2020. <span>“Tendência de novos casos de
-covid-19.”</span> December 1, 2020. <a href="https://magnotairone.github.io/posts/2020-12-01-covid19 /">https://magnotairone.github.io/posts/2020-12-01-covid19
-/</a>.
+covid-19.”</span> January 12, 2020. <a href="https://magnotairone.github.io/posts/2020-12-01-covid19">https://magnotairone.github.io/posts/2020-12-01-covid19</a>.
 </div></div></section></div></main> <!-- /main -->
 <script data-goatcounter="https://magnotairone.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
 <script id="quarto-html-after-body" type="application/javascript">

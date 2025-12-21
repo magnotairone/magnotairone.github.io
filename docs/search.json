@@ -11,7 +11,7 @@
     "href": "posts.html",
     "title": "Meu Blog",
     "section": "",
-    "text": "Modelagem Preditiva de Risco de Crédito com R\n\n\n\nCRISP-DM\n\nR\n\nRisco de Crédito\n\nCiência de Dados\n\nEstatística\n\n\n\nUm exemplo prático de aplicação do framework CRISP-DM.\n\n\n\nMagno Severino\n\n\n11 de dez. de 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnálise de notícias de ativos financeiros com R e LLM\n\n\n\nR\n\nFinance\n\nData Cleaning\n\n\n\nPipeline para organizar dados históricos de ativos e notícias financeiras usando tidyverse e lubridate e automatizando ess tafera com um uso de LLM.\n\n\n\nMagno Severino\n\n\n15 de nov. de 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nAprendendo R\n\n\n\nR\n\nCiência de Dados\n\nEstatística\n\n\n\nMaterial online gratuito para aprender R, disponível como livro interativo.\n\n\n\nMagno Severino\n\n\n1 de dez. de 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nDa Teoria à Prática: Modelos de IA Generativa com R e Python\n\n\n\nIA Generativa\n\nR\n\nPython\n\nLLM\n\n\n\nTutorial apresentado no SINAPE 2024 sobre criação de aplicações com LLMs para recuperação de informação em PDFs.\n\n\n\nMagno Severino\n\n\n15 de jul. de 2024\n\n\n\n\n\n\n\n\n\n\n\nWorkshop de Otimização com R: Programação Linear e Descida do Gradiente\n\n\n\nR\n\nOtimização\n\nMachine Learning\n\nProgramação Linear\n\n\n\nExplorando técnicas de otimização com R, desde programação linear para problemas de produção até algoritmos de aprendizado como descida do gradiente para redes neurais…\n\n\n\nMagno Severino\n\n\n10 de dez. de 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nTendência de novos casos de covid-19\n\n\n\nCovid-19\n\nsplines\n\n\n\nAnálise dos casos de infectados pelo vírus Sars-CoV2 usando técnicas para detecção de pontos de mudança.\n\n\n\nMagno Severino\n\n\n1 de dez. de 2020\n\n\n\n\n\n\nNenhum item correspondente"
+    "text": "Modelagem Preditiva de Risco de Crédito com R\n\n\n\nCRISP-DM\n\nR\n\nRisco de Crédito\n\nCiência de Dados\n\nEstatística\n\n\n\nUm exemplo prático de aplicação do framework CRISP-DM.\n\n\n\nMagno Severino\n\n\n11 de dez. de 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnálise de notícias de ativos financeiros com R e LLM\n\n\n\nR\n\nFinance\n\nData Cleaning\n\n\n\nPipeline para organizar dados históricos de ativos e notícias financeiras usando tidyverse e lubridate e automatizando ess tafera com um uso de LLM.\n\n\n\nMagno Severino\n\n\n15 de nov. de 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nAprendendo R\n\n\n\nR\n\nCiência de Dados\n\nEstatística\n\n\n\nMaterial online gratuito para aprender R, disponível como livro interativo.\n\n\n\nMagno Severino\n\n\n1 de dez. de 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nDa Teoria à Prática: Modelos de IA Generativa com R e Python\n\n\n\nIA Generativa\n\nR\n\nPython\n\nLLM\n\n\n\nTutorial apresentado no SINAPE 2024 sobre criação de aplicações com LLMs para recuperação de informação em PDFs.\n\n\n\nMagno Severino\n\n\n15 de jul. de 2024\n\n\n\n\n\n\n\n\n\n\n\nWorkshop de Otimização com R: Programação Linear e Descida do Gradiente\n\n\n\nR\n\nOtimização\n\nMachine Learning\n\nProgramação Linear\n\n\n\nExplorando técnicas de otimização com R, desde programação linear para problemas de produção até algoritmos de aprendizado como descida do gradiente para redes neurais…\n\n\n\nMagno Severino\n\n\n10 de dez. de 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nTendência de novos casos de covid-19\n\n\n\nCovid-19\n\nsplines\n\n\n\nAnálise dos casos reportados diariamente do Sars‑CoV‑2 usando detecção de pontos de mudança com splines.\n\n\n\nMagno Severino\n\n\n12 de jan. de 2020\n\n\n\n\n\n\nNenhum item correspondente"
   },
   {
     "objectID": "posts/20241201-aprendendoR/index.html",
@@ -39,7 +39,42 @@
     "href": "posts/20201201-covid19/index.html",
     "title": "Tendência de novos casos de covid-19",
     "section": "",
-    "text": "Neste projeto apresentamos uma análise dos casos de infectados pelo vírus Sars-CoV2 (novo coronavírus) reportados diariamente em diferentes países, nos estados e algumas cidades brasileiras. A análise está baseada no ajuste, a partir de técnicas de seleção de modelos e detecção de pontos de mudança, de uma funcão de regressão utilizando splines. Este trabalho ainda está em desenvolvimento, mas uma versão preliminar da metodologia pode ser consultada\nProjeto desenvolvido em conjunto com Alex Rodrigo, Florencia Leonardi. Detalhes podem ser encontrados  aqui .\nAbaixo está o vídeo de divulgação deste projeto, que ganhou um prêmio da PRPG-USP. \n\n\n\nCitaçãoBibTeX@online{severino2020,\n  author = {Severino, Magno},\n  title = {Tendência de novos casos de covid-19},\n  date = {2020-12-01},\n  url = {https://magnotairone.github.io/posts/2020-12-01-covid19 /},\n  langid = {pt}\n}\nPor favor, cite este trabalho como:\nSeverino, Magno. 2020. “Tendência de novos casos de\ncovid-19.” December 1, 2020. https://magnotairone.github.io/posts/2020-12-01-covid19\n/."
+    "text": "Neste projeto apresentamos uma análise dos casos de infectados pelo vírus Sars‑CoV‑2 (novo coronavírus) reportados diariamente em diferentes países, nos estados e em algumas cidades brasileiras. A análise baseia‑se no ajuste, por meio de técnicas de seleção de modelos e detecção de pontos de mudança, de uma função de regressão utilizando splines.\nTL;DR - Ajustamos modelos com splines e detectamos possíveis pontos de mudança na tendência de novos casos. - O projeto teve destaque em divulgação da imprensa especializada (Jornal da USP) e o vídeo de divulgação recebeu premiação da PRPG‑USP."
+  },
+  {
+    "objectID": "posts/20201201-covid19/index.html#introdução",
+    "href": "posts/20201201-covid19/index.html#introdução",
+    "title": "Tendência de novos casos de covid-19",
+    "section": "Introdução",
+    "text": "Introdução\nO objetivo é estudar a tendência temporal de novos casos e identificar mudanças na dinâmica da transmissão que possam representar efeitos de intervenções, sazonalidade ou mudanças de teste/report.\nProjeto desenvolvido em conjunto com Alex Rodrigo e Florencia Leonardi. Detalhes e material do projeto podem ser encontrados no repositório e na página do projeto."
+  },
+  {
+    "objectID": "posts/20201201-covid19/index.html#metodologia-resumo",
+    "href": "posts/20201201-covid19/index.html#metodologia-resumo",
+    "title": "Tendência de novos casos de covid-19",
+    "section": "Metodologia (resumo)",
+    "text": "Metodologia (resumo)\nA análise combina: - Modelagem de séries temporais por regressão com splines para capturar tendências suaves; - Métodos de seleção de modelos para escolher a complexidade das splines; - Algoritmos de detecção de pontos de mudança para localizar instantes com variação significativa na tendência."
+  },
+  {
+    "objectID": "posts/20201201-covid19/index.html#resultados-resumo-e-divulgação-na-imprensa",
+    "href": "posts/20201201-covid19/index.html#resultados-resumo-e-divulgação-na-imprensa",
+    "title": "Tendência de novos casos de covid-19",
+    "section": "Resultados (resumo) e divulgação na imprensa",
+    "text": "Resultados (resumo) e divulgação na imprensa\nSe você quiser ver os resultados sobre a identificação dos pontos de mudança na curva de tendência da covid‑19, a metodologia utilizada e os resultados completos, leia o preprint disponível no arXiv: https://arxiv.org/abs/2006.02649.\nO projeto recebeu atenção da imprensa: foi publicada uma matéria no Jornal da USP que descreve o projeto, a metodologia e os resultados em linguagem acessível ao público geral.\nLeia a matéria completa no Jornal da USP: Jornal da USP — Método identifica e prevê mudanças na curva de casos de covid‑19\nO vídeo de divulgação do projeto foi premiado pela Pró‑Reitoria de Pós‑Graduação da USP e pode ser acessado abaixo."
+  },
+  {
+    "objectID": "posts/20201201-covid19/index.html#conclusão",
+    "href": "posts/20201201-covid19/index.html#conclusão",
+    "title": "Tendência de novos casos de covid-19",
+    "section": "Conclusão",
+    "text": "Conclusão\nAnálises baseadas em splines e detecção de pontos de mudança permitem identificar alterações importantes na tendência de novos casos, úteis para interpretação epidemiológica e avaliação de políticas públicas. As estimativas são atualizadas regularmente pelo GPECA e servem como ferramenta complementar para monitoramento."
+  },
+  {
+    "objectID": "posts/20201201-covid19/index.html#referências-links-úteis",
+    "href": "posts/20201201-covid19/index.html#referências-links-úteis",
+    "title": "Tendência de novos casos de covid-19",
+    "section": "Referências / Links úteis",
+    "text": "Referências / Links úteis\n\nPágina do projeto (GPECA/IME): http://www.ime.usp.br/~gpeca/covid-19\n\nMatéria no Jornal da USP — Método identifica e prevê mudanças na curva de casos de covid‑19\n\nPreprint / artigo disponível no arXiv — https://arxiv.org/abs/2006.02649 (PDF: https://arxiv.org/pdf/2006.02649)\n\n\nNota: Data de publicação: 01-12-2020. Última atualização: 01-12-2020."
   },
   {
     "objectID": "legado/talks/2024-08-08-sinape.html",
