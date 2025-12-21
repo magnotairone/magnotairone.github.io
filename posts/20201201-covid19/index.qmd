@@ -1,26 +1,70 @@
 ---
 title: "Tendência de novos casos de covid-19"
-description: "Análise dos casos de infectados pelo vírus Sars-CoV2 usando técnicas para detecção de pontos de mudança."
+description: "Análise dos casos reportados diariamente do Sars‑CoV‑2 usando detecção de pontos de mudança com splines."
 author:
-  - name: Magno Severino
-    url: https://magnotairone.github.io/
-    orcid: 0000-0002-3432-7779
+  - name: "Magno Severino"
+    url: "https://magnotairone.github.io/"
+    orcid: "0000-0002-3432-7779"
     affiliation: ""
-    affiliation-url: https://ucsb-meds.github.io/
-date: 12-01-2020
+    affiliation-url: "https://ucsb-meds.github.io/"
+date: 01-12-2020
 categories: [Covid-19, splines]
+tags: [covid19, mudança, splines, análise]
 citation:
-  url: https://magnotairone.github.io/posts/2020-12-01-covid19 /
-image: Covid-1.png
+  url: "https://magnotairone.github.io/posts/2020-12-01-covid19"
+image: "Covid-1.png"
 draft: false
-lang: pt
+lang: pt-BR
 ---
 
-Neste projeto apresentamos uma análise dos casos de infectados pelo vírus Sars-CoV2 (novo coronavírus) reportados diariamente em diferentes países, nos estados e algumas cidades brasileiras. 
- A análise está baseada no ajuste, a partir de técnicas de seleção de modelos e detecção de pontos de mudança, de uma funcão de regressão utilizando splines. Este trabalho ainda está em desenvolvimento, mas uma versão preliminar	da metodologia pode ser consultada 
-	
-Projeto desenvolvido em conjunto com Alex Rodrigo, Florencia Leonardi.
-Detalhes podem ser encontrados <a href="https://www.ime.usp.br/~gpeca/covid-19/covid-19.html"> aqui </a>.
-	
-Abaixo está o vídeo de divulgação deste projeto, que ganhou um prêmio da PRPG-USP.
-{{< video https://youtu.be/OJEjy95VOnQ >}}
+Neste projeto apresentamos uma análise dos casos de infectados pelo vírus Sars‑CoV‑2 (novo coronavírus) reportados diariamente em diferentes países, nos estados e em algumas cidades brasileiras. A análise baseia‑se no ajuste, por meio de técnicas de seleção de modelos e detecção de pontos de mudança, de uma função de regressão utilizando splines.
+
+TL;DR
+- Ajustamos modelos com splines e detectamos possíveis pontos de mudança na tendência de novos casos.
+- O projeto teve destaque em divulgação da imprensa especializada (Jornal da USP) e o vídeo de divulgação recebeu premiação da PRPG‑USP.
+
+## Introdução
+
+O objetivo é estudar a tendência temporal de novos casos e identificar mudanças na dinâmica da transmissão que possam representar efeitos de intervenções, sazonalidade ou mudanças de teste/report.
+
+Projeto desenvolvido em conjunto com Alex Rodrigo e Florencia Leonardi. Detalhes e material do projeto podem ser encontrados no repositório e na página do projeto.
+
+## Metodologia (resumo)
+
+A análise combina:
+- Modelagem de séries temporais por regressão com splines para capturar tendências suaves;
+- Métodos de seleção de modelos para escolher a complexidade das splines;
+- Algoritmos de detecção de pontos de mudança para localizar instantes com variação significativa na tendência.
+
+## Resultados (resumo) e divulgação na imprensa
+
+Se você quiser ver os resultados sobre a identificação dos pontos de mudança na curva de tendência da covid‑19, a metodologia utilizada e os resultados completos, leia o preprint disponível no arXiv: [https://arxiv.org/abs/2006.02649](https://arxiv.org/abs/2006.02649).
+
+O projeto recebeu atenção da imprensa: foi publicada uma matéria no Jornal da USP que descreve o projeto, a metodologia e os resultados em linguagem acessível ao público geral.  
+Leia a matéria completa no Jornal da USP: [Jornal da USP — Método identifica e prevê mudanças na curva de casos de covid‑19](https://jornal.usp.br/ciencias/desatando-nos-metodo-identifica-e-preve-mudancas-na-curva-de-casos-de-covid-19/)
+
+O vídeo de divulgação do projeto foi premiado pela Pró‑Reitoria de Pós‑Graduação da USP e pode ser acessado abaixo.
+
+<!-- Embed YouTube (responsivo) -->
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe src="https://www.youtube.com/embed/OJEjy95VOnQ" 
+          style="position:absolute;top:0;left:0;width:100%;height:100%;"
+          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          title="Vídeo de divulgação">
+  </iframe>
+</div>
+
+## Conclusão
+
+Análises baseadas em splines e detecção de pontos de mudança permitem identificar alterações importantes na tendência de novos casos, úteis para interpretação epidemiológica e avaliação de políticas públicas. As estimativas são atualizadas regularmente pelo GPECA e servem como ferramenta complementar para monitoramento.
+
+## Referências / Links úteis
+
+- Página do projeto (GPECA/IME): http://www.ime.usp.br/~gpeca/covid-19  
+- Matéria no Jornal da USP — [Método identifica e prevê mudanças na curva de casos de covid‑19](https://jornal.usp.br/ciencias/desatando-nos-metodo-identifica-e-preve-mudancas-na-curva-de-casos-de-covid-19/)  
+- Preprint / artigo disponível no arXiv — [https://arxiv.org/abs/2006.02649](https://arxiv.org/abs/2006.02649) (PDF: [https://arxiv.org/pdf/2006.02649](https://arxiv.org/pdf/2006.02649))
+
+---
+
+Nota: Data de publicação: 01-12-2020. Última atualização: 01-12-2020.
