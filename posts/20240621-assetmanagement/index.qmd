@@ -5,9 +5,9 @@ author:
   - name: "Magno Severino"
     url: "https://magnotairone.github.io/"
     orcid: "0000-0002-3432-7779"
-    affiliation: ""
-date: 2025-11-15
-categories: [R, Finance, Data Cleaning]
+    affiliation: "Insper"
+categories: [R, Finanças, Data Cleaning]
+tags: [R, finanças, limpeza-de-dados, LLM, automação]
 citation:
   url: "https://github.com/magnotairone/AssetManagement"
 image: "robo.png"
@@ -15,25 +15,82 @@ draft: false
 lang: pt
 ---
 
-Acompanhar ativos financeiros e sua performance é essencial para decisões estratégicas no mercado. Além disso, notícias sobre empresas podem influenciar diretamente o comportamento dos preços. O desafio é relacionar essas informações de forma eficiente e automatizada.  
-O objetivo deste projeto é justamente **automatizar essa análise**, integrando dados históricos de ativos com notícias financeiras para permitir insights rápidos e precisos.
+Este post descreve um pipeline reprodutível para organizar e integrar dados históricos de preços de ativos com notícias financeiras, incluindo pré-processamento, padronização e automação de análises com auxílio de LLMs.
 
-Este projeto apresenta um pipeline para **organização e limpeza de dados financeiros** com R, incluindo:
+#### TL;DR
+- Pipeline em R para limpeza e padronização de séries históricas de ativos e metadados de notícias.  
+- Inclui scripts para organizar dados, funções utilitárias e um agente que automatiza análises em batch.  
+- Código-fonte e slides disponíveis no repositório (link abaixo).
 
-- Leitura de arquivos CSV contendo histórico de preços de ativos.
-- Padronização de nomes de colunas com `janitor::clean_names()`.
-- Conversão de valores monetários para formato numérico.
-- Extração de metadados como **ticker** e **empresa** a partir do nome do arquivo.
-- Conversão de datas com `lubridate::dmy()`.
-- Exportação dos dados consolidados para `data/daily.csv`.
 
-Além disso, o projeto inclui processamento de **notícias financeiras** para análise de impacto em ativos.
+## Introdução
 
-**Código principal**:
+Análises automatizadas que integram preços de ativos e notícias financeiras podem acelerar a geração de insights e apoiar decisões. Este projeto apresenta um fluxo de trabalho em R que cobre desde a ingestão de arquivos CSV até a produção de uma base diária consolidada, com etapas de limpeza, extração de metadados e conversão de datas.
 
-- `01-organizar-dados.R`: organiza dados históricos e gera base consolidada.
-- `02-funcoes.R`: funções utilitárias para o pipeline do agente.
-- `03-agente.R`: rotina que automatiza a geração das análises pelo agente em batch.
+## Metodologia / Abordagem
 
-Acesse o repositório completo:  
-[https://github.com/magnotairone/AssetManagement](https://github.com/magnotairone/AssetManagement/pulls)
+Principais etapas do pipeline:
+
+- Leitura e validação dos arquivos CSV contendo histórico de preços.  
+- Padronização de nomes de colunas (ex.: `janitor::clean_names()`).  
+- Conversão de valores monetários para formato numérico e tratamento de NAs.  
+- Extração de metadados (por ex. ticker, nome da empresa) a partir do nome do arquivo.  
+- Conversão e padronização de datas com `lubridate::dmy()` e fusão com índices temporais.  
+- Processamento de notícias: limpeza textual, extração de features e integração com o histórico de preços.  
+- Automação: rotina/“agente” que executa o processamento em lote e grava o resultado consolidado (`data/daily.csv`).
+- Template do prompt utilizado:
+```{r, echo=TRUE, eval=FALSE}
+prompt <- glue("
+Ativo: {nome_asset}
+Empresa: {empresa}
+
+Lista de títulos de notícias:
+   {noticias_formatadas}
+
+Você está atuando como analista financeiro em {data_fim}, 
+avaliando a performance recente do ativo {nome_asset}, 
+que registrou uma variação de {performance$performance}% 
+nos últimos {n_dias} dias. Sua tarefa é realizar uma 
+análise focada nos eventos dos últimos {n_dias} dias apresentados na 
+lista acima, fornecendo uma perspectiva 
+fundamentada sobre a situação atual da empresa {empresa}.
+
+Por favor, siga estas diretrizes:
+
+Inicie a análise com uma visão geral clara da situação.
+Mencione a performance do ativo no período.
+Destaque os eventos mais recentes e relevantes.
+Enfatize os contrastes entre diferentes eventos e conclua com uma síntese ponderada.
+Inclua exclusivamente informações que estão presentes neste prompt.
+Evite redundâncias e repetições na resposta.
+Estruture a análise em um parágrafo único.
+
+Modelo da análise: 'Com base nas notícias dos últimos {n_dias} dias... (análise)...
+Portanto, (conclusão).'
+")
+```
+
+## Resultados / Demonstração
+
+Os artefatos principais gerados pelo pipeline incluem:
+- Base consolidada de preços e metadados (`data/daily.csv`), pronta para análises de séries temporais.  
+- Funções reutilizáveis para limpeza e extração de informações.  
+- Relatórios ou tabelas de resumo que permitem análises de impacto de notícias sobre preços.
+
+## Código e reprodutibilidade
+
+Arquivos principais:
+- `01-organizar-dados.R` — organiza arquivos brutos e gera a base consolidada.  
+- `02-funcoes.R` — funções utilitárias para parsing e limpeza.  
+- `03-agente.R` — rotina para execução automática em batch / integração com LLM.
+
+Como reproduzir rapidamente:
+1. Clonar o repositório: `git clone https://github.com/magnotairone/AssetManagement`
+2. Abrir o projeto em RStudio e executar `01-organizar-dados.R` (ver README para dependências).
+3. Conferir `data/daily.csv` após a execução.
+
+## Referências
+
+- Repositório do projeto — [https://github.com/magnotairone/AssetManagement](https://github.com/magnotairone/AssetManagement) 
+
+Nota: Data de publicação: 2025-11-15. Última atualização: 2025-11-15. 

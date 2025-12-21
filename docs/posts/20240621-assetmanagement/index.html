@@ -22,6 +22,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -154,7 +189,7 @@ ul.task-list li input[type="checkbox"] {
       </div>
                           <div class="quarto-categories">
                 <div class="quarto-category">R</div>
-                <div class="quarto-category">Finance</div>
+                <div class="quarto-category">Finanças</div>
                 <div class="quarto-category">Data Cleaning</div>
               </div>
                   </div>
@@ -169,7 +204,7 @@ ul.task-list li input[type="checkbox"] {
     </div>
     <div class="quarto-title-meta-contents">
           <p class="affiliation">
-              
+              Insper
             </p>
         </div>
     </div>
@@ -177,12 +212,6 @@ ul.task-list li input[type="checkbox"] {
   <div class="quarto-title-meta">
 
         
-      <div>
-      <div class="quarto-title-meta-heading">Data de Publicação</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">15 de novembro de 2025</p>
-      </div>
-    </div>
     
       
     </div>
@@ -199,39 +228,103 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Acompanhar ativos financeiros e sua performance é essencial para decisões estratégicas no mercado. Além disso, notícias sobre empresas podem influenciar diretamente o comportamento dos preços. O desafio é relacionar essas informações de forma eficiente e automatizada.<br>
-O objetivo deste projeto é justamente <strong>automatizar essa análise</strong>, integrando dados históricos de ativos com notícias financeiras para permitir insights rápidos e precisos.</p>
-<p>Este projeto apresenta um pipeline para <strong>organização e limpeza de dados financeiros</strong> com R, incluindo:</p>
+<p>Este post descreve um pipeline reprodutível para organizar e integrar dados históricos de preços de ativos com notícias financeiras, incluindo pré-processamento, padronização e automação de análises com auxílio de LLMs.</p>
+<section id="tldr" class="level4">
+<h4 class="anchored" data-anchor-id="tldr">TL;DR</h4>
 <ul>
-<li>Leitura de arquivos CSV contendo histórico de preços de ativos.</li>
-<li>Padronização de nomes de colunas com <code>janitor::clean_names()</code>.</li>
-<li>Conversão de valores monetários para formato numérico.</li>
-<li>Extração de metadados como <strong>ticker</strong> e <strong>empresa</strong> a partir do nome do arquivo.</li>
-<li>Conversão de datas com <code>lubridate::dmy()</code>.</li>
-<li>Exportação dos dados consolidados para <code>data/daily.csv</code>.</li>
+<li>Pipeline em R para limpeza e padronização de séries históricas de ativos e metadados de notícias.<br>
+</li>
+<li>Inclui scripts para organizar dados, funções utilitárias e um agente que automatiza análises em batch.<br>
+</li>
+<li>Código-fonte e slides disponíveis no repositório (link abaixo).</li>
 </ul>
-<p>Além disso, o projeto inclui processamento de <strong>notícias financeiras</strong> para análise de impacto em ativos.</p>
-<p><strong>Código principal</strong>:</p>
+</section>
+<section id="introdução" class="level2">
+<h2 class="anchored" data-anchor-id="introdução">Introdução</h2>
+<p>Análises automatizadas que integram preços de ativos e notícias financeiras podem acelerar a geração de insights e apoiar decisões. Este projeto apresenta um fluxo de trabalho em R que cobre desde a ingestão de arquivos CSV até a produção de uma base diária consolidada, com etapas de limpeza, extração de metadados e conversão de datas.</p>
+</section>
+<section id="metodologia-abordagem" class="level2">
+<h2 class="anchored" data-anchor-id="metodologia-abordagem">Metodologia / Abordagem</h2>
+<p>Principais etapas do pipeline:</p>
 <ul>
-<li><code>01-organizar-dados.R</code>: organiza dados históricos e gera base consolidada.</li>
-<li><code>02-funcoes.R</code>: funções utilitárias para o pipeline do agente.</li>
-<li><code>03-agente.R</code>: rotina que automatiza a geração das análises pelo agente em batch.</li>
+<li>Leitura e validação dos arquivos CSV contendo histórico de preços.<br>
+</li>
+<li>Padronização de nomes de colunas (ex.: <code>janitor::clean_names()</code>).<br>
+</li>
+<li>Conversão de valores monetários para formato numérico e tratamento de NAs.<br>
+</li>
+<li>Extração de metadados (por ex. ticker, nome da empresa) a partir do nome do arquivo.<br>
+</li>
+<li>Conversão e padronização de datas com <code>lubridate::dmy()</code> e fusão com índices temporais.<br>
+</li>
+<li>Processamento de notícias: limpeza textual, extração de features e integração com o histórico de preços.<br>
+</li>
+<li>Automação: rotina/“agente” que executa o processamento em lote e grava o resultado consolidado (<code>data/daily.csv</code>).</li>
+<li>Template do prompt utilizado:</li>
 </ul>
-<p>Acesse o repositório completo:<br>
-<a href="https://github.com/magnotairone/AssetManagement/pulls">https://github.com/magnotairone/AssetManagement</a></p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>prompt <span class="ot">&lt;-</span> <span class="fu">glue</span>(<span class="st">"</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="st">Ativo: {nome_asset}</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="st">Empresa: {empresa}</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="st">Lista de títulos de notícias:</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="st">   {noticias_formatadas}</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="st">Você está atuando como analista financeiro em {data_fim}, </span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="st">avaliando a performance recente do ativo {nome_asset}, </span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="st">que registrou uma variação de {performance$performance}% </span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="st">nos últimos {n_dias} dias. Sua tarefa é realizar uma </span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="st">análise focada nos eventos dos últimos {n_dias} dias apresentados na </span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="st">lista acima, fornecendo uma perspectiva </span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="st">fundamentada sobre a situação atual da empresa {empresa}.</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="st">Por favor, siga estas diretrizes:</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="st">Inicie a análise com uma visão geral clara da situação.</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="st">Mencione a performance do ativo no período.</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="st">Destaque os eventos mais recentes e relevantes.</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="st">Enfatize os contrastes entre diferentes eventos e conclua com uma síntese ponderada.</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="st">Inclua exclusivamente informações que estão presentes neste prompt.</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="st">Evite redundâncias e repetições na resposta.</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="st">Estruture a análise em um parágrafo único.</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="st">Modelo da análise: 'Com base nas notícias dos últimos {n_dias} dias... (análise)...</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="st">Portanto, (conclusão).'</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="st">"</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="resultados-demonstração" class="level2">
+<h2 class="anchored" data-anchor-id="resultados-demonstração">Resultados / Demonstração</h2>
+<p>Os artefatos principais gerados pelo pipeline incluem: - Base consolidada de preços e metadados (<code>data/daily.csv</code>), pronta para análises de séries temporais.<br>
+- Funções reutilizáveis para limpeza e extração de informações.<br>
+- Relatórios ou tabelas de resumo que permitem análises de impacto de notícias sobre preços.</p>
+</section>
+<section id="código-e-reprodutibilidade" class="level2">
+<h2 class="anchored" data-anchor-id="código-e-reprodutibilidade">Código e reprodutibilidade</h2>
+<p>Arquivos principais: - <code>01-organizar-dados.R</code> — organiza arquivos brutos e gera a base consolidada.<br>
+- <code>02-funcoes.R</code> — funções utilitárias para parsing e limpeza.<br>
+- <code>03-agente.R</code> — rotina para execução automática em batch / integração com LLM.</p>
+<p>Como reproduzir rapidamente: 1. Clonar o repositório: <code>git clone https://github.com/magnotairone/AssetManagement</code> 2. Abrir o projeto em RStudio e executar <code>01-organizar-dados.R</code> (ver README para dependências). 3. Conferir <code>data/daily.csv</code> após a execução.</p>
+</section>
+<section id="referências" class="level2">
+<h2 class="anchored" data-anchor-id="referências">Referências</h2>
+<ul>
+<li>Repositório do projeto — <a href="https://github.com/magnotairone/AssetManagement">https://github.com/magnotairone/AssetManagement</a></li>
+</ul>
+<p>Nota: Data de publicação: 2025-11-15. Última atualização: 2025-11-15.</p>
 
 
+</section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citação</h2><div><div class="quarto-appendix-secondary-label">BibTeX</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{severino2025,
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citação</h2><div><div class="quarto-appendix-secondary-label">BibTeX</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{severino,
   author = {Severino, Magno},
   title = {Análise de notícias de ativos financeiros com R e LLM},
-  date = {2025-11-15},
   url = {https://github.com/magnotairone/AssetManagement},
   langid = {pt}
 }
-</code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">Por favor, cite este trabalho como:</div><div id="ref-severino2025" class="csl-entry quarto-appendix-citeas" role="listitem">
-Severino, Magno. 2025. <span>“Análise de notícias de ativos financeiros
-com R e LLM.”</span> November 15, 2025. <a href="https://github.com/magnotairone/AssetManagement">https://github.com/magnotairone/AssetManagement</a>.
+</code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">Por favor, cite este trabalho como:</div><div id="ref-severino" class="csl-entry quarto-appendix-citeas" role="listitem">
+Severino, Magno. n.d. <span>“Análise de notícias de ativos financeiros
+com R e LLM.”</span> <a href="https://github.com/magnotairone/AssetManagement">https://github.com/magnotairone/AssetManagement</a>.
 </div></div></section></div></main> <!-- /main -->
 <script data-goatcounter="https://magnotairone.goatcounter.com/count" async="" src="//gc.zgo.at/count.js"></script>
 <script id="quarto-html-after-body" type="application/javascript">
