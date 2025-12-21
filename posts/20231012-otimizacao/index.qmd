@@ -2,65 +2,41 @@
 title: "Workshop de Otimização com R: Programação Linear e Descida do Gradiente"
 description: "Explorando técnicas de otimização com R, desde programação linear para problemas de produção até algoritmos de aprendizado como descida do gradiente para redes neurais simples."
 author:
-  - name: "Magno Severino"
+  - name: "Magno T. F. Severino"
     url: "https://magnotairone.github.io/"
     orcid: "0000-0002-3432-7779"
-date: 2023-12-10
+date: 2023-12-03
 categories: [R, Otimização, Machine Learning, Programação Linear]
-# citation:
-#   url: "https://github.com/magnotairone/aulas/tree/main/workshop%20-%20otimizacao"
-# image: "workshop-otimizacao.png"
 draft: false
 lang: pt
 ---
 
-Este workshop apresentou duas abordagens complementares para problemas de otimização com R:
 
-- **Programação Linear**: aplicada à maximização de lucro em uma fábrica de banheiras.
-- **Descida do Gradiente**: usada para estimar parâmetros de uma rede neural simples, comparando com regressão linear.
+Este post reúne o material base do workshop de otimização realizado em dezembro de 2022. Contém um resumo dos objetivos, referências aos scripts de exemplo e link para os slides usados durante a sessão.
 
-O objetivo foi mostrar como técnicas clássicas e modernas podem ser implementadas de forma prática e acessível.
-
-
-## Parte 1: Programação Linear com `lpSolveAPI`
-
-A primeira parte do workshop abordou **programação linear**, uma técnica fundamental para problemas de alocação de recursos e maximização de resultados.
-
-Objetivo: Maximizar o lucro da produção de dois tipos de banheiras, considerando restrições de capacidade e recursos.
-
-### Etapas do código (`caso_01.R`):
-- Criação do modelo com `make.lp()`.
-- Definição da função objetivo com `set.objfn()`.
-- Adição das restrições com `add.constraint()`.
-- Resolução do problema com `solve()`.
-- Interpretação dos resultados:
-  - Valor ótimo da função objetivo.
-  - Valores das variáveis de decisão.
-
-**Pacote utilizado:** `lpSolveAPI`
-
----
-
-## Parte 2: Descida do Gradiente para Redes Neurais
-
-Na segunda parte, exploramos um exemplo de **aprendizado supervisionado** com uma rede neural simples, implementando manualmente o algoritmo de **descida do gradiente**.
-
-Objetivo: Estimar os parâmetros de uma rede neural com uma camada, comparando com regressão linear.
-
-### Etapas do código (`gradient_descent.R`):
-- Geração de dados simulados com `tidyverse`.
-- Ajuste inicial com regressão linear (`lm()`).
-- Definição da arquitetura da rede e função de perda.
-- Implementação do algoritmo de descida do gradiente:
-  - Versão padrão.
-  - Versão estocástica (mini-batches).
-- Comparação dos parâmetros obtidos com os da regressão linear.
+#### TL;DR
+- Introdução prática à formulação e solução de problemas de Programação Linear em R (lpSolveAPI).
+- Demonstração da descida do gradiente (batch e estocástico) e exercícios para fixação.  
+- Código-fonte e slides disponíveis no repositório (link abaixo).
 
 
+## Objetivos
 
-**Repositório completo:**  
-[https://github.com/magnotairone/aulas/tree/main/workshop%20-%20otimizacao](https://github.com/magnotairone/aulas/tree/main/workshop%20-%20otimizacao)
+- Apresentar conceitos fundamentais de otimização numérica e modelagem de problemas de programação linear.  
+- Demonstrar a formulação e resolução de problemas de Programação Linear em R (pacote lpSolveAPI).  
+- Mostrar, na prática, a implementação da descida do gradiente (tanto em modo batch quanto estocástico) para ajuste de modelos simples.  
+- Discutir boas práticas de modelagem, verificação de resultados e interpretações (naming, unidades, análise de sensibilidade).  
+
+## Materiais
+
+- Scripts de exemplo (no repositório):  
+  - workshop - otimizacao/caso_01.R (fábrica de banheiras — PL, maximização)  
+  - workshop - otimizacao/caso_02.R (mistura de ração — PL, minimização)  
+  - workshop - otimizacao/gradient descend.R (implementação manual de descida do gradiente)
+
+- Slides do workshop: [Slides do workshop — Otimização (PDF)](../../workshop%20-%20otimizacao/slides.pdf){.internal-link}
+
+- Repositório completo: [aqui](https://github.com/magnotairone/aulas/tree/main/workshop%20-%20otimizacao)
 
 
-<!-- Este workshop mostrou como problemas de otimização podem ser resolvidos com R, desde modelos lineares clássicos até algoritmos modernos usados em aprendizado de máquina. A ideia é fornecer uma base prática para quem deseja aplicar essas técnicas em projetos reais. -->
 

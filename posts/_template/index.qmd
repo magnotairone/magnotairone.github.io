@@ -17,9 +17,10 @@ draft: false
 lang: pt-BR
 ---
 
-Lead — duas a três frases que explicam rapidamente o objetivo do post e o público-alvo. Evite parágrafos muito longos.
+(Lead) duas a três frases que explicam rapidamente o objetivo do post e o público-alvo. Evite parágrafos muito longos.
 
-TL;DR
+#### TL;DR
+
 - Ponto 1: resumo rápido da conclusão ou utilidade.
 - Ponto 2: como reproduzir / link do código.
 

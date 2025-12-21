@@ -2,16 +2,15 @@
 title: "Tendência de novos casos de covid-19"
 description: "Análise dos casos reportados diariamente do Sars‑CoV‑2 usando detecção de pontos de mudança com splines."
 author:
-  - name: "Magno Severino"
+  - name: "Alex Rodrigo dos S. Sousa; Magno T. F. Severino; Florencia G. Leonardi"
     url: "https://magnotairone.github.io/"
-    orcid: "0000-0002-3432-7779"
     affiliation: ""
-    affiliation-url: "https://ucsb-meds.github.io/"
-date: 01-12-2020
+date: 2020-06-04
 categories: [Covid-19, splines]
 tags: [covid19, mudança, splines, análise]
 citation:
-  url: "https://magnotairone.github.io/posts/2020-12-01-covid19"
+  url: "https://arxiv.org/abs/2006.02649"
+bibliography: citations.bib
 image: "Covid-1.png"
 draft: false
 lang: pt-BR
@@ -19,7 +18,7 @@ lang: pt-BR
 
 Neste projeto apresentamos uma análise dos casos de infectados pelo vírus Sars‑CoV‑2 (novo coronavírus) reportados diariamente em diferentes países, nos estados e em algumas cidades brasileiras. A análise baseia‑se no ajuste, por meio de técnicas de seleção de modelos e detecção de pontos de mudança, de uma função de regressão utilizando splines.
 
-TL;DR
+#### TL;DR
 - Ajustamos modelos com splines e detectamos possíveis pontos de mudança na tendência de novos casos.
 - O projeto teve destaque em divulgação da imprensa especializada (Jornal da USP) e o vídeo de divulgação recebeu premiação da PRPG‑USP.
 
@@ -29,14 +28,14 @@ O objetivo é estudar a tendência temporal de novos casos e identificar mudanç
 
 Projeto desenvolvido em conjunto com Alex Rodrigo e Florencia Leonardi. Detalhes e material do projeto podem ser encontrados no repositório e na página do projeto.
 
-## Metodologia (resumo)
+## Metodologia
 
 A análise combina:
 - Modelagem de séries temporais por regressão com splines para capturar tendências suaves;
 - Métodos de seleção de modelos para escolher a complexidade das splines;
 - Algoritmos de detecção de pontos de mudança para localizar instantes com variação significativa na tendência.
 
-## Resultados (resumo) e divulgação na imprensa
+## Resultados e divulgação na imprensa
 
 Se você quiser ver os resultados sobre a identificação dos pontos de mudança na curva de tendência da covid‑19, a metodologia utilizada e os resultados completos, leia o preprint disponível no arXiv: [https://arxiv.org/abs/2006.02649](https://arxiv.org/abs/2006.02649).
 
@@ -67,4 +66,4 @@ Análises baseadas em splines e detecção de pontos de mudança permitem identi
 
 ---
 
-Nota: Data de publicação: 01-12-2020. Última atualização: 01-12-2020.
+Nota: Data de publicação: 2020-06-04. Última atualização: 2025-12-21.

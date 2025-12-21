@@ -11,7 +11,7 @@
     "href": "posts.html",
     "title": "Meu Blog",
     "section": "",
-    "text": "Modelagem Preditiva de Risco de Crédito com R\n\n\n\nCRISP-DM\n\nR\n\nRisco de Crédito\n\nCiência de Dados\n\nEstatística\n\n\n\nUm exemplo prático de aplicação do framework CRISP-DM.\n\n\n\nMagno Severino\n\n\n11 de dez. de 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnálise de notícias de ativos financeiros com R e LLM\n\n\n\nR\n\nFinance\n\nData Cleaning\n\n\n\nPipeline para organizar dados históricos de ativos e notícias financeiras usando tidyverse e lubridate e automatizando ess tafera com um uso de LLM.\n\n\n\nMagno Severino\n\n\n15 de nov. de 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nAprendendo R\n\n\n\nR\n\nCiência de Dados\n\nEstatística\n\n\n\nMaterial online gratuito para aprender R, disponível como livro interativo.\n\n\n\nMagno Severino\n\n\n1 de dez. de 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nDa Teoria à Prática: Modelos de IA Generativa com R e Python\n\n\n\nIA Generativa\n\nR\n\nPython\n\nLLM\n\n\n\nTutorial apresentado no SINAPE 2024 sobre criação de aplicações com LLMs para recuperação de informação em PDFs.\n\n\n\nMagno Severino\n\n\n15 de jul. de 2024\n\n\n\n\n\n\n\n\n\n\n\nWorkshop de Otimização com R: Programação Linear e Descida do Gradiente\n\n\n\nR\n\nOtimização\n\nMachine Learning\n\nProgramação Linear\n\n\n\nExplorando técnicas de otimização com R, desde programação linear para problemas de produção até algoritmos de aprendizado como descida do gradiente para redes neurais…\n\n\n\nMagno Severino\n\n\n10 de dez. de 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nTendência de novos casos de covid-19\n\n\n\nCovid-19\n\nsplines\n\n\n\nAnálise dos casos reportados diariamente do Sars‑CoV‑2 usando detecção de pontos de mudança com splines.\n\n\n\nMagno Severino\n\n\n12 de jan. de 2020\n\n\n\n\n\n\nNenhum item correspondente"
+    "text": "Modelagem Preditiva de Risco de Crédito com R\n\n\n\nCRISP-DM\n\nR\n\nRisco de Crédito\n\nCiência de Dados\n\nEstatística\n\n\n\nUm exemplo prático de aplicação do framework CRISP-DM.\n\n\n\nMagno Severino\n\n\n11 de dez. de 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnálise de notícias de ativos financeiros com R e LLM\n\n\n\nR\n\nFinance\n\nData Cleaning\n\n\n\nPipeline para organizar dados históricos de ativos e notícias financeiras usando tidyverse e lubridate e automatizando ess tafera com um uso de LLM.\n\n\n\nMagno Severino\n\n\n15 de nov. de 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nAprendendo R\n\n\n\nR\n\nCiência de Dados\n\nEstatística\n\n\n\nMaterial online gratuito para aprender R, disponível como livro interativo.\n\n\n\nMagno Severino\n\n\n1 de dez. de 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nDa Teoria à Prática: Modelos de IA Generativa com R e Python\n\n\n\nIA Generativa\n\nR\n\nPython\n\nLLM\n\n\n\nTutorial apresentado no SINAPE 2024 sobre criação de aplicações com LLMs para recuperação de informação em PDFs.\n\n\n\nMagno Severino\n\n\n15 de jul. de 2024\n\n\n\n\n\n\n\n\n\n\n\nWorkshop de Otimização com R: Programação Linear e Descida do Gradiente\n\n\n\nR\n\nOtimização\n\nMachine Learning\n\nProgramação Linear\n\n\n\nExplorando técnicas de otimização com R, desde programação linear para problemas de produção até algoritmos de aprendizado como descida do gradiente para redes neurais…\n\n\n\nMagno T. F. Severino\n\n\n3 de dez. de 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nTendência de novos casos de covid-19\n\n\n\nCovid-19\n\nsplines\n\n\n\nAnálise dos casos reportados diariamente do Sars‑CoV‑2 usando detecção de pontos de mudança com splines.\n\n\n\nAlex Rodrigo dos S. Sousa; Magno T. F. Severino; Florencia G. Leonardi\n\n\n4 de jun. de 2020\n\n\n\n\n\n\nNenhum item correspondente"
   },
   {
     "objectID": "posts/20241201-aprendendoR/index.html",
@@ -39,7 +39,7 @@
     "href": "posts/20201201-covid19/index.html",
     "title": "Tendência de novos casos de covid-19",
     "section": "",
-    "text": "Neste projeto apresentamos uma análise dos casos de infectados pelo vírus Sars‑CoV‑2 (novo coronavírus) reportados diariamente em diferentes países, nos estados e em algumas cidades brasileiras. A análise baseia‑se no ajuste, por meio de técnicas de seleção de modelos e detecção de pontos de mudança, de uma função de regressão utilizando splines.\nTL;DR - Ajustamos modelos com splines e detectamos possíveis pontos de mudança na tendência de novos casos. - O projeto teve destaque em divulgação da imprensa especializada (Jornal da USP) e o vídeo de divulgação recebeu premiação da PRPG‑USP."
+    "text": "Neste projeto apresentamos uma análise dos casos de infectados pelo vírus Sars‑CoV‑2 (novo coronavírus) reportados diariamente em diferentes países, nos estados e em algumas cidades brasileiras. A análise baseia‑se no ajuste, por meio de técnicas de seleção de modelos e detecção de pontos de mudança, de uma função de regressão utilizando splines."
   },
   {
     "objectID": "posts/20201201-covid19/index.html#introdução",
@@ -49,18 +49,18 @@
     "text": "Introdução\nO objetivo é estudar a tendência temporal de novos casos e identificar mudanças na dinâmica da transmissão que possam representar efeitos de intervenções, sazonalidade ou mudanças de teste/report.\nProjeto desenvolvido em conjunto com Alex Rodrigo e Florencia Leonardi. Detalhes e material do projeto podem ser encontrados no repositório e na página do projeto."
   },
   {
-    "objectID": "posts/20201201-covid19/index.html#metodologia-resumo",
-    "href": "posts/20201201-covid19/index.html#metodologia-resumo",
+    "objectID": "posts/20201201-covid19/index.html#metodologia",
+    "href": "posts/20201201-covid19/index.html#metodologia",
     "title": "Tendência de novos casos de covid-19",
-    "section": "Metodologia (resumo)",
-    "text": "Metodologia (resumo)\nA análise combina: - Modelagem de séries temporais por regressão com splines para capturar tendências suaves; - Métodos de seleção de modelos para escolher a complexidade das splines; - Algoritmos de detecção de pontos de mudança para localizar instantes com variação significativa na tendência."
+    "section": "Metodologia",
+    "text": "Metodologia\nA análise combina: - Modelagem de séries temporais por regressão com splines para capturar tendências suaves; - Métodos de seleção de modelos para escolher a complexidade das splines; - Algoritmos de detecção de pontos de mudança para localizar instantes com variação significativa na tendência."
   },
   {
-    "objectID": "posts/20201201-covid19/index.html#resultados-resumo-e-divulgação-na-imprensa",
-    "href": "posts/20201201-covid19/index.html#resultados-resumo-e-divulgação-na-imprensa",
+    "objectID": "posts/20201201-covid19/index.html#resultados-e-divulgação-na-imprensa",
+    "href": "posts/20201201-covid19/index.html#resultados-e-divulgação-na-imprensa",
     "title": "Tendência de novos casos de covid-19",
-    "section": "Resultados (resumo) e divulgação na imprensa",
-    "text": "Resultados (resumo) e divulgação na imprensa\nSe você quiser ver os resultados sobre a identificação dos pontos de mudança na curva de tendência da covid‑19, a metodologia utilizada e os resultados completos, leia o preprint disponível no arXiv: https://arxiv.org/abs/2006.02649.\nO projeto recebeu atenção da imprensa: foi publicada uma matéria no Jornal da USP que descreve o projeto, a metodologia e os resultados em linguagem acessível ao público geral.\nLeia a matéria completa no Jornal da USP: Jornal da USP — Método identifica e prevê mudanças na curva de casos de covid‑19\nO vídeo de divulgação do projeto foi premiado pela Pró‑Reitoria de Pós‑Graduação da USP e pode ser acessado abaixo."
+    "section": "Resultados e divulgação na imprensa",
+    "text": "Resultados e divulgação na imprensa\nSe você quiser ver os resultados sobre a identificação dos pontos de mudança na curva de tendência da covid‑19, a metodologia utilizada e os resultados completos, leia o preprint disponível no arXiv: https://arxiv.org/abs/2006.02649.\nO projeto recebeu atenção da imprensa: foi publicada uma matéria no Jornal da USP que descreve o projeto, a metodologia e os resultados em linguagem acessível ao público geral.\nLeia a matéria completa no Jornal da USP: Jornal da USP — Método identifica e prevê mudanças na curva de casos de covid‑19\nO vídeo de divulgação do projeto foi premiado pela Pró‑Reitoria de Pós‑Graduação da USP e pode ser acessado abaixo."
   },
   {
     "objectID": "posts/20201201-covid19/index.html#conclusão",
@@ -74,7 +74,7 @@
     "href": "posts/20201201-covid19/index.html#referências-links-úteis",
     "title": "Tendência de novos casos de covid-19",
     "section": "Referências / Links úteis",
-    "text": "Referências / Links úteis\n\nPágina do projeto (GPECA/IME): http://www.ime.usp.br/~gpeca/covid-19\n\nMatéria no Jornal da USP — Método identifica e prevê mudanças na curva de casos de covid‑19\n\nPreprint / artigo disponível no arXiv — https://arxiv.org/abs/2006.02649 (PDF: https://arxiv.org/pdf/2006.02649)\n\n\nNota: Data de publicação: 01-12-2020. Última atualização: 01-12-2020."
+    "text": "Referências / Links úteis\n\nPágina do projeto (GPECA/IME): http://www.ime.usp.br/~gpeca/covid-19\n\nMatéria no Jornal da USP — Método identifica e prevê mudanças na curva de casos de covid‑19\n\nPreprint / artigo disponível no arXiv — https://arxiv.org/abs/2006.02649 (PDF: https://arxiv.org/pdf/2006.02649)\n\n\nNota: Data de publicação: 2020-06-04. Última atualização: 2025-12-21."
   },
   {
     "objectID": "legado/talks/2024-08-08-sinape.html",
@@ -200,21 +200,21 @@
     "href": "posts/20231012-otimizacao/index.html",
     "title": "Workshop de Otimização com R: Programação Linear e Descida do Gradiente",
     "section": "",
-    "text": "Este workshop apresentou duas abordagens complementares para problemas de otimização com R:\nO objetivo foi mostrar como técnicas clássicas e modernas podem ser implementadas de forma prática e acessível."
+    "text": "Este post reúne o material base do workshop de otimização realizado em dezembro de 2022. Contém um resumo dos objetivos, referências aos scripts de exemplo e link para os slides usados durante a sessão."
   },
   {
-    "objectID": "posts/20231012-otimizacao/index.html#parte-1-programação-linear-com-lpsolveapi",
-    "href": "posts/20231012-otimizacao/index.html#parte-1-programação-linear-com-lpsolveapi",
+    "objectID": "posts/20231012-otimizacao/index.html#objetivos",
+    "href": "posts/20231012-otimizacao/index.html#objetivos",
     "title": "Workshop de Otimização com R: Programação Linear e Descida do Gradiente",
-    "section": "Parte 1: Programação Linear com lpSolveAPI",
-    "text": "Parte 1: Programação Linear com lpSolveAPI\nA primeira parte do workshop abordou programação linear, uma técnica fundamental para problemas de alocação de recursos e maximização de resultados.\nObjetivo: Maximizar o lucro da produção de dois tipos de banheiras, considerando restrições de capacidade e recursos.\n\nEtapas do código (caso_01.R):\n\nCriação do modelo com make.lp().\nDefinição da função objetivo com set.objfn().\nAdição das restrições com add.constraint().\nResolução do problema com solve().\nInterpretação dos resultados:\n\nValor ótimo da função objetivo.\nValores das variáveis de decisão.\n\n\nPacote utilizado: lpSolveAPI"
+    "section": "Objetivos",
+    "text": "Objetivos\n\nApresentar conceitos fundamentais de otimização numérica e modelagem de problemas de programação linear.\n\nDemonstrar a formulação e resolução de problemas de Programação Linear em R (pacote lpSolveAPI).\n\nMostrar, na prática, a implementação da descida do gradiente (tanto em modo batch quanto estocástico) para ajuste de modelos simples.\n\nDiscutir boas práticas de modelagem, verificação de resultados e interpretações (naming, unidades, análise de sensibilidade)."
   },
   {
-    "objectID": "posts/20231012-otimizacao/index.html#parte-2-descida-do-gradiente-para-redes-neurais",
-    "href": "posts/20231012-otimizacao/index.html#parte-2-descida-do-gradiente-para-redes-neurais",
+    "objectID": "posts/20231012-otimizacao/index.html#materiais",
+    "href": "posts/20231012-otimizacao/index.html#materiais",
     "title": "Workshop de Otimização com R: Programação Linear e Descida do Gradiente",
-    "section": "Parte 2: Descida do Gradiente para Redes Neurais",
-    "text": "Parte 2: Descida do Gradiente para Redes Neurais\nNa segunda parte, exploramos um exemplo de aprendizado supervisionado com uma rede neural simples, implementando manualmente o algoritmo de descida do gradiente.\nObjetivo: Estimar os parâmetros de uma rede neural com uma camada, comparando com regressão linear.\n\nEtapas do código (gradient_descent.R):\n\nGeração de dados simulados com tidyverse.\nAjuste inicial com regressão linear (lm()).\nDefinição da arquitetura da rede e função de perda.\nImplementação do algoritmo de descida do gradiente:\n\nVersão padrão.\nVersão estocástica (mini-batches).\n\nComparação dos parâmetros obtidos com os da regressão linear.\n\nRepositório completo:\nhttps://github.com/magnotairone/aulas/tree/main/workshop%20-%20otimizacao"
+    "section": "Materiais",
+    "text": "Materiais\n\nScripts de exemplo (no repositório):\n\nworkshop - otimizacao/caso_01.R (fábrica de banheiras — PL, maximização)\n\nworkshop - otimizacao/caso_02.R (mistura de ração — PL, minimização)\n\nworkshop - otimizacao/gradient descend.R (implementação manual de descida do gradiente)\n\nSlides do workshop: Slides do workshop — Otimização (PDF)\nRepositório completo: aqui"
   },
   {
     "objectID": "posts/20240715-rag/index.html",
