@@ -19,6 +19,10 @@ Notas do tutorial apresentado no SINAPE 2024 sobre inteligência artifical gener
 
 ---
 
+### Model selection for Markov random fields on graphs under a mixing condition (2026)
+**Tipo**: Palestra
+**Local**: Universidad de la República, Montevideo
+[Slides here](http://magnotairone.github.io/slides/20260306_CLAPEM/slides.html).
 
 ### Introdução à Otimização (2022)
 **Tipo:** Workshop  
