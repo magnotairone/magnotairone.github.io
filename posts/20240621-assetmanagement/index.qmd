@@ -1,6 +1,6 @@
 ---
 title: "Análise de notícias de ativos financeiros com R e LLM"
-description: "Pipeline para organizar dados históricos de ativos e notícias financeiras usando tidyverse e lubridate e automatizando ess tafera com um uso de LLM."
+description: "Pipeline para organizar dados históricos de ativos e notícias financeiras usando tidyverse e lubridate e automatizando essa tarefa com o uso de LLMs."
 author:
   - name: "Magno Severino"
     url: "https://magnotairone.github.io/"
@@ -39,7 +39,7 @@ Principais etapas do pipeline:
 - Processamento de notícias: limpeza textual, extração de features e integração com o histórico de preços.  
 - Automação: rotina/“agente” que executa o processamento em lote e grava o resultado consolidado (`data/daily.csv`).
 - Template do prompt utilizado:
-```{r, echo=TRUE, eval=FALSE}
+```r
 prompt <- glue("
 Ativo: {nome_asset}
 Empresa: {empresa}
