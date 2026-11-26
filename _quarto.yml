@@ -19,14 +19,12 @@ website:
         text: Home
       - href: curriculo.qmd
         text: Currículo
-      - href: publicacoes.qmd
-        text: Publicações
-      - href: palestras.qmd
-        text: Palestras
+      - href: pesquisa.qmd
+        text: Pesquisa
       - href: ensino.qmd
         text: Ensino
-      - href: projetos.qmd
-        text: Projetos
+      - href: palestras.qmd
+        text: Palestras
       - posts.qmd
     right:
       - icon: github
