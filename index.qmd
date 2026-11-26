@@ -1,12 +1,63 @@
-<div style="text-align: center; margin-top: 40px;">
-  <img src="img/profile-foto.png" alt="Foto de perfil" style="border-radius: 50%; width: 180px; height: 180px; object-fit: cover;">
-  <h1 style="margin-top: 20px;">Magno Tairone de Freitas Severino</h1>
-  <p style="font-size: 18px; max-width: 700px; margin: 20px auto;">
-    Professor e Cientista de Dados. Doutor em Probabilidade e Estatística pela USP, com experiência em modelagem estatística, aprendizado de máquina e ciência de dados aplicada.
-    Atuo em projetos acadêmicos e corporativos envolvendo inferência para processos estocásticos, estatística computacional, aprendizagem estatística e inteligência artificial generativa.
-  </p>
-  <p style="font-size: 16px; max-width: 700px; margin: 10px auto;">
-    Apaixonado por ensino e pesquisa, com foco em conectar teoria estatística a aplicações práticas. 
-    Minha missão é formar profissionais preparados para os desafios da ciência de dados e contribuir para a inovação científica e tecnológica.
-  </p>
-</div>
+---
+title: "Magno Tairone de Freitas Severino"
+subtitle: "Cientista de Dados · Professor de Pós-Graduação"
+description: "Cientista de dados e professor de pós-graduação. Doutor em Probabilidade e Estatística pelo IME-USP."
+image: img/profile-foto.png
+image-alt: "Foto de perfil de Magno Tairone"
+about:
+  template: trestles
+  image-shape: round
+  image-width: 14em
+  links:
+    - icon: file-earmark-person
+      text: Currículo
+      href: curriculo.qmd
+    - icon: download
+      text: CV em PDF
+      href: curriculo.pdf
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/magnotairone/
+    - icon: github
+      text: GitHub
+      href: https://github.com/magnotairone
+    - icon: mortarboard
+      text: Lattes
+      href: https://lattes.cnpq.br/9791024128849349
+    - icon: person-badge
+      text: ORCID
+      href: https://orcid.org/0000-0002-3432-7779
+listing:
+  id: ultimos-posts
+  contents: posts
+  sort: "date desc"
+  type: table
+  max-items: 3
+  fields: [date, title]
+  date-format: "MM/YYYY"
+  sort-ui: false
+  filter-ui: false
+  field-display-names:
+    date: "Data"
+    title: "Título"
+---
+
+Trabalho com modelagem estatística, machine learning e inteligência artificial generativa, em projetos acadêmicos e corporativos.
+
+Gosto de conectar teoria estatística a aplicações práticas e de ensinar: meu objetivo é formar profissionais preparados para os desafios da ciência de dados e contribuir para a inovação científica e tecnológica.
+
+## Atualmente
+
+-   **Cientista de Dados Sênior** na [XP Inc](https://www.xpi.com.br/), desde 2025.
+-   **Professor de pós-graduação** no [Insper](https://www.insper.edu.br/), desde 2021, em aprendizado estatístico, modelagem de dados e redes neurais.
+
+## Interesses
+
+Aprendizagem estatística · Inferência para processos estocásticos · Modelos gráficos · Risco de crédito · IA generativa
+
+## Últimos posts
+
+::: {#ultimos-posts}
+:::
+
+[Ver todos os posts →](posts.qmd)

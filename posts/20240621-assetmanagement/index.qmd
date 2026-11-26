@@ -6,6 +6,7 @@ author:
     url: "https://magnotairone.github.io/"
     orcid: "0000-0002-3432-7779"
     affiliation: "Insper"
+date: 2024-06-21
 categories: [R, Finanças, Data Cleaning]
 tags: [R, finanças, limpeza-de-dados, LLM, automação]
 citation:

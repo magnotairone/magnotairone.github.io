@@ -1,51 +1,71 @@
-## Sobre Mim
+---
+title: "Currículo"
+description: "Experiência profissional, formação acadêmica e competências de Magno Tairone, cientista de dados e professor de pós-graduação."
+format:
+  html: default
+  typst:
+    output-file: curriculo.pdf
+    title: "Magno Tairone de Freitas Severino"
+    subtitle: "Cientista de Dados · Professor · magnotairone.github.io"
+    papersize: a4
+    margin:
+      x: 2cm
+      y: 2cm
+format-links: false
+---
 
-Sou Doutor em Probabilidade e Estatística pelo IME-USP, mestre em Estatística e bacharel em Matemática Computacional pela UFMG. Atuo como cientista de dados e líder técnico, com experiência em modelagem de risco de crédito, governança de modelos e aprendizado estatístico. Tenho habilidade em traduzir necessidades complexas de negócio em soluções orientadas por dados que sejam robustas, explicáveis e auditáveis. Também sou professor de pós-graduação em Ciência de Dados. Me interesso por aprendizagem estatística, inferência para processos estocásticos e grafos.
+::: {.content-visible when-format="html"}
+[Baixar CV em PDF](curriculo.pdf){.btn .btn-primary}
+:::
 
-Currículo no formato Lattes [aqui](https://lattes.cnpq.br/9791024128849349).
+## Sobre mim
+
+Sou doutor em Probabilidade e Estatística pelo IME-USP, mestre em Estatística e bacharel em Matemática Computacional pela UFMG. Atuo como cientista de dados e líder técnico, com experiência em modelagem de risco de crédito, governança de modelos e aprendizado estatístico. Tenho habilidade em traduzir necessidades complexas de negócio em soluções orientadas por dados que sejam robustas, explicáveis e auditáveis. Também sou professor de pós-graduação em Ciência de Dados. Me interesso por aprendizagem estatística, inferência para processos estocásticos e grafos.
+
+Currículo Lattes: [lattes.cnpq.br/9791024128849349](https://lattes.cnpq.br/9791024128849349).
 
 ---
 
-### Experiências
+### Experiência profissional
 
-#### Cientista de Dados Sênior - XP Inc (2025 - atual)
+#### Cientista de Dados Sênior — XP Inc (2025–atual)
 
-- Desenvolve soluções baseadas em dados para marketing e aquisição de novos clientes.
-- Atua ativamente na tradução de demandas das áreas de negócio em soluções de machine learning.
-- Leciona em programas de capacitação interna sobre letramento de dados.
+- Desenvolvo soluções baseadas em dados para marketing e aquisição de novos clientes.
+- Traduzo demandas das áreas de negócio em soluções de machine learning.
+- Leciono em programas de capacitação interna sobre letramento de dados.
 
 
-#### Professor de Pós-Graduação — Insper (2021 - atual)
+#### Professor de Pós-Graduação — Insper (2021–atual)
 
-- Leciona machine learning aplicado e modelagem estatística em programas de pós-graduação e executivos.
+- Leciono machine learning aplicado e modelagem estatística em programas de pós-graduação e executivos.
 - Cursos: Aprendizado Estatístico, Modelagem de Dados, Redes Neurais, Modelos Não Supervisionados, Transformando Negócios com Dados.
-- Reconhecido por apresentar conteúdo técnico com clareza para públicos diversos.
+- Sou reconhecido por apresentar conteúdo técnico com clareza para públicos diversos.
 
-#### Analista de Modelagem Estatística Sênior - Pefisa (2024–2025)
+#### Analista de Modelagem Estatística Sênior — Pefisa (2024–2025)
 
-- Propôs e liderou a implementação de uma base de modelagem unificada e feature store interna, criando mais de 150 features engenheiradas e reduzindo o tempo de desenvolvimento em uma semana por modelo.
-- Projetou e liderou a implementação de um framework de automação para monitoramento de modelos, reduzindo esforço mensal de 80h para 4h.
-- Melhorou o modelo de admissão de crédito pessoal em 11 pontos percentuais no KS através de redesenho e engenharia de features.
-- Atua como referência técnica para a equipe de modelagem.
-- Entregou soluções para áreas como Risco de Crédito, Política de Crédito, Cobrança, Produtos Financeiros, Marketing e CRM.
+- Propus e liderei a implementação de uma base de modelagem unificada e feature store interna, criando mais de 150 features engenheiradas e reduzindo o tempo de desenvolvimento em uma semana por modelo.
+- Projetei e liderei a implementação de um framework de automação para monitoramento de modelos, reduzindo esforço mensal de 80h para 4h.
+- Melhorei o modelo de admissão de crédito pessoal em 11 pontos percentuais no KS através de redesenho e engenharia de features.
+- Atuei como referência técnica para a equipe de modelagem.
+- Entreguei soluções para áreas como Risco de Crédito, Política de Crédito, Cobrança, Produtos Financeiros, Marketing e CRM.
 
 
 #### Especialista de Precificação — Banco BTG Pactual (2022–2024)
 
-- Líder da frente de precificação na equipe de gestão de portfólio.
-- Implementou modelos de precificação de derivativos para gestão de portfólio.
-- Automatizou pipelines de dados, economizando 2h diárias por membro da equipe.
-- Liderou desenvolvimento de aplicação baseada em IA generativa para análise de impacto de notícias no portfólio.
+- Liderei a frente de precificação na equipe de gestão de portfólio.
+- Implementei modelos de precificação de derivativos para gestão de portfólio.
+- Automatizei pipelines de dados, economizando 2h diárias por membro da equipe.
+- Liderei o desenvolvimento de uma aplicação baseada em IA generativa para análise de impacto de notícias no portfólio.
 
 ---
 
-### Formação Acadêmica
+### Formação acadêmica
 
-- **Doutorado em Probabilidade e Estatística** - IME-USP (2018 - 2024)  
+- **Doutorado em Probabilidade e Estatística** — IME-USP (2018–2024)  
   Tese: [Seleção de modelos para campos aleatórios de Markov em grafos sob uma condição de mistura](https://www.teses.usp.br/teses/disponiveis/45/45133/tde-25042024-181144/pt-br.php)  
   Cursos relevantes: Probabilidade Avançada, Processos Estocásticos, Aprendizado Estatístico.
 
-- **Mestrado em Estatística** - DEST-UFMG (2016–2018)  
+- **Mestrado em Estatística** — DEST-UFMG (2016–2018)  
   Dissertação: [Estendendo o JAGS para dados espaciais](https://repositorio.ufmg.br/bitstream/1843/BUOS-AZGNHV/1/dissertacao_magno_t_f_severino.pdf)  
   Cursos relevantes: Estatística Espacial, Inferência Estatística, Inferência Bayesiana, Machine Learning.
 
@@ -54,7 +74,7 @@ Currículo no formato Lattes [aqui](https://lattes.cnpq.br/9791024128849349).
 
 ---
 
-### Trabalhos Voluntários Selecionados
+### Trabalhos voluntários selecionados
 
 - **Revisor de Tradução de Livro** (2023–2024)  
   Revisão da tradução para português do livro [R for Data Science (2ª Edição)](https://pt.r4ds.hadley.nz/).
@@ -72,10 +92,11 @@ Currículo no formato Lattes [aqui](https://lattes.cnpq.br/9791024128849349).
 - **Ferramentas & Frameworks:** Airflow, Docker, Kubernetes  
 - **Nuvem:** AWS, Azure  
 
-<!-- --- -->
+---
 
-<!-- ## Idiomas -->
-<!-- - Português (nativo), Inglês (fluente), Espanhol (básico) -->
+### Idiomas
+
+Português (nativo), Inglês (fluente), Espanhol (básico).
 
 ---
 
