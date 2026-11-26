@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - slides/*.pdf
+    - posters/*.pdf
 
 lang: pt
 
@@ -25,6 +28,8 @@ website:
         text: Ensino
       - href: palestras.qmd
         text: Palestras
+      - href: materiais.qmd
+        text: Materiais
       - posts.qmd
     right:
       - icon: github

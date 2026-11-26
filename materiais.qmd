@@ -1,0 +1,27 @@
+---
+title: "Materiais"
+description: "Livros, notas de aula, tutoriais, minicursos, slides e pôsteres que desenvolvi para aulas, palestras e eventos."
+listing:
+  id: materiais
+  contents: materiais.yml
+  type: table
+  sort: "date desc"
+  date-format: "YYYY"
+  fields: [date, title, tipo, evento]
+  field-display-names:
+    date: "Ano"
+    title: "Material"
+    tipo: "Tipo"
+    evento: "Onde"
+  categories: true
+  filter-ui: true
+  sort-ui: [date, title, tipo]
+  page-size: 50
+---
+
+Tudo num só lugar. Filtre por tipo ou tema nas categorias, ou busque pelo título.
+
+As palestras, com local e contexto, estão na página [Palestras](palestras.qmd).
+
+::: {#materiais}
+:::
