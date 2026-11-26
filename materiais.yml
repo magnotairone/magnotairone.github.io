@@ -1,0 +1,88 @@
+# Catálogo de materiais exibido em materiais.qmd.
+# Para incluir um material, copie um bloco e ajuste os campos:
+#   title       título do material
+#   description uma frase sobre o conteúdo
+#   path        link (externo ou para um arquivo deste site)
+#   date        data (AAAA-MM-DD); define a ordem do catálogo
+#   tipo        Livro, Notas de aula, Tutorial, Minicurso, Workshop, Slides, Pôster...
+#   evento      onde foi usado ou apresentado
+#   categories  [tipo, temas...] — viram os filtros da página
+
+- title: "Modelagem Preditiva de Risco de Crédito com R"
+  description: "Minicurso com um exemplo completo de CRISP-DM para risco de crédito: base, rótulo, atributos, modelagem e avaliação."
+  path: https://magnotairone.github.io/credito/slide/
+  date: 2025-12-11
+  tipo: Minicurso
+  evento: I WECDAF, UFBA
+  categories: [Minicurso, R, Risco de Crédito, Machine Learning]
+
+- title: "Muito além da técnica: habilidades essenciais para estatísticos"
+  description: "Slides da palestra sobre habilidades interpessoais e comunicação para estudantes de Estatística."
+  path: https://github.com/magnotairone/material/blob/main/Apresenta%C3%A7%C3%A3o%20IME%20USP.pdf
+  date: 2025-01-01
+  tipo: Slides
+  evento: IME-USP
+  categories: [Slides, Carreira]
+
+- title: "Introdução a R e Python"
+  description: "Notas de aula do curso de introdução a R e Python da pós-graduação do Insper."
+  path: https://magnotairone.github.io/intro_r_python/
+  date: 2024-01-01
+  tipo: Notas de aula
+  evento: Insper
+  categories: [Notas de aula, R, Python]
+
+- title: "Aprendendo R"
+  description: "Livro on-line gratuito com tutoriais de R: manipulação, visualização, estatística aplicada e exercícios."
+  path: https://magnotairone.github.io/AprendendoR/
+  date: 2024-12-01
+  tipo: Livro
+  evento: Material aberto
+  categories: [Livro, R]
+
+- title: "Da Teoria à Prática: Modelos de IA Generativa com R e Python"
+  description: "Tutorial para criar uma aplicação de recuperação de informação em PDFs com LLMs."
+  path: https://magnotairone.github.io/tutorial_sinape_2024/tutorial
+  date: 2024-07-15
+  tipo: Tutorial
+  evento: SINAPE 2024
+  categories: [Tutorial, IA Generativa, R, Python]
+
+- title: "Estimation and model selection for mixing graphical models"
+  description: "Slides sobre estimação e seleção de modelos gráficos sob condição de mistura."
+  path: slides/2023neuromat-v2.pdf
+  date: 2023-10-26
+  tipo: Slides
+  evento: NeuroMat
+  categories: [Slides, Pesquisa, Modelos Gráficos]
+
+- title: "Workshop de Otimização com R"
+  description: "Programação linear com lpSolveAPI e descida do gradiente, com scripts e slides."
+  path: https://github.com/magnotairone/aulas/tree/main/workshop%20-%20otimizacao
+  date: 2022-12-01
+  tipo: Workshop
+  evento: Insper
+  categories: [Workshop, R, Otimização]
+
+- title: "Detecção de pontos de mudança na curva de novos casos de covid-19"
+  description: "Slides da apresentação sobre splines e pontos de mudança aplicados à covid-19."
+  path: https://rpubs.com/magnotfs/covid19
+  date: 2021-11-17
+  tipo: Slides
+  evento: Banco Santander
+  categories: [Slides, Pesquisa, Covid-19]
+
+- title: "As desigualdades existentes no Brasil vistas no resultado do ENEM 2017"
+  description: "Pôster com análise dos resultados do ENEM 2017."
+  path: posters/poster_emr_2018.pdf
+  date: 2018-01-01
+  tipo: Pôster
+  evento: EMR 2018
+  categories: [Pôster, Análise de Dados]
+
+- title: "Aplicações de Ciência de Dados"
+  description: "Livro (bookdown) com aplicações de ciência de dados."
+  path: https://magnotairone.github.io/aplicacoes/
+  tipo: Livro
+  evento: Material aberto
+  categories: [Livro, Ciência de Dados]
