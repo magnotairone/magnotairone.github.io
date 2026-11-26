@@ -5,7 +5,6 @@ author:
   - name: "Magno Severino"
     url: "https://magnotairone.github.io/"
     orcid: "0000-0002-3432-7779"
-    affiliation: ""
 date: 2025-12-11
 categories: [CRISP-DM, R, Risco de Crédito, Ciência de Dados, Estatística]
 image: "credito.png"
@@ -33,7 +32,7 @@ Oferecer um exemplo prático e reproduzível de aplicação do CRISP‑DM para u
 Repositório com material e código: [https://github.com/magnotairone/credito](https://github.com/magnotairone/credito).
 
 
-[Acesse os slides do minicurso](https://magnotairone.github.io/credito/slide/){.btn .btn-primary style="font-size:18px; padding:10px 20px; margin-top:20px; background-color:#2c3e50; border-color:#2c3e50; color:#fff"}
+[Acesse os slides do minicurso](https://magnotairone.github.io/credito/slide/){.btn .btn-primary .btn-lg .mt-3}
 
 
 ## Agradecimentos

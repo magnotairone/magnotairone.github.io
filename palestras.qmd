@@ -1,3 +1,8 @@
+---
+title: "Palestras"
+description: "Palestras, tutoriais e workshops apresentados em congressos, universidades e empresas."
+---
+
 Aqui estão algumas apresentações selecionadas:
 
 

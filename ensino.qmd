@@ -1,24 +1,29 @@
-:::::: {style="display:flex; justify-content:center; gap:20px; flex-wrap:wrap; margin-top:20px;"}
-::: {style="width:200px; padding:20px; border-radius:10px; background-color:#006666; color:white; box-shadow:0 2px 6px rgba(0,0,0,0.1); text-align:center;"}
-<h3>7 anos</h3>
+---
+title: "Ensino"
+description: "Cursos ministrados em graduação, pós-graduação e educação executiva no IME-USP e no Insper, e materiais de aula disponíveis."
+---
 
-<p>de experiência como monitor</p>
+::::: stat-cards
+::: stat-card
+### 7 anos
+
+de experiência como monitor
 :::
 
-::: {style="width:200px; padding:20px; border-radius:10px; background-color:#007777; color:white; box-shadow:0 2px 6px rgba(0,0,0,0.1); text-align:center;"}
-<h3>5 anos</h3>
+::: stat-card
+### 5 anos
 
-<p>como docente em graduação e pós-graduação</p>
+como docente em graduação e pós-graduação
 :::
 
-::: {style="width:200px; padding:20px; border-radius:10px; background-color:#008888; color:white; box-shadow:0 2px 6px rgba(0,0,0,0.1); text-align:center;"}
-<h3>+1000 alunos</h3>
+::: stat-card
+### +1000 alunos
 
-<p>e 770 horas de aulas ministradas</p>
+e 770 horas de aulas ministradas
 :::
-::::::
+:::::
 
-# Cursos Ministrados
+## Cursos Ministrados
 
 ### Graduação
 
@@ -38,7 +43,7 @@
 -   Programação para Não Programadores, Insper (2021)
 -   Formação em Dados e Analytics, Insper (2024)
 
-# Materiais disponíveis
+## Materiais disponíveis
 
 -   Introdução a R e Python. Notas de aula [aqui](https://magnotairone.github.io/intro_r_python/).
 
