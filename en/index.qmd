@@ -1,0 +1,49 @@
+---
+title: "Magno Tairone de Freitas Severino"
+subtitle: "Data Scientist · Graduate Lecturer"
+description: "Data scientist and graduate lecturer. PhD in Probability and Statistics from the University of São Paulo (IME-USP)."
+image: ../img/profile-foto.png
+image-alt: "Profile photo of Magno Tairone"
+about:
+  template: trestles
+  image-shape: round
+  image-width: 14em
+  links:
+    - icon: file-earmark-person
+      text: CV
+      href: /en/cv.html
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/magnotairone/
+    - icon: github
+      text: GitHub
+      href: https://github.com/magnotairone
+    - icon: journal-text
+      text: Google Scholar
+      href: https://scholar.google.com.br/citations?user=Isftae0AAAAJ
+    - icon: person-badge
+      text: ORCID
+      href: https://orcid.org/0000-0002-3432-7779
+---
+
+I work on statistical modeling, machine learning and generative AI, in both academic and industry projects.
+
+I enjoy connecting statistical theory to practical applications, and I enjoy teaching: my goal is to prepare professionals for the challenges of data science and to contribute to scientific and technological innovation.
+
+## Currently
+
+-   **Senior Data Scientist** at [XP Inc](https://www.xpi.com.br/), since 2025.
+-   **Graduate lecturer** at [Insper](https://www.insper.edu.br/), since 2021, teaching statistical learning, data modeling and neural networks.
+
+## Highlight
+
+My PhD thesis received an **honorable mention in the Francisco Aranda-Ordaz Award** (2026), granted by SLAPEM and the Bernoulli Society to the best Latin American theses in Probability and Statistics. More on the [Research](research.qmd) page.
+
+## Interests
+
+Statistical learning · Inference for stochastic processes · Graphical models · Credit risk · Generative AI
+
+## Writing and materials
+
+-   [Materials](materials.qmd): books, lecture notes, tutorials and slides.
+-   [Blog](/posts.html): posts on statistics, data science, R and AI (in Portuguese).

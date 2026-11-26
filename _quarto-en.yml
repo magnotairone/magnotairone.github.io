@@ -1,0 +1,40 @@
+# English version: pages in en/.
+
+project:
+  render:
+    - "en/*.qmd"
+
+lang: en-US
+
+website:
+  description: "Data scientist and graduate lecturer. Research, teaching, talks and materials on statistics, machine learning and generative AI."
+  navbar:
+    background: "#004D4D"
+    left:
+      - href: en/index.qmd
+        text: Home
+      - href: en/cv.qmd
+        text: CV
+      - href: en/research.qmd
+        text: Research
+      - href: en/teaching.qmd
+        text: Teaching
+      - href: en/talks.qmd
+        text: Talks
+      - href: en/materials.qmd
+        text: Materials
+      - href: /posts.html
+        text: Blog (PT)
+    right:
+      - text: PT
+        href: /
+      - icon: github
+        href: https://github.com/magnotairone/
+      - icon: linkedin
+        href: https://www.linkedin.com/in/magnotairone/
+  page-footer:
+    center: |
+      Contact: magnotairone [at] gmail.com
+    left: |
+      Made with [Quarto](https://quarto.org/)
+    background: "#004D4D"

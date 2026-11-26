@@ -1,0 +1,64 @@
+---
+title: "Research"
+description: "Papers, preprints, thesis, dissertation, software and research projects on graphical models, stochastic processes and spatial statistics."
+---
+
+My research focuses on **inference for stochastic processes** and **model selection**, mainly for graphical models (Markov random fields) under mixing conditions. I have also worked on Bayesian spatial statistics, multivariate time series and change-point detection.
+
+[Google Scholar](https://scholar.google.com.br/citations?user=Isftae0AAAAJ){.btn .btn-outline-primary .btn-sm} [ORCID](https://orcid.org/0000-0002-3432-7779){.btn .btn-outline-primary .btn-sm} [Lattes](https://lattes.cnpq.br/9791024128849349){.btn .btn-outline-primary .btn-sm} [GitHub](https://github.com/magnotairone){.btn .btn-outline-primary .btn-sm}
+
+## Awards
+
+-   **Honorable mention, Francisco Aranda-Ordaz Award**, Statistics category (2026), for the PhD thesis. The award, granted by SLAPEM and the Bernoulli Society, recognizes the best Latin American theses in Probability and Statistics, and was presented at the XVII CLAPEM in Montevideo. [IME-USP news (in Portuguese)](https://www.ime.usp.br/aluno-da-pos-graduacao-do-ime-usp-recebe-mencao-honrosa-em-congresso-internacional/).
+-   **4th place, Best Master's Dissertation Award**, XXIII SINAPE, Águas de São Pedro (2018).
+
+## Journal articles
+
+-   **Model selection for Markov random fields on graphs under a mixing condition.**\
+    M. T. F. Severino & F. Leonardi. *Stochastic Processes and their Applications*, 2025.\
+    [Article](https://www.sciencedirect.com/science/article/abs/pii/S030441492400231X)
+
+-   **Independent block identification in multivariate time series.**\
+    F. Leonardi, M. Lopez-Rosenfeld, D. Rodriguez, M. T. F. Severino & M. Sued. *Journal of Time Series Analysis*, 42(1), 2021.\
+    [Article](https://onlinelibrary.wiley.com/doi/abs/10.1111/jtsa.12553) · DOI: [10.1111/jtsa.12553](https://doi.org/10.1111/jtsa.12553)
+
+## Preprints
+
+-   **Model selection criteria for regression models with splines and the automatic localization of knots.**\
+    A. R. Sousa, M. T. F. Severino & F. Leonardi, 2020.\
+    [arXiv:2006.02649](https://arxiv.org/abs/2006.02649)
+
+## Conference proceedings
+
+-   **Estimation and model selection for mixing graphical models.** M. T. F. Severino & F. Leonardi. *Proceedings of the 63rd ISI World Statistics Congress*, 2021.
+-   **Model selection criteria for regression models with splines and the automatic localization of knots.** A. R. Sousa, M. T. F. Severino & F. Leonardi. *V Latin American Conference on Statistical Computing*, 2021.
+-   **Modelagem do fluxo sanguíneo através da malha adaptativa Autonomous Leaves Graph** (blood flow modeling with the Autonomous Leaves Graph adaptive mesh). L. Pitangueira, M. T. F. Severino & D. Burgarelli. *Proceeding Series of the Brazilian Society of Computational and Applied Mathematics*, 2014.
+
+## Thesis and dissertation
+
+-   **PhD thesis (IME-USP, 2024):** [Estimation and model selection for graphical models under mixing conditions](https://www.teses.usp.br/teses/disponiveis/45/45133/tde-25042024-181144/en.php). Advisor: Florencia Leonardi. Honorable mention in the Francisco Aranda-Ordaz Award.
+-   **MSc dissertation (DEST-UFMG, 2018):** [Extending JAGS for spatial data](https://repositorio.ufmg.br/items/cf35e8cb-4e1d-434f-a02b-2fb45d2b4cdc). Advisor: Vinícius Diniz Mayrink; co-advisor: Fábio Nogueira Demarqui. 4th place in the SINAPE 2018 Best Master's Dissertation Award.
+
+## Software
+
+-   [**MixingGraph**](https://github.com/magnotairone/MixingGraph) (R package): implements the estimator, proposed in the thesis, of the conditional dependence graph of random vectors under a mixing condition, with four algorithms to compute the estimated graph.
+-   [**GeoJAGS**](https://sourceforge.net/projects/geojags/files/) (C++ module for JAGS): Bayesian hierarchical models for georeferenced data, with 11 covariance functions for point-referenced data (including Matérn) and the conditional autoregressive (CAR) model for areal data.
+
+## Research projects
+
+-   **Graphical models under mixing conditions** (IME-USP, 2018–2024): a global penalized model selection criterion to estimate the conditional dependence graph of a multivariate stochastic process, with no need to estimate and combine the neighborhoods of each vertex. We proved strong consistency of the estimator under a mixing condition, chose the penalty by cross-validation, and applied the method to São Francisco River flow measurements and to daily stock market indices. It led to the thesis, the *Stochastic Processes and their Applications* paper and the MixingGraph package.
+-   **Independent blocks in multivariate time series** (joint project between USP and the University of Buenos Aires, during the PhD): a criterion to find independence points in vector-valued stochastic processes and split the vector into independent blocks. It led to the *Journal of Time Series Analysis* paper.
+-   **Change-point detection in the COVID-19 curve** (GPECA, IME-USP, 2020): splines and model selection to track the trend of new cases in Brazil, its states and cities, and other countries, with a [daily updated page](https://www.ime.usp.br/~gpeca/covid-19/covid-19.html) from April to December 2020.
+-   **Extending JAGS for spatial data** (DEST-UFMG, 2016–2018): led to the dissertation and to GeoJAGS.
+
+## Outreach and volunteering
+
+-   [Pre-Calculus leveling course](https://www.mat.ufmg.br/extensao/pre-calculo-semi-presencial/) (PET Mathematics, UFMG, 2012): a blended course for incoming STEM students; I proposed and led the development of the web platform that hosts it.
+-   Continuing education course *Introduction to Statistical Learning and Data Science with R* (IME-USP, 2021–2022), with Florencia Leonardi: 122 students enrolled in the first offering, with full scholarships for 10 students based on socioeconomic criteria.
+-   [Stats4Good](https://stats4good.github.io/) (UFMG, 2017–2018): organizing and analyzing public data for the general public; I worked on the [federal transparency portal](https://stats4good.github.io/veraz/).
+-   Math classes at the free prep course of the Amorim Lima Municipal School (2019).
+-   Review of the Portuguese translation of [R for Data Science (2nd edition)](https://pt.r4ds.hadley.nz/) (2023–2024).
+
+## Memberships
+
+Brazilian Statistical Association (ABE), since 2017 · Latin American Society for Probability and Mathematical Statistics (SLAPEM), since 2020.

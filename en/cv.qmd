@@ -1,0 +1,120 @@
+---
+title: "CV"
+description: "Professional experience, education and skills of Magno Tairone, data scientist and graduate lecturer."
+---
+
+## About me
+
+I hold a PhD in Probability and Statistics from the University of São Paulo (IME-USP), an MSc in Statistics and a BSc in Computational Mathematics from the Federal University of Minas Gerais (UFMG). I work as a data scientist and technical lead, with experience in credit risk modeling, model governance and statistical learning. I am good at translating complex business needs into data-driven solutions that are robust, explainable and auditable. I also teach data science at the graduate level. My interests include statistical learning, inference for stochastic processes and graphs.
+
+Lattes CV (Brazilian academic CV, in Portuguese): [lattes.cnpq.br/9791024128849349](https://lattes.cnpq.br/9791024128849349).
+
+---
+
+### Professional experience
+
+#### Senior Data Scientist — XP Inc (2025–present)
+
+- I develop data-driven solutions for marketing and customer acquisition.
+- I translate business needs into machine learning solutions.
+- I teach internal data literacy training programs.
+
+#### Graduate Lecturer — Insper (2021–present)
+
+- I teach applied machine learning and statistical modeling in graduate and executive programs.
+- Courses: Statistical Learning, Data Modeling, Neural Networks, Unsupervised Models, Transforming Business with Data.
+- I am known for presenting technical content clearly to diverse audiences.
+
+#### Senior Statistical Modeling Analyst — Pefisa (2024–2025)
+
+- Proposed and led the implementation of a unified modeling base and an internal feature store, with more than 150 engineered features, cutting development time by one week per model.
+- Designed and led the implementation of an automation framework for model monitoring, reducing monthly effort from 80 to 4 hours.
+- Improved the personal loan admission model by 11 KS percentage points through redesign and feature engineering.
+- Served as the technical reference for the modeling team.
+- Delivered solutions for Credit Risk, Credit Policy, Collections, Financial Products, Marketing and CRM.
+
+#### Pricing Specialist — Banco BTG Pactual (2022–2024)
+
+- Led the pricing workstream in the portfolio management team.
+- Implemented derivative pricing models for portfolio management.
+- Automated data pipelines, saving 2 hours a day per team member.
+- Led the development of a generative AI application to analyze the impact of news on the portfolio.
+
+---
+
+### Education
+
+- **PhD in Probability and Statistics** — IME-USP (2018–2024)  
+  Thesis: [Estimation and model selection for graphical models under mixing conditions](https://www.teses.usp.br/teses/disponiveis/45/45133/tde-25042024-181144/en.php)  
+  Advisor: Florencia Leonardi. CAPES and CNPq scholarships.  
+  Relevant courses: Advanced Probability, Stochastic Processes, Statistical Learning.
+
+- **MSc in Statistics** — DEST-UFMG (2016–2018)  
+  Dissertation: [Extending JAGS for spatial data](https://repositorio.ufmg.br/bitstream/1843/BUOS-AZGNHV/1/dissertacao_magno_t_f_severino.pdf)  
+  Advisor: Vinícius Diniz Mayrink; co-advisor: Fábio Nogueira Demarqui. CAPES scholarship.  
+  Relevant courses: Spatial Statistics, Statistical Inference, Bayesian Inference, Machine Learning.
+
+- **BSc in Computational Mathematics** — UFMG (2011–2016)  
+  Relevant courses: Linear Algebra, Real Analysis, Probability and Statistics, Algorithms and Data Structures.  
+  Scholar of the Tutorial Education Program (PET) in Mathematics, with undergraduate research in numerical methods.
+
+- **Undergraduate exchange** — Queen Mary University of London, United Kingdom (2013–2014)  
+  Science without Borders program. Project on Monte Carlo methods for numerical integration.
+
+---
+
+### Awards and honors {#awards}
+
+- **Honorable mention, Francisco Aranda-Ordaz Award**, Statistics category (2026)  
+  For the PhD thesis. Awarded by SLAPEM and the Bernoulli Society to the best Latin American theses in Probability and Statistics, presented at the XVII CLAPEM in Montevideo. [IME-USP news (in Portuguese)](https://www.ime.usp.br/aluno-da-pos-graduacao-do-ime-usp-recebe-mencao-honrosa-em-congresso-internacional/).
+
+- **2nd place, Banco BTG Pactual generative AI hackathon**  
+  A product that analyzes the performance of financial assets from market news, combining natural language processing, generative AI and predictive models.
+
+- **USP Graduate Video Award for fighting COVID-19** (2020)  
+  Granted by the USP Graduate Office to the outreach video of the project on change points in the COVID-19 curve.
+
+- **4th place, Best Master's Dissertation Award** (2018)  
+  XXIII Brazilian Symposium on Probability and Statistics (SINAPE), Águas de São Pedro.
+
+---
+
+### Selected volunteer work
+
+- **Translation reviewer** (2023–2024)  
+  Reviewed the Portuguese translation of [R for Data Science (2nd edition)](https://pt.r4ds.hadley.nz/).
+
+- **Data scientist — COVID-19 project (GPECA)** (2020)  
+  Collected, processed and analyzed COVID-19 case data for science outreach.
+
+- **Teacher — Amorim Lima Municipal School** (2019)  
+  Math classes for 9th graders in a free prep course for technical high school admission exams.
+
+- **Stats4Good** (2017–2018)  
+  Organized and analyzed data from the Brazilian federal transparency portal for the general public.
+
+---
+
+### Student representation and memberships
+
+- Student representative on the Statistics Department Council (2020) and on the Graduate Program in Statistics Committee (2018–2019) at IME-USP; on the Graduate Statistics Board at UFMG (2017); and vice-president of the Computational Mathematics student association at UFMG (2015).
+- Member of the Brazilian Statistical Association (ABE) since 2017 and of the Latin American Society for Probability and Mathematical Statistics (SLAPEM) since 2020.
+
+---
+
+### Technologies
+- **Programming:** R, Python, PySpark, C#, SQL  
+- **Tools & frameworks:** Airflow, Docker, Kubernetes  
+- **Cloud:** AWS, Azure  
+
+---
+
+### Languages
+
+Portuguese (native), English (fluent), Spanish (basic).
+
+---
+
+### Interests
+
+Data analysis, data science, modeling, decision making, generative AI, machine learning.

@@ -1,0 +1,74 @@
+---
+title: "Teaching"
+description: "Courses taught at the undergraduate, graduate and executive education levels at IME-USP and Insper, and available teaching materials."
+---
+
+::::: stat-cards
+::: stat-card
+### 6 years
+
+as a lecturer, since 2020
+:::
+
+::: stat-card
+### 1,000+ students
+
+and more than 770 hours of lectures
+:::
+
+::: stat-card
+### 7 years
+
+as a teaching assistant, at UFMG, USP and Insper
+:::
+
+::: stat-card
+### 1,500+ hours
+
+as a teaching assistant, for more than 1,400 students
+:::
+:::::
+
+I use real problems and real data to motivate statistical tools. My experience as a data scientist in finance and retail becomes case studies in the classroom. I also like to put students at the center, with hands-on activities, group work and auto-graded exercises (for example, problem sets generated in R for Moodle).
+
+## Courses taught
+
+### Graduate certificate programs (Insper)
+
+-   Statistical Machine Learning II, Advanced Program in Data Science and Decision Making (2021–2026). Called Predictive Models until 2021.
+-   Advanced Predictive Models and Workshop IV, Advanced Program in Data Science and Decision Making (2021).
+-   Statistical Machine Learning I, Insper (2021).
+-   Transforming Business with Data, Master in Business Management (2024–2026).
+
+### Graduate degree programs (Insper)
+
+-   Introduction to R and Python, Professional Master's in Economics (2024, 2025).
+
+### Undergraduate (IME-USP)
+
+-   Combinatorics, Probability and Applications, Summer Program (2020, 2021, 2022).
+
+### Continuing education (IME-USP)
+
+-   Introduction to Statistical Learning and Data Science with R, online course with Florencia Leonardi (2021, 2022). The first offering had 122 students, and high demand led to a second one.
+
+### Executive education (Insper)
+
+-   Programming for Non-Programmers (2021).
+-   Data and Analytics Training (2024): 16 classes, 560 participants, in a training program for executives of a large Brazilian bank.
+
+## Teaching assistant
+
+I was a teaching assistant from 2017 to 2022:
+
+-   **UFMG:** Introduction to the Bootstrap (BSc in Statistics).
+-   **USP:** Basic Statistics, Introduction to Probability and Statistics I (185 students), Topics in Probability and Statistics, and High-Dimensional Statistical Learning (undergraduate and graduate).
+-   **Insper:** Statistics, R and Python for Data Science, Predictive Modeling (BSc in Business Administration and Economics); Machine Learning (Professional Master's in Economics); courses in the Advanced Program in Data Science and Decision Making, the Executive MBA in Finance, the International MBA and the Certificate in Financial Management.
+
+## Teaching materials
+
+Lecture notes, books and tutorials I use in my courses are collected on the [Materials](materials.qmd) page. Most of them are in Portuguese. Highlights:
+
+-   [Introdução a R e Python](https://magnotairone.github.io/intro_r_python/) (Introduction to R and Python): lecture notes for the Insper course.
+-   [Aprendendo R](https://magnotairone.github.io/AprendendoR/) (Learning R): free online book.
+-   [Aplicações de Ciência de Dados](https://magnotairone.github.io/aplicacoes/) (Data Science Applications): book (bookdown).

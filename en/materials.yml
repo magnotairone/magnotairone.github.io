@@ -1,0 +1,89 @@
+# Catalog shown on en/materials.qmd (English version of materiais.yml).
+# Titles stay in the language of the material.
+
+- title: "Model selection for Markov random fields on graphs under a mixing condition"
+  description: "Slides of the talk on model selection for Markov random fields on graphs."
+  path: https://magnotairone.github.io/slides/20260306_CLAPEM/slides.html
+  date: 2026-03-06
+  tipo: Slides
+  evento: XVII CLAPEM, Montevideo
+  categories: [Slides, Research, Graphical Models]
+
+- title: "Modelagem Preditiva de Risco de Crédito com R"
+  description: "Short course with a complete CRISP-DM example for credit risk: dataset, target, features, modeling and evaluation. In Portuguese."
+  path: https://magnotairone.github.io/credito/slide/
+  date: 2025-12-11
+  tipo: Short course
+  evento: I WECDAF, UFBA
+  categories: [Short course, R, Credit Risk, Machine Learning]
+
+- title: "Muito além da técnica: habilidades essenciais para estatísticos"
+  description: "Slides of the talk on soft skills and communication for Statistics students. In Portuguese."
+  path: https://github.com/magnotairone/material/blob/main/Apresenta%C3%A7%C3%A3o%20IME%20USP.pdf
+  date: 2025-01-01
+  tipo: Slides
+  evento: IME-USP
+  categories: [Slides, Career]
+
+- title: "Introdução a R e Python"
+  description: "Lecture notes for the Introduction to R and Python course at Insper. In Portuguese."
+  path: https://magnotairone.github.io/intro_r_python/
+  date: 2024-01-01
+  tipo: Lecture notes
+  evento: Insper
+  categories: [Lecture notes, R, Python]
+
+- title: "Aprendendo R"
+  description: "Free online book with R tutorials: data wrangling, visualization, applied statistics and exercises. In Portuguese."
+  path: https://magnotairone.github.io/AprendendoR/
+  date: 2024-12-01
+  tipo: Book
+  evento: Open material
+  categories: [Book, R]
+
+- title: "Da Teoria à Prática: Modelos de IA Generativa com R e Python"
+  description: "Tutorial on building an LLM application for information retrieval from PDFs. In Portuguese."
+  path: https://magnotairone.github.io/tutorial_sinape_2024/tutorial
+  date: 2024-07-15
+  tipo: Tutorial
+  evento: SINAPE 2024
+  categories: [Tutorial, Generative AI, R, Python]
+
+- title: "Estimation and model selection for mixing graphical models"
+  description: "Slides on estimation and model selection for graphical models under a mixing condition."
+  path: ../slides/2023neuromat-v2.pdf
+  date: 2023-10-26
+  tipo: Slides
+  evento: CEPID NeuroMat Researchers Workshop
+  categories: [Slides, Research, Graphical Models]
+
+- title: "Workshop de Otimização com R"
+  description: "Linear programming with lpSolveAPI and gradient descent, with scripts and slides. In Portuguese."
+  path: https://github.com/magnotairone/aulas/tree/main/workshop%20-%20otimizacao
+  date: 2022-12-01
+  tipo: Workshop
+  evento: Insper
+  categories: [Workshop, R, Optimization]
+
+- title: "Detecção de pontos de mudança na curva de novos casos de covid-19"
+  description: "Slides on splines and change points applied to COVID-19. In Portuguese."
+  path: https://rpubs.com/magnotfs/covid19
+  date: 2021-11-17
+  tipo: Slides
+  evento: Banco Santander
+  categories: [Slides, Research, COVID-19]
+
+- title: "As desigualdades existentes no Brasil vistas no resultado do ENEM 2017"
+  description: "Poster analyzing the results of ENEM 2017, Brazil's national high school exam. In Portuguese."
+  path: ../posters/poster_emr_2018.pdf
+  date: 2019-01-01
+  tipo: Poster
+  evento: XVI School of Regression Models, Pirenópolis
+  categories: [Poster, Data Analysis]
+
+- title: "Aplicações de Ciência de Dados"
+  description: "Book (bookdown) with data science applications. In Portuguese."
+  path: https://magnotairone.github.io/aplicacoes/
+  tipo: Book
+  evento: Open material
+  categories: [Book, Data Science]

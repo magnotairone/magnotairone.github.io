@@ -1,0 +1,149 @@
+---
+title: "Talks"
+description: "Talks, posters, tutorials, short courses and workshops presented at conferences, universities and companies, and events I helped organize."
+---
+
+Talks and posters, from most recent to oldest. Titles are kept in the language of the presentation. Slides and materials are also collected on the [Materials](materials.qmd) page.
+
+## 2026
+
+### Model selection for Markov random fields on graphs under a mixing condition
+*Talk · XVII CLAPEM, Universidad de la República, Montevideo*
+
+At the same congress I received the honorable mention of the Francisco Aranda-Ordaz Award for my PhD thesis.
+
+[Slides](https://magnotairone.github.io/slides/20260306_CLAPEM/slides.html){.btn .btn-sm .btn-outline-primary}
+
+## 2025
+
+### Model selection for Markov random fields on graphs under a mixing condition
+*Poster · São Paulo School of Advanced Science on High Dimensional Modelling, São Paulo*
+
+### Modelagem Preditiva de Risco de Crédito com R
+*Short course · I Workshop on Statistics and Data Science Applied to Finance, UFBA*
+
+A hands-on CRISP-DM example for a credit risk problem, from building the dataset to evaluating the model.
+
+[Slides](https://magnotairone.github.io/credito/slide/){.btn .btn-sm .btn-outline-primary} [Code](https://github.com/magnotairone/credito){.btn .btn-sm .btn-outline-primary}
+
+### Muito além da técnica: habilidades essenciais para estatísticos
+*Talk · IME-USP*
+
+Soft skills and communication for undergraduate Statistics students (course MAE0413).
+
+[Slides](https://github.com/magnotairone/material/blob/main/Apresenta%C3%A7%C3%A3o%20IME%20USP.pdf){.btn .btn-sm .btn-outline-primary}
+
+## 2024
+
+### Da Teoria à Prática: Modelos de IA Generativa com R e Python
+*Tutorial · SINAPE 2024, Fortaleza, Brazil*
+
+Generative AI and information retrieval: an application to "chat" with PDF files using LLMs.
+
+[Material](https://magnotairone.github.io/tutorial_sinape_2024/tutorial){.btn .btn-sm .btn-outline-primary}
+
+### Estimation and model selection for mixing graphical models
+*Poster · XXIV SINAPE, Fortaleza, Brazil*
+
+## 2023
+
+### Estimation and model selection for mixing graphical models
+*Talk · CEPID NeuroMat Researchers Workshop, São Paulo*
+
+Estimation and model selection for graphical models under a mixing condition (with Florencia Leonardi).
+
+[Slides (PDF)](../slides/2023neuromat-v2.pdf){.btn .btn-sm .btn-outline-primary}
+
+### Estimation and model selection for mixing graphical models
+*Poster · XVI CLAPEM, São Paulo*
+
+## 2022
+
+### Introdução à Otimização
+*Workshop · Insper, São Paulo*
+
+What an optimization problem is, how to model it and how to solve linear problems, connecting optimization to statistical learning.
+
+[Code and slides](https://github.com/magnotairone/aulas/tree/main/workshop%20-%20otimizacao){.btn .btn-sm .btn-outline-primary}
+
+## 2021
+
+### Noções de SQL, organização e visualização de dados usando o tidyverse
+*Short course · VII Statistics Academic Week, UFSM (online)*
+
+### Detecção de pontos de mudança na curva de novos casos de covid-19
+*Talk · Banco Santander, São Paulo*
+
+Presentation to Santander's marketing analytics team.
+
+[Slides](https://rpubs.com/magnotfs/covid19){.btn .btn-sm .btn-outline-primary}
+
+### Manipulação e organização de bases de dados com dplyr
+*Short course · 5th IME-USP Graduate Statistics Meeting (EPEI, online)*
+
+### Limpeza e organização de bases de dados
+*Workshop · Insper, São Paulo*
+
+Data formats, storage conventions and essential data cleaning and organization practices.
+
+### Model selection criteria for regression models with splines and the automatic localization of knots
+*Presentation · V Latin American Conference on Statistical Computing, Mexico City*
+
+### Estimation and model selection for mixing graphical models
+*Talk · 63rd ISI World Statistics Congress (online)*
+
+Part of my PhD research, in a pre-recorded talk.
+
+## 2020
+
+### Independent block identification in multivariate time series
+*Talk · Bernoulli-IMS One World Symposium (online)*
+
+Pre-recorded talk.
+
+### Detecção de pontos de mudança na curva de novos casos de covid-19
+*Talk · IV IME-USP Graduate Statistics Meeting (EPEI, online) and XIII Computational Mathematics Week (online)*
+
+## 2019
+
+### As desigualdades existentes no Brasil vistas no resultado do ENEM 2017
+*Poster · XVI School of Regression Models (EMR), Pirenópolis*
+
+[Poster (PDF)](../posters/poster_emr_2018.pdf){.btn .btn-sm .btn-outline-primary}
+
+## 2018
+
+### Extending JAGS for spatial data
+*Poster · XIV Brazilian Meeting of Bayesian Statistics (EBEB), Rio de Janeiro*
+
+### The GeoJAGS module and its application to a spatial survival model
+*Poster · V Workshop on Survival Analysis and Applications (WASA), Salvador*
+
+## 2017
+
+### Extending JAGS for spatial data
+*Poster · V Minas Gerais Statistics Meeting (MGEST), Belo Horizonte*
+
+## 2015
+
+### Dicas para realizar intercâmbio na graduação
+*Talk · VI Computational Mathematics Week, Belo Horizonte*
+
+## 2014
+
+### Modelagem do fluxo sanguíneo através da malha adaptativa Autonomous Leaves Graph
+*Poster · XXXV Brazilian Congress of Applied and Computational Mathematics (CNMAC), Natal*
+
+## 2012
+
+### O projeto Pré-Cálculo
+*Poster · IV National Meeting of PET Mathematics Groups (ENAPETMAT), Santa Maria*
+
+## Event organization
+
+-   XVI Latin American Congress of Probability and Mathematical Statistics (CLAPEM), São Paulo, 2023.
+-   IV and V IME-USP Graduate Statistics Meetings (EPEI), online, 2020 and 2021.
+-   I Stats4Good Meeting, Belo Horizonte, 2016.
+-   VI Computational Mathematics Week, Belo Horizonte, 2013.
+
+Awards and honors are listed in the [CV](cv.qmd#awards).
