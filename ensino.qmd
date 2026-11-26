@@ -5,42 +5,65 @@ description: "Cursos ministrados em graduação, pós-graduação e educação e
 
 ::::: stat-cards
 ::: stat-card
+### 6 anos
+
+como professor, desde 2020
+:::
+
+::: stat-card
+### +1.000 alunos
+
+e mais de 770 horas de aula ministradas
+:::
+
+::: stat-card
 ### 7 anos
 
-de experiência como monitor
+como monitor, na UFMG, na USP e no Insper
 :::
 
 ::: stat-card
-### 5 anos
+### +1.500 horas
 
-como docente em graduação e pós-graduação
-:::
-
-::: stat-card
-### +1000 alunos
-
-e 770 horas de aulas ministradas
+de monitoria, para mais de 1.400 alunos
 :::
 :::::
 
+Uso problemas e dados reais para motivar o ferramental estatístico. Minha experiência como cientista de dados no mercado financeiro e no varejo vira estudos de caso em sala de aula. Também gosto de colocar o aluno como protagonista, com atividades práticas, trabalho em grupo e exercícios com correção automática (por exemplo, listas geradas em R para o Moodle).
+
 ## Cursos ministrados
 
-### Graduação
+### Pós-graduação *lato sensu* (Insper)
 
--   Análise Combinatória, Probabilidades e Aplicações, IME-USP (2020, 2021, 2022)
--   Introdução à Aprendizagem Estatística e Ciência de Dados com R, IME-USP (2021, 2022)
+-   Aprendizagem Estatística de Máquinas II, Programa Avançado de Data Science e Decisão (2021–2026). Até 2021 se chamava Modelos Preditivos.
+-   Modelos Preditivos Avançados e Workshop IV, Programa Avançado de Data Science e Decisão (2021).
+-   Aprendizagem Estatística de Máquinas I, Insper (2021).
+-   Transforming Business with Data, Master in Business Management (2024–2026).
 
-### Pós-Graduação Lato Sensu
+### Pós-graduação *stricto sensu* (Insper)
 
--   Aprendizagem Estatística de Máquinas I, Insper (2021)
--   Aprendizagem Estatística de Máquinas II, Insper (2021, 2022, 2023, 2024, 2025, 2026)
--   Transforming Business with Data, Insper (2024, 2025, 2026)
--   Introdução a R e Python, Insper (2024, 2025)
+-   Introdução a R e Python, Mestrado Profissional em Economia (2024, 2025).
 
-### Educação Executiva
+### Graduação (IME-USP)
 
--   Programação para Não Programadores, Insper (2021)
--   Formação em Dados e Analytics, Insper (2024)
+-   Análise Combinatória, Probabilidades e Aplicações, Programa de Verão (2020, 2021, 2022).
+
+### Difusão e extensão (IME-USP)
+
+-   Introdução à Aprendizagem Estatística e à Ciência de Dados com R, curso a distância com Florencia Leonardi (2021, 2022). A primeira turma teve 122 inscritos, e a alta procura levou a uma segunda oferta.
+
+### Educação executiva (Insper)
+
+-   Programação para Não Programadores (2021).
+-   Formação em Dados e Analytics (2024): 16 turmas, 560 participantes, num programa de formação para superintendentes de um grande banco.
+
+## Monitorias
+
+Fui monitor de 2017 a 2022:
+
+-   **UFMG:** Introdução ao Bootstrap (graduação em Estatística).
+-   **USP:** Noções de Estatística, Introdução à Probabilidade e à Estatística I (185 alunos), Tópicos de Probabilidade e Estatística, e Aprendizagem Estatística em Altas Dimensões (graduação e pós-graduação).
+-   **Insper:** Estatística, R e Python para Ciência de Dados, Modelagem Preditiva (graduação em Administração e Economia); Machine Learning (Mestrado Profissional em Economia); disciplinas do Programa Avançado de Data Science e Decisão, do MBA Executivo em Finanças, do MBA Internacional e do Certificate in Financial Management.
 
 ## Materiais de aula
 
