@@ -1,3 +1,8 @@
+---
+title: "Publicações"
+description: "Artigos científicos, preprints, tese, dissertação e software."
+---
+
 ### Artigos Científicos Publicados em Periódicos
 
 * [Model selection for Markov random fields on graphs under a mixing condition](https://www.sciencedirect.com/science/article/abs/pii/S030441492400231X)

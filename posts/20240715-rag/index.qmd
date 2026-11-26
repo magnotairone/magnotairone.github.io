@@ -5,7 +5,6 @@ author:
   - name: "Magno Severino"
     url: "https://magnotairone.github.io/"
     orcid: "0000-0002-3432-7779"
-    affiliation: ""
 date: 2024-07-15
 categories: [IA Generativa, R, Python, LLM]
 citation:

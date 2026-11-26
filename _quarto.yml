@@ -2,9 +2,16 @@ project:
   type: website
   output-dir: docs
 
+lang: pt
+
 website:
   title: "Magno Tairone"
+  description: "Cientista de dados e professor de pós-graduação. Pesquisa, aulas, palestras e materiais sobre estatística, machine learning e IA generativa."
+  site-url: https://magnotairone.github.io
   favicon: "img/profile-foto.png"
+  image: "img/profile-foto.png"
+  open-graph: true
+  twitter-card: true
   navbar:
     background: "#004D4D"
     left:
@@ -23,7 +30,7 @@ website:
       - posts.qmd
     right:
       - icon: github
-        href: http://github.com/magnotairone/
+        href: https://github.com/magnotairone/
       - icon: linkedin
         href: https://www.linkedin.com/in/magnotairone/
   sidebar: false
@@ -40,6 +47,6 @@ website:
 format:
   html:
     include-after-body: traffic.html
-    theme: cosmo
-    dark: darkly
-    css: styles.css
+    theme:
+      light: [cosmo, theme-light.scss, theme.scss]
+      dark: [darkly, theme-dark.scss, theme.scss]
