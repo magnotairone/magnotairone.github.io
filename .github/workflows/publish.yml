@@ -31,8 +31,8 @@ jobs:
         with:
           version: 1.8.25
 
-      - name: Renderizar site
-        run: quarto render
+      - name: Renderizar site (português e inglês)
+        run: ./render-site.sh
 
       - name: Enviar site renderizado
         uses: actions/upload-pages-artifact@v3

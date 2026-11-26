@@ -1,3 +1,11 @@
+# Configuração comum às duas versões do site.
+# O menu, o rodapé e os textos de cada idioma ficam em:
+#   _quarto-pt.yml  (português, perfil padrão)  -> páginas na raiz
+#   _quarto-en.yml  (inglês)                    -> páginas em en/
+# Para gerar o site completo (as duas versões), rode:
+#   ./render-site.sh
+# Para ver só a versão em português enquanto edita: quarto preview
+
 project:
   type: website
   output-dir: docs
@@ -5,47 +13,17 @@ project:
     - slides/*.pdf
     - posters/*.pdf
 
-lang: pt
+profile:
+  default: pt
 
 website:
   title: "Magno Tairone"
-  description: "Cientista de dados e professor de pós-graduação. Pesquisa, aulas, palestras e materiais sobre estatística, machine learning e IA generativa."
   site-url: https://magnotairone.github.io
   favicon: "img/profile-foto.png"
   image: "img/profile-foto.png"
   open-graph: true
   twitter-card: true
-  navbar:
-    background: "#004D4D"
-    left:
-      - href: index.qmd
-        text: Home
-      - href: curriculo.qmd
-        text: Currículo
-      - href: pesquisa.qmd
-        text: Pesquisa
-      - href: ensino.qmd
-        text: Ensino
-      - href: palestras.qmd
-        text: Palestras
-      - href: materiais.qmd
-        text: Materiais
-      - posts.qmd
-    right:
-      - icon: github
-        href: https://github.com/magnotairone/
-      - icon: linkedin
-        href: https://www.linkedin.com/in/magnotairone/
   sidebar: false
-  
-  page-footer:
-    center: |
-      Contato: magnotairone [at] gmail.com
-    left: |
-      Made with [Quarto](https://quarto.org/)
-    right: |
-    background: "#004D4D"
-
 
 format:
   html:

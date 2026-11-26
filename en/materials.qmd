@@ -1,0 +1,27 @@
+---
+title: "Materials"
+description: "Books, lecture notes, tutorials, short courses, slides and posters I developed for courses, talks and events."
+listing:
+  id: materials
+  contents: materials.yml
+  type: table
+  sort: "date desc"
+  date-format: "YYYY"
+  fields: [date, title, tipo, evento]
+  field-display-names:
+    date: "Year"
+    title: "Material"
+    tipo: "Type"
+    evento: "Where"
+  categories: true
+  filter-ui: true
+  sort-ui: [date, title, tipo]
+  page-size: 50
+---
+
+Everything in one place. Filter by type or topic using the categories, or search by title. Most materials are in Portuguese; titles are kept in their original language.
+
+Talks, with venue and context, are on the [Talks](talks.qmd) page.
+
+::: {#materials}
+:::
