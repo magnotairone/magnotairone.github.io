@@ -5,8 +5,7 @@ author:
   - name: "Magno Severino"
     url: "https://magnotairone.github.io/"
     orcid: "0000-0002-3432-7779"
-    affiliation: "Universidade / Afiliacao"
-    affiliation-url: "https://ucsb-meds.github.io/"
+    affiliation: "Afiliação (opcional; apague a linha se não usar)"
 date: 01-12-2020
 categories: [Categoria1, Categoria2]
 tags: [tag1, tag2]

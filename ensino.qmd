@@ -23,7 +23,7 @@ e 770 horas de aulas ministradas
 :::
 :::::
 
-## Cursos Ministrados
+## Cursos ministrados
 
 ### Graduação
 
@@ -36,15 +36,16 @@ e 770 horas de aulas ministradas
 -   Aprendizagem Estatística de Máquinas II, Insper (2021, 2022, 2023, 2024, 2025, 2026)
 -   Transforming Business with Data, Insper (2024, 2025, 2026)
 -   Introdução a R e Python, Insper (2024, 2025)
-    <!-- -   Notas de aula [aqui](https://magnotairone.github.io/intro_r_python/) -->
 
 ### Educação Executiva
 
 -   Programação para Não Programadores, Insper (2021)
 -   Formação em Dados e Analytics, Insper (2024)
 
-## Materiais disponíveis
+## Materiais de aula
 
--   Introdução a R e Python. Notas de aula [aqui](https://magnotairone.github.io/intro_r_python/).
+Notas de aula, livros e tutoriais que uso nos cursos estão reunidos em [Materiais](materiais.qmd). Destaques:
 
--   Aplicações de Ciência de Dados. Bookdown [aqui](https://magnotairone.github.io/aplicacoes/).
+-   [Introdução a R e Python](https://magnotairone.github.io/intro_r_python/): notas de aula do curso do Insper.
+-   [Aprendendo R](https://magnotairone.github.io/AprendendoR/): livro on-line gratuito.
+-   [Aplicações de Ciência de Dados](https://magnotairone.github.io/aplicacoes/): livro (bookdown).

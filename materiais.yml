@@ -8,6 +8,14 @@
 #   evento      onde foi usado ou apresentado
 #   categories  [tipo, temas...] — viram os filtros da página
 
+- title: "Model selection for Markov random fields on graphs under a mixing condition"
+  description: "Slides da palestra sobre seleção de modelos para campos aleatórios de Markov em grafos."
+  path: https://magnotairone.github.io/slides/20260306_CLAPEM/slides.html
+  date: 2026-03-06
+  tipo: Slides
+  evento: Universidad de la República, Montevideo
+  categories: [Slides, Pesquisa, Modelos Gráficos]
+
 - title: "Modelagem Preditiva de Risco de Crédito com R"
   description: "Minicurso com um exemplo completo de CRISP-DM para risco de crédito: base, rótulo, atributos, modelagem e avaliação."
   path: https://magnotairone.github.io/credito/slide/
