@@ -15,7 +15,7 @@ lang: pt
 
 # Modelagem Preditiva de Risco de Crédito com R
 
-Este material foi apresentado como um minicurso [I Workshop de Estatística e Ciência de Dados Aplicadas a Finanças da UFBA](https://wecdaf.vercel.app/).  
+Este material foi apresentado como minicurso no [I Workshop de Estatística e Ciência de Dados Aplicadas a Finanças da UFBA](https://wecdaf.vercel.app/).  
 O evento foi realizado pelo Centro de Estudos de Riscos ([CER-UFBA](https://cer.ufba.br/)).
 
 Este minicurso com 1h30 de duração apresentou um exemplo prático de aplicação do CRISP‑DM para a resolução de um problema de risco de crédito, usando uma base de dados simulada (inspirada em uma base real) preparada para o exercício. O objetivo foi guiar os participantes pelas fases do ciclo de vida de um projeto de modelagem preditiva — desde o entendimento do negócio até a avaliação e considerações para implantação.

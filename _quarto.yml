@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Magno Tairone"
-  favicon: "img/profile-foto.jpeg"
+  favicon: "img/profile-foto.png"
   navbar:
     background: "#004D4D"
     left:

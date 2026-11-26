@@ -25,7 +25,7 @@
 -   Análise Combinatória, Probabilidades e Aplicações, IME-USP (2020, 2021, 2022)
 -   Introdução à Aprendizagem Estatística e Ciência de Dados com R, IME-USP (2021, 2022)
 
-### Pós-Graduação Latu Sensu
+### Pós-Graduação Lato Sensu
 
 -   Aprendizagem Estatística de Máquinas I, Insper (2021)
 -   Aprendizagem Estatística de Máquinas II, Insper (2021, 2022, 2023, 2024, 2025, 2026)

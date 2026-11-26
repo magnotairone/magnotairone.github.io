@@ -1,0 +1,52 @@
+# Renderiza o site com Quarto e publica no GitHub Pages a cada push no master.
+# Em pull requests, apenas renderiza (para verificar que o site compila).
+#
+# Requisito (uma vez só): Settings → Pages → Build and deployment → Source: "GitHub Actions".
+
+name: Publicar site
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Instalar Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.8.25
+
+      - name: Renderizar site
+        run: quarto render
+
+      - name: Enviar site renderizado
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publicar no GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
