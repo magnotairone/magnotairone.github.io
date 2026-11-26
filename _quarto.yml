@@ -22,7 +22,6 @@ website:
         text: Projetos
       - posts.qmd
     right:
-      # - about.qmd
       - icon: github
         href: http://github.com/magnotairone/
       - icon: linkedin
@@ -41,8 +40,6 @@ website:
 format:
   html:
     include-after-body: traffic.html
-    theme: 
-      - cosmo
-      - brand
+    theme: cosmo
     dark: darkly
     css: styles.css
