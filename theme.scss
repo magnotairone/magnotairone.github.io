@@ -10,12 +10,12 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 16px;
   margin: 20px 0 30px;
 }
 
 .stat-card {
-  width: 200px;
+  width: 175px;
   padding: 20px;
   border-radius: 10px;
   color: #fff;
@@ -38,4 +38,5 @@ body {
   &:nth-child(1) { background-color: #006666; }
   &:nth-child(2) { background-color: #007777; }
   &:nth-child(3) { background-color: #008888; }
+  &:nth-child(4) { background-color: #009999; }
 }

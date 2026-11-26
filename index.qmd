@@ -24,6 +24,9 @@ about:
     - icon: mortarboard
       text: Lattes
       href: https://lattes.cnpq.br/9791024128849349
+    - icon: journal-text
+      text: Google Scholar
+      href: https://scholar.google.com.br/citations?user=Isftae0AAAAJ
     - icon: person-badge
       text: ORCID
       href: https://orcid.org/0000-0002-3432-7779
@@ -50,6 +53,10 @@ Gosto de conectar teoria estatística a aplicações práticas e de ensinar: meu
 
 -   **Cientista de Dados Sênior** na [XP Inc](https://www.xpi.com.br/), desde 2025.
 -   **Professor de pós-graduação** no [Insper](https://www.insper.edu.br/), desde 2021, em aprendizado estatístico, modelagem de dados e redes neurais.
+
+## Destaque
+
+Minha tese de doutorado recebeu **menção honrosa no Prêmio Francisco Aranda-Ordaz** (2026), da SLAPEM e da Sociedade Bernoulli, que reconhece as melhores teses latino-americanas em Probabilidade e Estatística. Veja mais em [Pesquisa](pesquisa.qmd).
 
 ## Interesses
 

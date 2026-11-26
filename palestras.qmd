@@ -1,18 +1,23 @@
 ---
 title: "Palestras"
-description: "Palestras, tutoriais, minicursos e workshops apresentados em congressos, universidades e empresas."
+description: "Palestras, pôsteres, tutoriais, minicursos e workshops apresentados em congressos, universidades e empresas, e eventos que ajudei a organizar."
 ---
 
-Apresentações selecionadas, da mais recente para a mais antiga. Slides e materiais também estão reunidos em [Materiais](materiais.qmd).
+Apresentações e pôsteres, do mais recente para o mais antigo. Slides e materiais também estão reunidos em [Materiais](materiais.qmd).
 
 ## 2026
 
 ### Model selection for Markov random fields on graphs under a mixing condition
-*Palestra · Universidad de la República, Montevideo*
+*Palestra · XVII CLAPEM, Universidad de la República, Montevidéu*
+
+No mesmo congresso recebi a menção honrosa do Prêmio Francisco Aranda-Ordaz pela tese de doutorado.
 
 [Slides](https://magnotairone.github.io/slides/20260306_CLAPEM/slides.html){.btn .btn-sm .btn-outline-primary}
 
 ## 2025
+
+### Model selection for Markov random fields on graphs under a mixing condition
+*Pôster · São Paulo School of Advanced Science on High Dimensional Modelling, São Paulo*
 
 ### Modelagem Preditiva de Risco de Crédito com R
 *Minicurso · I Workshop de Estatística e Ciência de Dados Aplicadas a Finanças, UFBA*
@@ -37,14 +42,20 @@ Inteligência artificial generativa e recuperação de informação: uma aplica�
 
 [Material](https://magnotairone.github.io/tutorial_sinape_2024/tutorial){.btn .btn-sm .btn-outline-primary} [Post](posts/20240715-rag/index.qmd){.btn .btn-sm .btn-outline-primary}
 
+### Estimation and model selection for mixing graphical models
+*Pôster · XXIV SINAPE, Fortaleza, Ceará*
+
 ## 2023
 
 ### Estimation and model selection for mixing graphical models
-*Palestra · NeuroMat*
+*Palestra · CEPID NeuroMat Researchers Workshop, São Paulo*
 
 Estimação e seleção de modelos gráficos sob condição de mistura (com Florencia Leonardi).
 
 [Slides (PDF)](slides/2023neuromat-v2.pdf){.btn .btn-sm .btn-outline-primary}
+
+### Estimation and model selection for mixing graphical models
+*Pôster · XVI CLAPEM, São Paulo*
 
 ## 2022
 
@@ -75,6 +86,9 @@ Apresentação para o time de marketing analytics do Santander.
 
 Formatos de dados, convenções de armazenamento e práticas essenciais de limpeza e organização.
 
+### Model selection criteria for regression models with splines and the automatic localization of knots
+*Apresentação · V Latin American Conference on Statistical Computing, Cidade do México*
+
 ### Estimation and model selection for mixing graphical models
 *Palestra · 63rd ISI World Statistics Congress (virtual)*
 
@@ -87,6 +101,51 @@ Parte da pesquisa de doutorado, em palestra pré-gravada.
 
 Palestra pré-gravada.
 
-## Reconhecimentos
+### Detecção de pontos de mudança na curva de novos casos de covid-19
+*Palestra · IV Encontro da Pós-Graduação em Estatística do IME-USP (EPEI, virtual) e XIII Semana da Matemática Computacional (virtual)*
 
--   **Prêmio Vídeo Pós-Graduação no combate à COVID-19** (2020), concedido pela Pró-Reitoria de Pós-Graduação da USP ao vídeo de divulgação do projeto de análise de dados da covid-19. [Veja o vídeo no post](posts/20201201-covid19/index.qmd).
+[Post](posts/20201201-covid19/index.qmd){.btn .btn-sm .btn-outline-primary}
+
+## 2019
+
+### As desigualdades existentes no Brasil vistas no resultado do ENEM 2017
+*Pôster · XVI Escola de Modelos de Regressão (EMR), Pirenópolis*
+
+[Pôster (PDF)](posters/poster_emr_2018.pdf){.btn .btn-sm .btn-outline-primary}
+
+## 2018
+
+### Extending JAGS for spatial data
+*Pôster · XIV Brazilian Meeting of Bayesian Statistics (EBEB), Rio de Janeiro*
+
+### The GeoJAGS module and its application to a spatial survival model
+*Pôster · V Workshop em Análise de Sobrevivência e Aplicações (WASA), Salvador*
+
+## 2017
+
+### Extending JAGS for spatial data
+*Pôster · V Encontro Mineiro de Estatística (MGEST), Belo Horizonte*
+
+## 2015
+
+### Dicas para realizar intercâmbio na graduação
+*Palestra · VI Semana da Matemática Computacional, Belo Horizonte*
+
+## 2014
+
+### Modelagem do fluxo sanguíneo através da malha adaptativa Autonomous Leaves Graph
+*Pôster · XXXV Congresso Nacional de Matemática Aplicada e Computacional (CNMAC), Natal*
+
+## 2012
+
+### O projeto Pré-Cálculo
+*Pôster · IV Encontro Nacional dos Grupos PET de Matemática (ENAPETMAT), Santa Maria*
+
+## Organização de eventos
+
+-   XVI Congresso Latino-Americano de Probabilidade e Estatística Matemática (CLAPEM), São Paulo, 2023.
+-   IV e V Encontros da Pós-Graduação em Estatística do IME-USP (EPEI), virtuais, 2020 e 2021.
+-   I Encontro Stats4Good, Belo Horizonte, 2016.
+-   VI Semana da Matemática Computacional, Belo Horizonte, 2013.
+
+Prêmios e reconhecimentos estão no [Currículo](curriculo.qmd#premios).

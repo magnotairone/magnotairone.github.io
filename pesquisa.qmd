@@ -6,9 +6,14 @@ aliases:
   - projetos.html
 ---
 
-Minha pesquisa trata de **inferência para processos estocásticos** e **seleção de modelos**, principalmente em modelos gráficos (campos aleatórios de Markov) sob condições de mistura. Também trabalhei com estatística espacial e com detecção de pontos de mudança.
+Minha pesquisa trata de **inferência para processos estocásticos** e **seleção de modelos**, principalmente em modelos gráficos (campos aleatórios de Markov) sob condições de mistura. Também trabalhei com estatística espacial bayesiana, séries temporais multivariadas e detecção de pontos de mudança.
 
-[ORCID](https://orcid.org/0000-0002-3432-7779){.btn .btn-outline-primary .btn-sm} [Lattes](https://lattes.cnpq.br/9791024128849349){.btn .btn-outline-primary .btn-sm} [GitHub](https://github.com/magnotairone){.btn .btn-outline-primary .btn-sm}
+[Google Scholar](https://scholar.google.com.br/citations?user=Isftae0AAAAJ){.btn .btn-outline-primary .btn-sm} [ORCID](https://orcid.org/0000-0002-3432-7779){.btn .btn-outline-primary .btn-sm} [Lattes](https://lattes.cnpq.br/9791024128849349){.btn .btn-outline-primary .btn-sm} [GitHub](https://github.com/magnotairone){.btn .btn-outline-primary .btn-sm}
+
+## Prêmios
+
+-   **Menção honrosa no Prêmio Francisco Aranda-Ordaz**, categoria Estatística (2026), pela tese de doutorado. O prêmio, da SLAPEM e da Sociedade Bernoulli, destaca as melhores teses latino-americanas em Probabilidade e Estatística e foi entregue no XVII CLAPEM, em Montevidéu. [Notícia do IME-USP](https://www.ime.usp.br/aluno-da-pos-graduacao-do-ime-usp-recebe-mencao-honrosa-em-congresso-internacional/).
+-   **4º lugar no Prêmio de Melhor Dissertação de Mestrado** do XXIII SINAPE, Águas de São Pedro (2018).
 
 ## Artigos em periódicos
 
@@ -17,7 +22,7 @@ Minha pesquisa trata de **inferência para processos estocásticos** e **seleç�
     [Artigo](https://www.sciencedirect.com/science/article/abs/pii/S030441492400231X)
 
 -   **Independent block identification in multivariate time series.**\
-    F. Leonardi, M. Lopez-Rosenfeld, D. Rodriguez, M. T. F. Severino & M. Sued. *Journal of Time Series Analysis*, 2021.\
+    F. Leonardi, M. Lopez-Rosenfeld, D. Rodriguez, M. T. F. Severino & M. Sued. *Journal of Time Series Analysis*, 42(1), 2021.\
     [Artigo](https://onlinelibrary.wiley.com/doi/abs/10.1111/jtsa.12553) · DOI: [10.1111/jtsa.12553](https://doi.org/10.1111/jtsa.12553)
 
 ## Preprints
@@ -26,25 +31,37 @@ Minha pesquisa trata de **inferência para processos estocásticos** e **seleç�
     A. R. Sousa, M. T. F. Severino & F. Leonardi, 2020.\
     [arXiv:2006.02649](https://arxiv.org/abs/2006.02649) · Aplicação à covid-19 [neste post](posts/20201201-covid19/index.qmd)
 
+## Trabalhos em anais de congresso
+
+-   **Estimation and model selection for mixing graphical models.** M. T. F. Severino & F. Leonardi. *Proceedings of the 63rd ISI World Statistics Congress*, 2021.
+-   **Model selection criteria for regression models with splines and the automatic localization of knots.** A. R. Sousa, M. T. F. Severino & F. Leonardi. *V Latin American Conference on Statistical Computing*, 2021.
+-   **Modelagem do fluxo sanguíneo através da malha adaptativa Autonomous Leaves Graph.** L. Pitangueira, M. T. F. Severino & D. Burgarelli. *Proceeding Series of the Brazilian Society of Computational and Applied Mathematics*, 2014.
+
 ## Tese e dissertação
 
--   **Tese de doutorado (IME-USP, 2024):** [Estimation and model selection for graphical models](https://www.teses.usp.br/teses/disponiveis/45/45133/tde-25042024-181144/pt-br.php).
--   **Dissertação de mestrado (DEST-UFMG, 2018):** [Extending JAGS for spatial data](https://repositorio.ufmg.br/items/cf35e8cb-4e1d-434f-a02b-2fb45d2b4cdc).
+-   **Tese de doutorado (IME-USP, 2024):** [Estimation and model selection for graphical models under mixing conditions](https://www.teses.usp.br/teses/disponiveis/45/45133/tde-25042024-181144/pt-br.php). Orientação: Florencia Leonardi. Menção honrosa no Prêmio Francisco Aranda-Ordaz.
+-   **Dissertação de mestrado (DEST-UFMG, 2018):** [Extending JAGS for spatial data](https://repositorio.ufmg.br/items/cf35e8cb-4e1d-434f-a02b-2fb45d2b4cdc). Orientação: Vinícius Diniz Mayrink; coorientação: Fábio Nogueira Demarqui. 4º lugar no prêmio de melhor dissertação do SINAPE 2018.
 
 ## Software
 
--   [**MixingGraph**](https://github.com/magnotairone/MixingGraph) (pacote R): implementação associada à pesquisa de doutorado sobre modelos gráficos sob condição de mistura.
--   [**GeoJAGS**](https://sourceforge.net/projects/geojags/files/) (módulo C++ para o JAGS): extensão do JAGS para dados espaciais, desenvolvida no mestrado.
+-   [**MixingGraph**](https://github.com/magnotairone/MixingGraph) (pacote R): implementa o estimador do grafo de dependência condicional de vetores aleatórios sob condição de mistura, proposto na tese, com quatro algoritmos para obter o grafo estimado.
+-   [**GeoJAGS**](https://sourceforge.net/projects/geojags/files/) (módulo C++ para o JAGS): modelos bayesianos hierárquicos para dados georreferenciados, com 11 funções de covariância para dados pontuais (incluindo a Matérn) e o modelo autorregressivo condicional (CAR) para dados de área.
 
 ## Projetos de pesquisa
 
--   **Modelos gráficos sob condições de mistura** (IME-USP, 2018–2024): estimação e seleção de modelos para campos aleatórios de Markov em grafos. Resultou na tese e no artigo da *Stochastic Processes and their Applications*.
--   **Detecção de pontos de mudança na curva de covid-19** (GPECA, IME-USP, 2020): splines e seleção de modelos para acompanhar a tendência de novos casos. Veja o [post](posts/20201201-covid19/index.qmd).
+-   **Modelos gráficos sob condições de mistura** (IME-USP, 2018–2024): um critério de seleção de modelos global e penalizado para estimar o grafo de dependências condicionais de um processo estocástico multivariado, sem precisar estimar e combinar as vizinhanças de cada vértice. Provamos a convergência forte do estimador sob uma condição de mistura, escolhemos a penalização por validação cruzada e aplicamos o método a vazões do rio São Francisco e a índices diários de bolsas de valores. Resultou na tese, no artigo da *Stochastic Processes and their Applications* e no pacote MixingGraph.
+-   **Blocos independentes em séries temporais multivariadas** (projeto entre USP e Universidad de Buenos Aires, durante o doutorado): critério para encontrar pontos de independência em processos estocásticos vetoriais e decompor o vetor em blocos independentes. Resultou no artigo do *Journal of Time Series Analysis*.
+-   **Detecção de pontos de mudança na curva de covid-19** (GPECA, IME-USP, 2020): splines e seleção de modelos para acompanhar a tendência de novos casos no Brasil, em estados, cidades e países, com [página atualizada diariamente](https://www.ime.usp.br/~gpeca/covid-19/covid-19.html) de abril a dezembro de 2020. Veja o [post](posts/20201201-covid19/index.qmd).
 -   **Extensão do JAGS para dados espaciais** (DEST-UFMG, 2016–2018): resultou na dissertação e no GeoJAGS.
 
 ## Extensão e voluntariado
 
+-   [Curso de nivelamento Pré-Cálculo](https://www.mat.ufmg.br/extensao/pre-calculo-semi-presencial/) (PET Matemática, UFMG, 2012): curso híbrido para ingressantes das exatas; propus e liderei o desenvolvimento da plataforma web que hospeda o curso.
+-   Curso de difusão *Introdução à Aprendizagem Estatística e à Ciência de Dados com R* (IME-USP, 2021–2022), com Florencia Leonardi: 122 inscritos na primeira turma e bolsas integrais para 10 alunos por critério socioeconômico.
+-   [Stats4Good](https://stats4good.github.io/) (UFMG, 2017–2018): organização e análise de dados públicos para divulgação; atuei no [portal da transparência federal](https://stats4good.github.io/veraz/).
+-   Aulas de matemática no cursinho preparatório gratuito da Escola Municipal Amorim Lima (2019).
 -   Revisão da tradução para português do livro [R for Data Science (2ª edição)](https://pt.r4ds.hadley.nz/) (2023–2024).
--   Stats4Good.
--   Aulas de matemática no cursinho preparatório da Escola Municipal Amorim Lima (2019).
--   Curso Pré-Cálculo (UFMG).
+
+## Associações
+
+Associação Brasileira de Estatística (ABE), desde 2017 · Sociedade Latino-Americana de Probabilidade e Estatística Matemática (SLAPEM), desde 2020.

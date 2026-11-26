@@ -13,7 +13,7 @@
   path: https://magnotairone.github.io/slides/20260306_CLAPEM/slides.html
   date: 2026-03-06
   tipo: Slides
-  evento: Universidad de la República, Montevideo
+  evento: XVII CLAPEM, Montevidéu
   categories: [Slides, Pesquisa, Modelos Gráficos]
 
 - title: "Modelagem Preditiva de Risco de Crédito com R"
@@ -61,7 +61,7 @@
   path: slides/2023neuromat-v2.pdf
   date: 2023-10-26
   tipo: Slides
-  evento: NeuroMat
+  evento: CEPID NeuroMat Researchers Workshop
   categories: [Slides, Pesquisa, Modelos Gráficos]
 
 - title: "Workshop de Otimização com R"
@@ -83,9 +83,9 @@
 - title: "As desigualdades existentes no Brasil vistas no resultado do ENEM 2017"
   description: "Pôster com análise dos resultados do ENEM 2017."
   path: posters/poster_emr_2018.pdf
-  date: 2018-01-01
+  date: 2019-01-01
   tipo: Pôster
-  evento: EMR 2018
+  evento: XVI Escola de Modelos de Regressão, Pirenópolis
   categories: [Pôster, Análise de Dados]
 
 - title: "Aplicações de Ciência de Dados"
