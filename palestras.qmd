@@ -1,85 +1,92 @@
 ---
 title: "Palestras"
-description: "Palestras, tutoriais e workshops apresentados em congressos, universidades e empresas."
+description: "Palestras, tutoriais, minicursos e workshops apresentados em congressos, universidades e empresas."
 ---
 
-Aqui estão algumas apresentações selecionadas:
+Apresentações selecionadas, da mais recente para a mais antiga. Slides e materiais também estão reunidos em [Materiais](materiais.qmd).
 
+## 2026
 
-### Muito além da técnica: habilidades essenciais para estatísticos (2025)
-**Tipo:** Palestra  
-**Local:** IME-USP  
-Palestra ministrada para os alunos de graduação em Estatística IME-USP, abordando habilidades interpessoais e comunicação para estudantes da disciplina MAE0413.
-[Slides aqui](https://github.com/magnotairone/material/blob/main/Apresenta%C3%A7%C3%A3o%20IME%20USP.pdf).
+### Model selection for Markov random fields on graphs under a mixing condition
+*Palestra · Universidad de la República, Montevideo*
 
----
+[Slides](https://magnotairone.github.io/slides/20260306_CLAPEM/slides.html){.btn .btn-sm .btn-outline-primary}
 
+## 2025
 
-###  Da Teoria à Prática: Modelos de IA Generativa com R e Python (2024)
-**Tipo:** Tutorial  
-**Local:** SINAPE 2024, Fortaleza, Ceará  
-Notas do tutorial apresentado no SINAPE 2024 sobre inteligência artificial generativa e recuperação de informação.
-[Veja o material completo aqui](https://magnotairone.github.io/tutorial_sinape_2024/tutorial)
+### Modelagem Preditiva de Risco de Crédito com R
+*Minicurso · I Workshop de Estatística e Ciência de Dados Aplicadas a Finanças, UFBA*
 
+Exemplo prático de CRISP-DM para um problema de risco de crédito, da construção da base à avaliação do modelo.
 
----
+[Slides](https://magnotairone.github.io/credito/slide/){.btn .btn-sm .btn-outline-primary} [Código](https://github.com/magnotairone/credito){.btn .btn-sm .btn-outline-primary} [Post](posts/20251211-credito/index.qmd){.btn .btn-sm .btn-outline-primary}
 
-### Model selection for Markov random fields on graphs under a mixing condition (2026)
-**Tipo:** Palestra  
-**Local:** Universidad de la República, Montevideo  
-[Slides aqui](http://magnotairone.github.io/slides/20260306_CLAPEM/slides.html).
+### Muito além da técnica: habilidades essenciais para estatísticos
+*Palestra · IME-USP*
 
----
+Habilidades interpessoais e comunicação para estudantes de graduação em Estatística, na disciplina MAE0413.
 
-### Introdução à Otimização (2022)
-**Tipo:** Workshop  
-**Local:** Insper, São Paulo  
-Neste workshop, defini o que é um problema de otimização, como modelar um problema e desenvolver soluções para problemas lineares, relacionando otimização com conceitos de aprendizagem estatística.
+[Slides](https://github.com/magnotairone/material/blob/main/Apresenta%C3%A7%C3%A3o%20IME%20USP.pdf){.btn .btn-sm .btn-outline-primary}
 
----
+## 2024
 
-### Noções de SQL, organização e visualização de dados usando o tidyverse (2021)
-**Tipo:** Tutorial  
-**Local:** Universidade Federal de Santa Maria (Virtual)  
-Minicurso apresentado na VII Semana Acadêmica da Estatística da UFSM.
+### Da Teoria à Prática: Modelos de IA Generativa com R e Python
+*Tutorial · SINAPE 2024, Fortaleza, Ceará*
 
----
+Inteligência artificial generativa e recuperação de informação: uma aplicação para "conversar" com arquivos PDF usando LLMs.
 
-### Detecção de pontos de mudança na curva de novos casos de covid-19 (2021)
-**Tipo:** Palestra  
-**Local:** Banco Santander, São Paulo  
-Apresentação para o time de marketing analytics do Santander. [Slides aqui](https://rpubs.com/magnotfs/covid19).
+[Material](https://magnotairone.github.io/tutorial_sinape_2024/tutorial){.btn .btn-sm .btn-outline-primary} [Post](posts/20240715-rag/index.qmd){.btn .btn-sm .btn-outline-primary}
 
----
+## 2023
 
-### Manipulação e organização de bases de dados com dplyr (2021)
-**Tipo:** Tutorial  
-**Local:** Universidade de São Paulo (Virtual)  
-Minicurso apresentado na 5ª edição do Encontro da Pós-graduação em Estatística do IME-USP (EPEI).
+### Estimation and model selection for mixing graphical models
+*Palestra · NeuroMat*
 
----
+Estimação e seleção de modelos gráficos sob condição de mistura (com Florencia Leonardi).
 
-### Limpeza e organização de bases de dados (2021)
-**Tipo:** Workshop  
-**Local:** Insper, São Paulo  
-Discussão sobre formatos de dados, convenções de armazenamento e práticas essenciais para limpeza e organização de dados.
+[Slides (PDF)](slides/2023neuromat-v2.pdf){.btn .btn-sm .btn-outline-primary}
 
----
+## 2022
 
-### Estimation and model selection for mixing graphical models (2021)
-**Tipo:** Palestra  
-**Local:** 63rd ISI World Statistics Congress (Virtual)  
-Apresentação de parte da pesquisa do doutorado. Palestra pré-gravada para o ISI 2021.
+### Introdução à Otimização
+*Workshop · Insper, São Paulo*
 
----
+O que é um problema de otimização, como modelá-lo e resolver problemas lineares, relacionando otimização com aprendizagem estatística.
 
-### Independent block identification in multivariate time series (2020)
-**Tipo:** Palestra  
-**Local:** Bernoulli-IMS One World Symposium (Virtual)  
-Palestra pré-gravada para o Bernoulli-IMS One World Symposium 2020.
+[Código e slides](https://github.com/magnotairone/aulas/tree/main/workshop%20-%20otimizacao){.btn .btn-sm .btn-outline-primary} [Post](posts/20231012-otimizacao/index.qmd){.btn .btn-sm .btn-outline-primary}
 
----
+## 2021
 
-### Prêmio Vídeo Pós-Graduação no combate ao COVID-19 (2020)
-**Tipo:** Prêmio  
-Premiação pelo vídeo de divulgação do projeto sobre análise de dados da Covid-19, concedido pela Pró-Reitoria de Pós-Graduação da USP.
+### Noções de SQL, organização e visualização de dados usando o tidyverse
+*Minicurso · VII Semana Acadêmica da Estatística, UFSM (virtual)*
+
+### Detecção de pontos de mudança na curva de novos casos de covid-19
+*Palestra · Banco Santander, São Paulo*
+
+Apresentação para o time de marketing analytics do Santander.
+
+[Slides](https://rpubs.com/magnotfs/covid19){.btn .btn-sm .btn-outline-primary} [Post](posts/20201201-covid19/index.qmd){.btn .btn-sm .btn-outline-primary}
+
+### Manipulação e organização de bases de dados com dplyr
+*Minicurso · 5º Encontro da Pós-Graduação em Estatística do IME-USP (EPEI, virtual)*
+
+### Limpeza e organização de bases de dados
+*Workshop · Insper, São Paulo*
+
+Formatos de dados, convenções de armazenamento e práticas essenciais de limpeza e organização.
+
+### Estimation and model selection for mixing graphical models
+*Palestra · 63rd ISI World Statistics Congress (virtual)*
+
+Parte da pesquisa de doutorado, em palestra pré-gravada.
+
+## 2020
+
+### Independent block identification in multivariate time series
+*Palestra · Bernoulli-IMS One World Symposium (virtual)*
+
+Palestra pré-gravada.
+
+## Reconhecimentos
+
+-   **Prêmio Vídeo Pós-Graduação no combate à COVID-19** (2020), concedido pela Pró-Reitoria de Pós-Graduação da USP ao vídeo de divulgação do projeto de análise de dados da covid-19. [Veja o vídeo no post](posts/20201201-covid19/index.qmd).

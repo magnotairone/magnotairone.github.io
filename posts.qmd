@@ -4,6 +4,8 @@ description: "Textos sobre estatística, ciência de dados, R e inteligência ar
 listing: 
   contents: posts 
   type: grid
-  sort: "date desc" # can also sort on more than one field
-  categories: true # allows you to sort posts by assigned categories
+  sort: "date desc"
+  categories: true
 ---
+
+Textos sobre estatística, ciência de dados, R e IA. Slides, notas de aula e outros materiais de cursos e palestras estão reunidos em [Materiais](materiais.qmd).
